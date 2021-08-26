@@ -13,5 +13,11 @@
 		"patterns": ["what is your name", "what should I call you", "whats your name?"],
 		"responses": ["You can call me Chatbot", "I'm Chatbot!"],
 		"context_set": ""
-	}   ]
+	},
+        {"tag": "wish",
+		"patterns": ["happy birthday dear"],
+		"responses": ["thank you"],
+		"context_set": ""
+	}
+]
 }
