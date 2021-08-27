@@ -13,5 +13,12 @@
 		"patterns": ["what is your name", "what should I call you", "whats your name?"],
 		"responses": ["You can call me Chatbot", "I'm Chatbot!"],
 		"context_set": ""
-	}   ]
+	} ,
+    {"tag": "hours",
+		"patterns": ["when are you guys open", "hours of operations"],
+		"responses": ["24/7"],
+		"context_set": ""
+	} 
+
+     ]
 }
