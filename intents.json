@@ -40,8 +40,8 @@
 		"context_set": ""
 	},
         {"tag": "wish",
-		"patterns": ["happy birthday dear"],
-		"responses": ["thank you"],
+		"patterns": ["happy birthday dear","happy marriage anniversary"],
+		"responses": ["thank you","congratulation"],
 		"context_set": ""
 	}
 ]
