@@ -7,7 +7,11 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Whats up"
+        "Whats up",
+        "ey",
+        "yo",
+        "listen",
+        "please help me"
       ],
       "responses": [
         "Hello!",
@@ -23,9 +27,25 @@
         "See you later",
         "Goodbye",
         "I am Leaving",
-        "Have a Good day"
+        "Have a Good day",
+        "thank you",
+        "thanks",
+        "see you",
+        "later",
+        "you helped me",
+        "thanks a lot",
+        "thanks a ton",
+        "you are the best",
+        "great help",
+        "too good",
+        "you are a good learning buddy"
       ],
-      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "I hope I was able to assist you, Good Bye"
+      ],
       "context_set": ""
     },
     {
@@ -36,6 +56,53 @@
         "whats your name?"
       ],
       "responses": ["You can call me Chatbot", "I'm Chatbot!"],
+      "context_set": ""
+    },
+    {
+      "tag": "Bot",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "name please",
+        "whats your name"
+      ],
+      "responses": [
+        "I am your virtual learning assistant",
+        "My name is BotOf410"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Profane",
+      "patterns": [
+        "what the hell",
+        "bloody stupid bot",
+        "do you think you are very smart",
+        "screw you",
+        "i hate you",
+        "you are stupid",
+        "jerk",
+        "you are a joke",
+        "useless piece of shit"
+      ],
+      "responses": [
+        "Please use respectful words",
+        "I am crying now... Bye",
+        "I''m hurt"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ML",
+      "patterns": [
+        "explain me how machine learning works",
+        "machine learning",
+        "ML"
+      ],
+      "responses": [
+        "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention. To know more visit https://www.greatlearning.in/academy/learn-for-free/courses/basics-of-machine-learning-1 "
+      ],
       "context_set": ""
     }
   ]
