@@ -53,26 +53,12 @@
       "patterns": [
         "what is your name",
         "what should I call you",
-        "whats your name?"
+        "whats your name?",
+        "name please"
       ],
       "responses": ["You can call me Chatbot", "I'm Chatbot!"],
       "context_set": ""
     },
-    {
-      "tag": "Bot",
-      "patterns": [
-        "what is your name",
-        "who are you",
-        "name please",
-        "whats your name"
-      ],
-      "responses": [
-        "I am your virtual learning assistant",
-        "My name is BotOf410"
-      ],
-      "context_set": ""
-    },
-
     {
       "tag": "Profane",
       "patterns": [
