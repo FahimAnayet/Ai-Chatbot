@@ -18,7 +18,30 @@
 		"patterns": ["when are you guys open", "hours of operations"],
 		"responses": ["24/7"],
 		"context_set": ""
-	} 
+	} ,
+	{"tag": "holidays",
+		"patterns": ["can you give me a list of holidays?", "national holidays"],
+		"responses": ["14 April-Bangla New Year","1 May-Labour Day","15 August- National Mouring Day","30 August-Janmashtami", "26 March-Independence Day",
+		 "21 Febuary-International mother language day","16 December-Vitory Day"],
+			"context_set": ""
+	},
+	{"tag": "thanks",
+		"patterns": ["Thank you!", "Thanks", "It's very helpful", "Thanks for your help"],
+		"responses": ["Any time!", "My pleasure", "You're Welcome"],
+			"context_set": ""
+	},
+	{"tag": "funny",
+		"patterns": ["tell me a joke", "Do you know a joke?", "Tell me something funny"],
+		"responses": ["Barista: How do you take your coffee? Me: Very, very seriously.", "I ate a clock yesterday, it was very time-consuming.",
+		 "Q. What do snowmen order at fast-food restaurants? A. An iceberg-er and fries!","Wife: Come on, get up early , tea is ready. Hubby: Then get it ready, Am I sleeping inside the POT?"],
+			"context_set": ""
+	},
+	{"tag": "pickup line",
+		"patterns": ["Can you tell me a pickup line?", "Tell me a pickup line"],
+		"responses": ["Is your name Google? because you've everything i've been seraching for.", "Are you the sun? Because you light up the world",
+		 "If i could rearrange the alphabet, I'd put U and I together","Excuse me, do you have a map? I seem to be lost in your eyes."],
+			"context_set": ""
+	}
 
-     ]
+	 ]
 }
