@@ -48,6 +48,99 @@
       ],
       "responses": ["thank you", "thanx", "many thanks", ""],
       "context_set": ""
-    }
+    },
+    {
+      "tag": "bangla_movie",
+      "patterns": [
+        "tell me some bangla movie name",
+        "suggest me some bangla movie name",
+        "can you tell me some bangla movie name"
+      ],
+      "responses": ["Sukumari-The good girl (1927–28)","The Last Kiss (1931)","The Face and the Mask (1956)","the Sky and The Earth (1959)",
+                   "The Clay Hill (1959)","Asiya (1960)","Kokhono Asheni (1961)", "Shonar Kajol (1962)","Kancher Deyal-The Glass Wall (1963)",
+                   "Shangam (1964)","Bahana (1965)","Behula (1966)","Nawab Sirajuddaula (1967)","Anowara (1967)","Dui Bhai-Two Brothers (1968)",
+                   "Seven Brothers Champak (1968)","Jibon Theke Neya (1970)","Ora Egaro Jon (1972)","Quiet Flows the river Meghna (1973)",
+                   "A River Called Titas(1973)","Shimana Periye(1977)","Sareng Bou(1978)","Surjo Dighal Bari(1979)","Chhutir Ghonta (Holiday Hours)(1980)",
+                   "Emiler Goenda Bahini (1980)","Devdas (1982)","Shuvoda (1986)","Rajlokkhii Srikanto (1987)","Shonkhonil Karagar (1992)",
+                   "Ekattorer Jishu(1993)","Aguner Poroshmoni(1994)","Dipu Number Two(1996)","Hangor Nodi Grenade(1997)","Quiet Flows the River Chitra(1999)",
+                   "A Rainy Day of the Month Srabon (1999)","Lalsalu (A Tree without roots) (2001)","The Punishment (2004)","Hajar Bachhor Dhore (2005)",
+                   "Shyamol Chhaya(The Green Shade)(2005)","Shuva(2006)","Meherjaan(2011)","My Friend Rashed(2011)","Shunte Ki Pao!(Are You Listening!)(2012)",
+                   "Live From Dhaka(2016)","Niyoti(2016)","Samraat: The King Is Here(2016)","Shikari(2016)","Bossgiri(2016)","Oggatonama(2016)","Aynabaji(2016)",
+                   "Bhuban Majhi (2016)","Nabab (2017)","Dhaka Attack (2017)","No Bed of Roses (2017)","Debi (2018)","Shopner Ghor (2018)","Password (2019)",
+                   "Nolok (2019)","Shapludu (2019)","Iti, Tomari Dhaka (2019)","No Dorai (2019)"],
+      "context_set": ""
+    },
+     {
+      "tag": "indian_bangla_movie",
+      "patterns": [
+        "tell me some indian bangla movie name",
+        "suggest me some indian bangla movie name",
+        "can you tell me some indian bangla movie name"
+      ],
+      "responses": ["cheeni","rawkto rawhoshyo","borunbabur bondhu","love aaj kal porsu","sraboner dhara","abyakto","asur","dracula sir","sos kolkata","dwitiyo purush",
+                    "hullor","din ratrir golpo","amar artanad","uraan","korapaak","mukhosh","dipantar","horror stories","tangra blues","flyover","dictionary","prem tame",
+                    "magic","switzerland","dipanter","ei ami renu","Drishtikone","Drishtikone","golondaaj","Guptodhoner Sondhane ","pagli tor jonno","miss call",
+                    "pratidwandi","nishi paddo","shironam","the parcel","love hate dhoka","abyakto","megh bristir molat","ekti cinemar gaulpo","lime n light",
+                    "bhalo meye kharap meye","adda","shantilal","panther","sesher golpo","samsara","unish bish","chalbaaz","gojamil","71 broken lines","finally bhalobasha",
+                    "girlfriend","villain","bhagshesh"],
+      "context_set": ""
+    },
+    {
+      "tag": "hindi_movie",
+      "patterns": [
+        "tell me some hindi movie name",
+        "suggest me some hindi movie name",
+        "can you tell me some hindi  movie name"
+      ],
+      "responses": ["bell bottom","chehre","radhe","mumbai saga","big bull","thalaivii","maidaan","radhe shyam","koi janne na","laal singh chaddha","gangubai kathiawadi",
+                    "ganguli kathiawadi","atrangi re","roohi","bhoot police","k.g.f","k.g.f chapter 2","attack","the girl on the train","hare pheri 3","14 phere",
+                    "jayeshbhai jordaar","karnan","madam chief minister","madam geeta rani","silence","liger","mera fauji calling","jersey","tribhanga","masassab",
+                    "12 o clock","looop lapeta","dhamaka","anek","the white tiger","marakkar: lion of the arabian","cirkus","narappa","nail polish","prithviraj","nyaay",
+                    "raat baaki hai","main mulayam singh yadav","godzilla vs kong","bansuri: the flute","no means no","vakeel saab","bunty aur babil","phone bhoot"],
+      "context_set": ""
+    },
+    {
+      "tag": "english_movie",
+      "patterns": [
+        "tell me some english movie name",
+        "suggest me some english movie name",
+        "can you tell me some english  movie name"
+      ],
+      "responses": ["The Father","Cruella","The Conjuring: The Devil Made Me Do It","Minari","Nomadland","Raya And The Last Dragon","Judas And The Black Messiah",
+                    "Our Friend","The Shawshank Redemption","The Godfather","The Godfather: Part II","The Dark Knight","Angry Men","Schindler's List",
+                    "The Lord of the Rings: The Return of the King","Pulp Fiction","Fight Club","Forrest Gump",Inception","Goodfellas","The Matrix",
+                    "Star Wars: Episode V - The Empire Strikes Back","One Flew Over the Cuckoo's Nest","Se7en","It's a Wonderful Life","It's a Wonderful Life",
+                    "The Silence of the Lambs","Avengers: Endgame ","Amadeus","Aliens","Joker","Avengers: Infinity War","Witness for the Prosecution","Sunset Blvd",
+                    "Apocalypse Now","The Great Dictator ","Rear Window ",],
+      "context_set": ""
+    },
+    {
+      "tag": "books",
+      "patterns": [
+        "tell me some books name",
+        "some books name plz",
+        "can you suggest me books movie name"
+      ],
+      "responses": ["To Kill a Mockingbird by Harper Lee","Harry Potter & the Philosopher’s Stone by J.K. Rowling","The Lord of the Rings by J.R.R.Tolkien",
+                    "The Great Gatsby by F.Scott Fitzgerald","Pride and Prejudice by Jane Austen","The Diary Of A Young Girl by Anne Frank diary",
+                    "The Book Thief by Markus Zusak","Little Women by Louisa May Alcott","Gone with the Wind by Margaret Mitchell","Charlotte’s Web by E.B. White",
+                    "Ulysses by James Joyce","Don Quixote by Miguel de Cervantes","Moby Dick by Herman Melville","War and Peace by Leo Tolstoy","Hamlet by William Shakespeare",
+                    "Lolita by Vladimir Nabokov","Crime and Punishment by Fyodor Dostoyevsky","The Adventures of Huckleberry Finn by Mark Twain"," To the Lighthouse by Virginia Woolf",
+                    "Heart of Darkness by Joseph Conrad","Nineteen Eighty Four by George Orwell","One Thousand and One Nights by India/Iran/Iraq/Egypt","Absalom, Absalom! by William Faulkner",
+                    "Invisible Man by Ralph Ellison"," To Kill a Mockingbird by Harper Lee","The Trial by Franz Kafka","The Red and the Black by Stendhal","Middlemarch by George Eliot",],
+      "context_set": ""
+    },
+    {
+      "tag": "comic_books",
+      "patterns": [
+        "tell me some books name",
+        "some books name plz",
+        "can you suggest me books movie name"
+      ],
+      "responses": ["Astonishing X-Men","Justice League of America","New Avengers","Batman","Amazing Spider-Man","Action Comics","The Incredible Hulk","Wolverine","The Ultimates",
+                    "Teen Titans","Captain Berlin created by Jörg Buttgereit","Fix und Foxi created by Rolf Kauka","Das kleine Arschloch by Walter Moers","Mosaik created by Hannes Hegen",
+                    "Nick Knatterton created by Manfred Schmidt","Sigurd by Hansrudi Wäscher","Various gay comics by Ralf König","Werner by Brösel"],
+      "context_set": ""
+    },
   ]
 }
