@@ -38,10 +38,67 @@
 	},
 	{"tag": "pickup line",
 		"patterns": ["Can you tell me a pickup line?", "Tell me a pickup line"],
-		"responses": ["Is your name Google? because you've everything i've been seraching for.", "Are you the sun? Because you light up the world",
+		"responses": ["Is your name Google? because you've everything i've been searching for.", "Are you the sun? Because you light up the world",
 		 "If i could rearrange the alphabet, I'd put U and I together","Excuse me, do you have a map? I seem to be lost in your eyes."],
+			"context_set": ""
+	},
+	{"tag": "indoor games ",
+		"patterns": ["Can you tell me some names of indoor games?", "Suggest me some indoor games"],
+		"responses": ["board games", "card games","puzzle","hide and seek","charades","musical chairs","simon says","pictionary","scrabble",
+		 "scavenger hunt","ludo","chess","carrom board","truth and dare","chess","ballon games","freeze dance"],
+			"context_set": ""
+	},
+	{"tag": "outdoor games ",
+		"patterns": ["Can you tell me some names of outdoor games?", "Suggest me some outdoor games"],
+		"responses": ["football", "cricket","basket ball","badminton","hockey","volleyball","tennis","table tennis","horseshoes",
+		 "paint ball","cornhole","fishing tournament","washer toss","marco polo","disc golf","fly kites","roller skate"],
+			"context_set": ""
+	},
+	{"tag": "nobel ",
+		"patterns": ["Can you tell me some names of famous nobel?", "Suggest me a nobel"],
+		"responses": ["The Old Man and the Sea", "Of Mice and Men ","The Plague","Blindness ","Lord of the Flies ","One Hundred Years of Solitude",
+		 "Invisible Man","Beloved","A Passage to India","The Great Gatsby","To Kill a Mockingbird.","Anna Karenina","Don Quixote"],
+			"context_set": ""
+	},
+	{"tag": " caption ",
+		"patterns": ["Can you tell me some caption?", "Suggest me a caption for picture"],
+		"responses": ["Remember that happiness is a way of travel – not a destination.", "Be yourself, there's no one better.","Stress less and enjoy the best.",
+			"Look for the magic in every moment.","Live a good story.","Escape the ordinary.","The best is yet to come.","These are days we live for.",
+			"Life happens, coffee helps.","Short sassy cute & classy.","I’m on a seafood diet. When I see food, I eat it.","Brains are awesome. I wish everybody would have one!",
+			"Don’t give up on your dreams. Keep sleeping"],
+			"context_set": ""
+	},
+	{"tag": " places ",
+		"patterns": ["Can you tell me some vacation places", "Suggest me a good place for tour","suggest me a place for vacation"],
+		"responses": [" Machu Picchu, Peru", "The Grand Canyon, Arizona","Rome,Italy","Masai Mara, Kenya","Montreal, Canada","New Zealand",
+			"Istanbul, Turkey","Angkor Wat, Cambodia","London, England","Manhattan, New York","Paris, France","Maldives","San Francisco, California",
+			"Hong Kong","Marrakesh, Morocco","Bora Bora, French-Polynesia","The Grand Canyon"],
+			"context_set": ""
+	},
+	{"tag": "horror movies",
+		"patterns": ["Can you tell me some name of horror movie", "Suggest me a horror movie","tell me a name of horror movie"],
+		"responses": ["Us (2019)", "Get Out (2017)","The Cabinet of Dr. Caligari (Das Cabinet des Dr. Caligari) (1920)","The Invisible Man (2020)","The Babadook (2014)","The Lighthouse (2019)",
+			"Let the Right One In (2008)","It Follows (2015)","Night of the Living Dead (1968)","Aliens (1986)","The Silence of the Lambs (1991)","Halloween (1978)","Host (2020)",
+			"The Cabin in the Woods (2012)","Don't Look Now (1973)","Ready or Not (2019)","A Girl Walks Home Alone at Night (2014)","House of Wax (1953)","Evil Dead 2: Dead by Dawn(1987)",
+			"IT(2017)","Dead of Night (1945)","The Love Witch (2016)","Train to Busan (Busanhaeng) (2016)","Zombieland (2009)","Don't Breathe (2016)"],
+			"context_set": ""
+	},
+	{"tag": "action movies",
+		"patterns": ["Can you tell me some name of action movie", "Suggest me a action movie","tell me a name of action movie"],
+		"responses": [" Spider-Man: No Way Home (2021)", "Sweet Girl (2021)","Free Guy (2021)"," The Suicide Squad (2021)"," Eternals (2021)","The Witcher: Nightmare of the Wolf (2021)",
+			"Wrath of Man (2021)","Spider-Man 2 (2004)","The Tomorrow War (2021)","The Hitman's Wife's Bodyguard (2021)","Avengers: Endgame (2019)"," Tenet (2020)","Nobody (2021)",
+			"Tombstone (1993)"," Godzilla vs. Kong (2021)","Zack Snyder's Justice League (2021)","The Matrix (1999)","The Dark Knight (2008)","Blood Red Sky (2021)",
+			" Boss Level (2021)","Jolt (2021)"],
+			"context_set": ""
+	},
+	{"tag": "quotes",
+		"patterns": ["Can you tell me some quotes", "Suggest me a quotes","tell me a quotes"],
+		"responses": ["If opportunity doesn't knock, build a door", "If you want to lift yourself up, lift up someone else","The best way to predict the future is to invent it.","Get busy living or get busy dying",
+			"You only live once, but if you do it right, once is enough","The purpose of our lives is to be happy","Love For All, Hatred For None","Aspire to inspire before we expire.",
+			"Die with memories, not dreams.","Never regret anything that made you smile.","Every moment is a fresh beginning.","Don't watch the clock; do what it does.","When something is important enough, you do it even if the odds are not in your favor.",
+			"Start where you are.","With the new day comes new strength and new thoughts."],
 			"context_set": ""
 	}
 
-	 ]
+    ]
 }
