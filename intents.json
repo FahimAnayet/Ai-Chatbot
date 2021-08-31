@@ -87,9 +87,28 @@
         "ML"
       ],
       "responses": [
-        "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention. To know more visit https://www.greatlearning.in/academy/learn-for-free/courses/basics-of-machine-learning-1 "
+        "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention."
       ],
       "context_set": ""
-    }
+    },
+	{
+		"tag": "Marry",
+		"patterns": [
+			"let's get married",
+			"would you like to marry me",
+			"marry me" ,
+			"I love you marry me",
+			"marry me please",
+			"we should marry",
+			"I want to marry you",
+			"you are my wife",
+			"be my husband"
+		],
+		"responses": [
+		"I know you can't mean that, but I'm flattered all the same.",
+		"In the virtual sense that I can, sure."
+		],
+		"context_set":""
+	}
   ]
 }
