@@ -77,11 +77,11 @@
         "suggest me some indian bangla movie name",
         "can you tell me some indian bangla movie name"
       ],
-      "responses": ["cheeni","rawkto rawhoshyo","borunbabur bondhu","love aaj kal porsu","sraboner dhara","abyakto","asur","dracula sir","sos kolkata","dwitiyo purush",
-                    "hullor","din ratrir golpo","amar artanad","uraan","korapaak","mukhosh","dipantar","horror stories","tangra blues","flyover","dictionary","prem tame",
-                    "magic","switzerland","dipanter","ei ami renu","Drishtikone","Drishtikone","golondaaj","Guptodhoner Sondhane ","pagli tor jonno","miss call",
+      "responses": ["cheeni","rawkto rawhoshyo","borunbabur bondhu","love aaj kal porsu","sraboner dhara","abyakto","asur","dracula sir","sos kolkata","dwitiyopurush",
+                    "hullor","din ratrir golpo","amar artanad","uraan","korapaak","mukhosh","dipantar","horror stories","tangra blues","flyover","dictionary","premtame",
+                    "magic","switzerland","dipanter","ei ami renu","Drishtikone","golondaaj","Guptodhoner Sondhane","pagli tor jonno","miss call","shantilal",
                     "pratidwandi","nishi paddo","shironam","the parcel","love hate dhoka","abyakto","megh bristir molat","ekti cinemar gaulpo","lime n light",
-                    "bhalo meye kharap meye","adda","shantilal","panther","sesher golpo","samsara","unish bish","chalbaaz","gojamil","71 broken lines","finally bhalobasha",
+                    "bhalo meye kharap meye","adda","panther","sesher golpo","samsara","unish bish","chalbaaz","gojamil","71 broken lines","finally bhalobasha",
                     "girlfriend","villain","bhagshesh"],
       "context_set": ""
     },
@@ -108,10 +108,10 @@
       ],
       "responses": ["The Father","Cruella","The Conjuring: The Devil Made Me Do It","Minari","Nomadland","Raya And The Last Dragon","Judas And The Black Messiah",
                     "Our Friend","The Shawshank Redemption","The Godfather","The Godfather: Part II","The Dark Knight","Angry Men","Schindler's List",
-                    "The Lord of the Rings: The Return of the King","Pulp Fiction","Fight Club","Forrest Gump",Inception","Goodfellas","The Matrix",
-                    "Star Wars: Episode V - The Empire Strikes Back","One Flew Over the Cuckoo's Nest","Se7en","It's a Wonderful Life","It's a Wonderful Life",
-                    "The Silence of the Lambs","Avengers: Endgame ","Amadeus","Aliens","Joker","Avengers: Infinity War","Witness for the Prosecution","Sunset Blvd",
-                    "Apocalypse Now","The Great Dictator ","Rear Window ",],
+                    "The Lord of the Rings: The Return of the King","Pulp Fiction","Fight Club","Forrest Gump","Inception","Goodfellas","The Matrix",
+                    "Star Wars: Episode V-The Empire Strikes Back","One Flew Over the Cuckoos Nest","Se7en","Its a Wonderful Life","Its a Wonderful Life",
+                    "The Silence of the Lambs","Avengers:Endgame","Amadeus","Aliens","Joker","Avengers:Infinity War","Witness for the Prosecution","Sunset Blvd",
+                    "Apocalypse Now","The Great Dictator","Rear Window"],
       "context_set": ""
     },
     {
@@ -121,13 +121,13 @@
         "some books name plz",
         "can you suggest me books movie name"
       ],
-      "responses": ["To Kill a Mockingbird by Harper Lee","Harry Potter & the Philosopher’s Stone by J.K. Rowling","The Lord of the Rings by J.R.R.Tolkien",
+      "responses": ["To Kill a Mockingbird by Harper Lee","Harry Potter & the Philosophers Stone by J.K. Rowling","The Lord of the Rings by J.R.R.Tolkien",
                     "The Great Gatsby by F.Scott Fitzgerald","Pride and Prejudice by Jane Austen","The Diary Of A Young Girl by Anne Frank diary",
-                    "The Book Thief by Markus Zusak","Little Women by Louisa May Alcott","Gone with the Wind by Margaret Mitchell","Charlotte’s Web by E.B. White",
+                    "The Book Thief by Markus Zusak","Little Women by Louisa May Alcott","Gone with the Wind by Margaret Mitchell","Charlottes Web by E.B. White",
                     "Ulysses by James Joyce","Don Quixote by Miguel de Cervantes","Moby Dick by Herman Melville","War and Peace by Leo Tolstoy","Hamlet by William Shakespeare",
-                    "Lolita by Vladimir Nabokov","Crime and Punishment by Fyodor Dostoyevsky","The Adventures of Huckleberry Finn by Mark Twain"," To the Lighthouse by Virginia Woolf",
+                    "Lolita by Vladimir Nabokov","Crime and Punishment by Fyodor Dostoyevsky","The Adventures of Huckleberry Finn by Mark Twain","To the Lighthouse by Virginia Woolf",
                     "Heart of Darkness by Joseph Conrad","Nineteen Eighty Four by George Orwell","One Thousand and One Nights by India/Iran/Iraq/Egypt","Absalom, Absalom! by William Faulkner",
-                    "Invisible Man by Ralph Ellison"," To Kill a Mockingbird by Harper Lee","The Trial by Franz Kafka","The Red and the Black by Stendhal","Middlemarch by George Eliot",],
+                    "Invisible Man by Ralph Ellison","To Kill a Mockingbird by Harper Lee","The Trial by Franz Kafka","The Red and the Black by Stendhal","Middlemarch by George Eliot"],
       "context_set": ""
     },
     {
@@ -148,43 +148,42 @@
         "how to make tea...???",
         "how to pepare tea...???"
       ],
-      "responses": ["Decide what type of tea you want to brew and choose loose leaves or tea bags. Then heat your water and pour it over the tea.
-                    Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.",
-                    "Pour 2 cups water into a medium saucepan and add tea and spices. Bring to a boil over high heat and boil 2 minutes.Add sugar and milk and return to a boil.
-                     Reduce heat to medium and boil gently 2 minutes, stirring occasionally. Strain and pour into small cups or heatproof glasses and enjoy your tea.",
-                    "Place the cardamom, cloves, and peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan,
-                     along with the cinnamon sticks, ginger, milk, and 2 cups water; bring to a boil. Remove from heat, add the tea bags, cover, and let steep for 10 minutes.
-                     Strain into cups. To each cup, add 2 teaspoons sugar or more, to taste."],
+      "responses": ["Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time
+                     according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.",
+                    "Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.
+                     Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.",
+                    "Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan,
+                     along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.
+                     Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."],
       "context_set": ""
     },
     {
       "tag": "cold_coffee",
       "patterns": [
         "how to make cold coffee...???",
-        "how to pepare hot coffee...???"
+        "how to pepare cold coffee...???"
       ],
-      "responses": ["Put ice cubes in a blender jar and add coffee, milk, honey, cream and about two tablespoons of ice cream. If you don’t have a blender just take a shaker and put milk,
-                     honey, coffee, cream and give it a nice stir and then shake it! If you like your cold coffee extra creamy, then add some fresh cream and shake it well.
-                     Blend it in the mixer, take some ice cubes and then pour it into glasses. Put a scoop of vanilla ice cream and top it with some chocolate syrup, nuts and raisins.
-                     and enjoy your coffee",
-                    "Add 4 teaspoon instant coffee powder, 2 tablespoon sugar and 2 tablespoon warm milk in a small mixing bowl.Mix until sugar is dissolved.
-                     Add 2 cups chilled milk, 1 tablespoon milk powder, 3-4 ice cubes, and the coffee mixture to the medium jar of a blender and blend for a minute.
-                     Pour the coffee into the prepared glasses. Add the froth on top using a spoon. Sprinkle some coffee powder on top. Serve chilled."],
+      "responses": ["Put ice cubes in a blender jar and add coffee,milk,honey,cream & about 2 table spoons of ice cream.If you don’t have a blender just take a shaker & put milk,
+                     honey,coffee,cream & give it a nice stir & then shake it.If you like your cold coffee with extra creamy,then add some fresh cream & shake it well.
+                     Blend it in the mixer,take some ice cubes & then pour it into glasses.Put a scoop of vanilla ice cream & top it with some chocolate syrup,nuts & raisins.
+                     & enjoy your coffee",
+                    "add 4 tea spoon instant coffee powder,2 table spoon sugar & 2 table spoon warm milk in a small mixing bowl.mix until sugar is dissolved.
+                     add 2 cups chilled milk,1 table spoon milk powder,3-4 ice cubes & the coffee mixture to the medium jar of a blender and blend for 1min.
+                     pour the coffee into the prepared glasses.add the froth on top using a spoon.sprinkle some coffee powder on top.serve chilled;)."],
       "context_set": ""
     },
      {
       "tag": "Hot_coffee",
       "patterns": [
-        "how to make cold coffee...???",
-        "how to pepare cold coffee...???"
+        "how to make Hot coffee...???",
+        "how to pepare Hot coffee...???"
       ],
-      "responses": ["In a cup take 1.5 teaspoons instant coffee. Also, add 1.5 tablespoons sugar or add as per taste.Add 3 tablespoons hot boiling water. You can heat water
-                     in an electric kettle or in a small pan. ¼ cup of water can also be added.First mix the coffee and sugar with water. First mix the coffee and sugar with water.
-                     Then begin to stir briskly and beat coffee for 3 to 4 minutes. You can take a break after 1 to 2 minutes and then continue if your hands start aching.
-                     making cappuccino recipe with instant coffee.Beat the coffee till its color lightens and you see a frothy layer on top.Then take 1 cup milk in a small
-                     but heavy saucepan and on a medium to medium-high flame boil it.Let the milk come to a boil.Now pour the milk in a glass jar or a thermos flask.do not use any plastic
-                     bottle or jar.You can use a steel bottle also. A glass jar with a handle helps while shaking as the milk is hot. Now shake the jar vigorously for 1 to 2 minutes.
-                     Alternatively, to get the froth on milk, you can also use a handheld frother. Milk can be blended in a blender also."],
+      "responses": ["in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.
+                     1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.
+                     making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small
+                     but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic
+                     bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.
+                     alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."],
       "context_set": ""
     },
      {
@@ -194,7 +193,7 @@
         "which games i can play at home???"
       ],
       "responses": ["Pencil and Paper Games","Dots and Boxes","Cootie","Hangman","Tic-Tac-Toe","Building","Puzzles","Hide and Seek","Treasure Hunt","Indoor Bowling","Hot Potato","Guess the Sound",
-                    " Touchy Feely","Artistic Antics","Domino Run","Freeze!","Dance Party","Categories","Word Whiz"],
+                    "Touchy Feely","Artistic Antics","Domino Run","Freeze!","Dance Party","Categories","Word Whiz"],
       "context_set": ""
     },
      {
