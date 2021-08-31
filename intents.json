@@ -98,7 +98,33 @@
 			"Die with memories, not dreams.","Never regret anything that made you smile.","Every moment is a fresh beginning.","Don't watch the clock; do what it does.","When something is important enough, you do it even if the odds are not in your favor.",
 			"Start where you are.","With the new day comes new strength and new thoughts."],
 			"context_set": ""
+	},
+	{"tag": "series",
+		"patterns": ["Can you tell me some name of good series?", "Suggest me a netflix series","tell me a name of series"],
+		"responses": ["BoJack Horseman", "Stranger Things","Ozark.","When They See Us.","The Crown.","The Witcher","The Umbrella Academy.",
+			"GLOW.","Money Heist.","Lucifer","Sacred Games.","13 reason why","Dark","Sex education","Never Have I Ever","Breaking Bad.",
+			"Manifest.","Game of Thrones","Marvel's Daredevil","Dead To Me","Russian Doll","Godless","Big Mouth","Peaky Blinders","Unorthodox",
+			"Narcos","Orange is the New Black","Mindhunter","Unbreakable Kimmy Schmidt","American Vandal","Master of None","The Punisher","The Last Kingdom",
+			"Altered Carbon","The End of the F***ing World","Grace and Frankie","The OA","On My Block","Bloodline","One Day at a Time","Atypical","Travelers"],
+			"context_set": ""
+	},
+	{"tag": "billie eilish songs",
+		"patterns": ["Can you tell me some name of billie songs?", "Suggest me a song of billie eilish","tell me a name of billie eilish song"],
+		"responses": ["Your Power", "You Should See Me in a Crown","Wish You Were Gay","Bad Guy","Lovely","Xanny","Bored","Bury a friend","Comeout and play",
+			"Copy cat","Getting Older","Goodbye","Happier Than Ever","I Didn't Change My Number","Listen Before I Go","Male Fantasy","NDA","Overheated",
+			"Six feet under","Therefore I am","When I was older","Watch","Party favour","Oxytocin","Ocean Eyes","No time to die","My stranger addiction",
+			"My future","My Boy","Lost Cause"],
+			"context_set": ""
+	},
+	{"tag": "romantic movies",
+		"patterns": ["Can you tell me some name of romantic movies?", "Suggest me a romantic movie","tell me a name of romantic movie"],
+		"responses": ["Call Me By Your Name (2017)", "If Beale Street Could Talk (2018)","A Star Is Born (2018)","Carol (2015)","Anna Karenina (2012)","The Vow (2012)","Lust, Caution (2007)",
+			"Brokeback Mountain (2005)","The Notebook (2004)","Eternal Sunshine of the Spotless Mind (2004)","Moulin Rouge (2001)","Monsoon Wedding (2001)","Y Tu Mamá También (2001)",
+			"Love and Basketball (2000)","Titanic (1997)","Pride and Prejudice (1995)","Before Sunrise (1995)","The Bodyguard (1992)","Like Water for Chocolate (1992)","Cinema Paradiso (1988)","Dirty Dancing (1987)",
+			"An Officer and a Gentleman (1982)","Mahogany (1975)","The Way We Were (1973)","The Story of a Three-Day Pass (1968)","Doctor Zhivago (1965)","The Umbrellas of Cherbourg (1964)","Splendor in the Grass (1961)",
+			"An Affair to Remember (1957)","From Here to Eternity (1953)","Roman Holiday (1953)"],
+			"context_set": ""
 	}
 
-    ]
+ ]
 }
