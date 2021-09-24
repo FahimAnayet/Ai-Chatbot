@@ -7,7 +7,7 @@ from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', r) as json_data:
+with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -23,7 +23,7 @@ model_state = data["model_state"]
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
-bot_name = "CSE410 Chatboat"
+bot_name = "CSE410 chatbot"
 
 
 def get_response(msg):
@@ -33,7 +33,7 @@ def get_response(msg):
     X = torch.from_numpy(X).to(device)
 
     output = model(X)
-     predicted = torch.max(output, dim=1)
+    _, predicted = torch.max(output, dim=1)
 
     tag = tags[predicted.item()]
 
