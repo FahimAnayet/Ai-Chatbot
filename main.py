@@ -1,5 +1,5 @@
 from tkinter import Tk, Label, Text, DISABLED, NORMAL, END, Scrollbar, Entry, Button
-from chat import get_response, bot_name
+# from chat import get_response, bot_name
 
 BG_GRAY = "#ABB2B9"
 BG_COLOR = "#17202A"
@@ -22,7 +22,7 @@ class ChatApplication:
 
     def _setup_main_window(self):
         """TODO: Docstring for _setup_main_window."""
-        self.window.title("GobetBot")
+        self.window.title("CSE 410 ChatBot")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
@@ -89,7 +89,7 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
 
-        msg2 = f"{bot_name}: {get_response((msg))}\n\n"
+        msg2 = f"{'test'}: {msg}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
