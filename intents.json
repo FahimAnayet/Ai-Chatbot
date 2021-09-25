@@ -181,7 +181,9 @@
       "patterns": [
         "explain me how machine learning works",
         "machine learning",
-        "ML"
+        "ML",
+        "tell me about machine learning",
+        "do you know about machine learning"
       ],
       "responses": [
         "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention."
@@ -790,7 +792,7 @@
     },
     {
       "tag": "holidays",
-      "patterns": ["can you give me a list of holidays?", "national holidays"],
+      "patterns": ["can you give me a list of holidays", "national holidays","tell me about holidays","holidays","list of holidays"],
       "responses": [
         "14 April-Bangla New Year",
         "1 May-Labour Day",
@@ -826,7 +828,10 @@
       "patterns": [
         "tell me a joke",
         "Do you know a joke?",
-        "Tell me something funny"
+        "Tell me something funny",
+        "joke",
+        "make me laugh",
+        "I'm upset"
       ],
       "responses": [
         "Barista: How do you take your coffee? Me: Very, very seriously.",
@@ -838,7 +843,7 @@
     },
     {
       "tag": "pickup line",
-      "patterns": ["Can you tell me a pickup line?", "Tell me a pickup line"],
+      "patterns": ["Can you tell me a pickup line", "Tell me a pickup line","what do you say in first meet","what can say to impress","pickup line"],
       "responses": [
         "Is your name Google? because you've everything i've been searching for.",
         "Are you the sun? Because you light up the world",
@@ -862,7 +867,11 @@
       "tag": "indoor games ",
       "patterns": [
         "Can you tell me some names of indoor games?",
-        "Suggest me some indoor games"
+        "Suggest me some indoor games",
+        "what can i play at home",
+        "tell me some name of indoor games",
+        "indoor games",
+        "interesting indoor games"
       ],
       "responses": [
         "board games",
@@ -900,7 +909,11 @@
       "tag": "outdoor games ",
       "patterns": [
         "Can you tell me some names of outdoor games?",
-        "Suggest me some outdoor games"
+        "Suggest me some outdoor games",
+        "tell me about outdoor games",
+        "outdoor games",
+        "what can i play outside",
+        "play outside"
       ],
       "responses": [
         "football",
@@ -956,7 +969,11 @@
       "tag": "novel ",
       "patterns": [
         "Can you tell me some names of famous novel?",
-        "Suggest me a novel"
+        "Suggest me a novel",
+        "tell me a name of novel",
+        "name of novel",
+        "list of novel",
+        "novel"
       ],
       "responses": [
         "The Old Man and the Sea",
@@ -979,7 +996,10 @@
       "tag": " caption ",
       "patterns": [
         "Can you tell me some caption?",
-        "Suggest me a caption for picture"
+        "Suggest me a caption for picture",
+        "tell me a caption",
+        "do you have a caption for pictures",
+        "picture caption"
       ],
       "responses": [
         "Remember that happiness is a way of travel – not a destination.",
@@ -1003,7 +1023,11 @@
       "patterns": [
         "Can you tell me some vacation places",
         "Suggest me a good place for tour",
-        "suggest me a place for vacation"
+        "suggest me a place for vacation",
+        "tell me a good place",
+        "list of good places",
+        "where can i go",
+        "need a break"
       ],
       "responses": [
         " Machu Picchu, Peru",
@@ -1031,7 +1055,10 @@
       "patterns": [
         "Can you tell me some name of horror movie",
         "Suggest me a horror movie",
-        "tell me a name of horror movie"
+        "tell me a name of horror movie",
+        "list of horror movie",
+        "some horror movies name",
+        "famous horror movies list"
       ],
       "responses": [
         "Us (2019)",
@@ -1067,7 +1094,11 @@
       "patterns": [
         "Can you tell me some name of action movie",
         "Suggest me a action movie",
-        "tell me a name of action movie"
+        "tell me a name of action movie",
+        "list of action movie",
+        "what can i watch to see action",
+        "some names of action movies",
+        "action"
       ],
       "responses": [
         " Spider-Man: No Way Home (2021)",
@@ -1099,7 +1130,10 @@
       "patterns": [
         "Can you tell me some quotes",
         "Suggest me a quotes",
-        "tell me a quotes"
+        "tell me a quotes",
+        "quotes please",
+        "some quotes",
+        "famous quotes"
       ],
       "responses": [
         "If opportunity doesn't knock, build a door",
@@ -1125,7 +1159,10 @@
       "patterns": [
         "Can you tell me some name of good series?",
         "Suggest me a netflix series",
-        "tell me a name of series"
+        "tell me a name of series",
+        "some name of series",
+        "what should i watch in series",
+        "list of top rated series"
       ],
       "responses": [
         "BoJack Horseman",
@@ -1178,7 +1215,8 @@
       "patterns": [
         "Can you tell me some name of billie songs?",
         "Suggest me a song of billie eilish",
-        "tell me a name of billie eilish song"
+        "tell me a name of billie eilish song",
+        "billie elish songs names"
       ],
       "responses": [
         "Your Power",
@@ -1219,7 +1257,10 @@
       "patterns": [
         "Can you tell me some name of romantic movies?",
         "Suggest me a romantic movie",
-        "tell me a name of romantic movie"
+        "tell me a name of romantic movie",
+        "list of romantic movies",
+        "top rated romantic movies",
+        "good romantic movies"
       ],
       "responses": [
         "Call Me By Your Name (2017)",
