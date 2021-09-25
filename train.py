@@ -112,7 +112,7 @@ for epoch in range(num_epochs):
         print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 
-print('final loss: {loss.item():.4f}')
+print(f'final loss: {loss.item():.4f}')
 
 data = {
 "model_state": model.state_dict(),
@@ -126,4 +126,4 @@ data = {
 FILE = "data.pth"
 torch.save(data, FILE)
 
-print(f'training complete. file saved to {FILE}'
+print(f'training complete. file saved to {FILE}')

@@ -23,7 +23,7 @@ def stem(word):
     return stemmer.stem(word.lower())
 
 
-def bag_of_words(tokenized_sentence, words)
+def bag_of_words(tokenized_sentence, words):
     """
     return bag of words array:
     1 for each known word that exists in the sentence, 0 otherwise
@@ -37,7 +37,7 @@ def bag_of_words(tokenized_sentence, words)
     # initialize bag with 0 for each word
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
-        if w in sentence_words
+        if w in sentence_words: 
             bag[idx] = 1
 
-    
+    return bag
