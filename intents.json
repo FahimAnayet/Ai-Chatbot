@@ -216,7 +216,7 @@
         "wish you good luck",
         "best of luck"
       ],
-      "responses": ["thank you", "thanx", "many thanks", ""],
+      "responses": ["thank you", "thanx", "many thanks", "tnx"],
       "context_set": ""
     },
     {
@@ -224,7 +224,8 @@
       "patterns": [
         "tell me some bangla movie name",
         "suggest me some bangla movie name",
-        "can you tell me some bangla movie name"
+        "can you tell me some bangla movie name",
+        "bangla movie"
       ],
       "responses": [
         "Sukumari-The good girl (1927–28)",
@@ -459,7 +460,8 @@
       "patterns": [
         "tell me some hindi movie name",
         "suggest me some hindi movie name",
-        "can you tell me some hindi  movie name"
+        "can you tell me some hindi  movie name",
+        "hindhi movie"
       ],
       "responses": [
         "bell bottom",
@@ -671,7 +673,8 @@
       "patterns": [
         "tell me some english movie name",
         "suggest me some english movie name",
-        "can you tell me some english  movie name"
+        "can you tell me some english  movie name",
+        "english movie"
       ],
       "responses": [
         "The Father",
@@ -719,7 +722,8 @@
       "patterns": [
         "tell me some books name",
         "some books name plz",
-        "can you suggest me books movie name"
+        "can you suggest me books movie name",
+        "books name"
       ],
       "responses": [
         "To Kill a Mockingbird by Harper Lee",
@@ -804,7 +808,7 @@
     },
     {
       "tag": "tea",
-      "patterns": ["how to make tea...???", "how to pepare tea...???"],
+      "patterns": ["how to make tea?", "how to pepare tea?","tea recipe","tea recipe plz","tea recipe please" ],
       "responses": [
         "Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.  Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.  Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.  Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan, along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.  Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."
       ],
@@ -850,8 +854,11 @@
     {
       "tag": "cold_coffee",
       "patterns": [
-        "how to make cold coffee...???",
-        "how to pepare cold coffee...???"
+        "how to make cold coffee?",
+        "how to pepare cold coffee?",
+        "cold coffee recipe",
+        "cold coffee recipe plz",
+        "cold coffee recipe please"
       ],
       "responses": [
         "Put ice cubes in a blender jar and add coffee,milk,honey,cream & about 2 table spoons of ice cream.If you don’t have a blender just take a shaker & put milk, honey,coffee,cream & give it a nice stir & then shake it.If you like your cold coffee with extra creamy,then add some fresh cream & shake it well.  Blend it in the mixer,take some ice cubes & then pour it into glasses.Put a scoop of vanilla ice cream & top it with some chocolate syrup,nuts & raisins.  & enjoy your coffee add 4 tea spoon instant coffee powder,2 table spoon sugar & 2 table spoon warm milk in a small mixing bowl.mix until sugar is dissolved.  add 2 cups chilled milk,1 table spoon milk powder,3-4 ice cubes & the coffee mixture to the medium jar of a blender and blend for 1min.  pour the coffee into the prepared glasses.add the froth on top using a spoon.sprinkle some coffee powder on top.serve chilled;)."
@@ -888,8 +895,11 @@
     {
       "tag": "Hot_coffee",
       "patterns": [
-        "how to make Hot coffee...???",
-        "how to pepare Hot coffee...???"
+        "how to make Hot coffee?",
+        "how to pepare Hot coffee?",
+        "hot coffee recipe",
+        "hot coffee recipe plz",
+        "hot coffee recipe please"
       ],
       "responses": [
         "in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.  1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.  making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.  alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."
@@ -1031,7 +1041,9 @@
       "patterns": [
         "Can you tell me some name of horror movie",
         "Suggest me a horror movie",
-        "tell me a name of horror movie"
+        "tell me a name of horror movie",
+        "horror movies name plz",
+        "horror movies name"
       ],
       "responses": [
         "Us (2019)",
@@ -1257,8 +1269,8 @@
       "context_set": ""
     },
     {
-      "tag": "color",
-      "patterns": ["tell me colour name"],
+      "tag": "colour",
+      "patterns": ["tell me colour name","colour name","colour name plz", "colour name please", "colour"],
       "responses": [
         "Red",
         "Blue",
