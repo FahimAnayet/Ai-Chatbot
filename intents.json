@@ -808,7 +808,13 @@
     },
     {
       "tag": "tea",
-      "patterns": ["how to make tea?", "how to pepare tea?","tea recipe","tea recipe plz","tea recipe please" ],
+      "patterns": [
+        "how to make tea?",
+        "how to pepare tea?",
+        "tea recipe",
+        "tea recipe plz",
+        "tea recipe please"
+      ],
       "responses": [
         "Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.  Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.  Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.  Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan, along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.  Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."
       ],
@@ -829,7 +835,7 @@
       "tag": "funny",
       "patterns": [
         "tell me a joke",
-        "Do you know a joke?",
+        "Do you know a joke",
         "Tell me something funny"
       ],
       "responses": [
@@ -854,8 +860,8 @@
     {
       "tag": "cold_coffee",
       "patterns": [
-        "how to make cold coffee?",
-        "how to pepare cold coffee?",
+        "how to make cold coffee",
+        "how to pepare cold coffee",
         "cold coffee recipe",
         "cold coffee recipe plz",
         "cold coffee recipe please"
@@ -895,8 +901,8 @@
     {
       "tag": "Hot_coffee",
       "patterns": [
-        "how to make Hot coffee?",
-        "how to pepare Hot coffee?",
+        "how to make Hot coffee",
+        "how to pepare Hot coffee",
         "hot coffee recipe",
         "hot coffee recipe plz",
         "hot coffee recipe please"
@@ -909,7 +915,7 @@
     {
       "tag": "outdoor games ",
       "patterns": [
-        "Can you tell me some names of outdoor games?",
+        "Can you tell me some names of outdoor games",
         "Suggest me some outdoor games"
       ],
       "responses": [
@@ -1135,7 +1141,7 @@
     {
       "tag": "series",
       "patterns": [
-        "Can you tell me some name of good series?",
+        "Can you tell me some name of good series",
         "Suggest me a netflix series",
         "tell me a name of series"
       ],
@@ -1188,7 +1194,7 @@
     {
       "tag": "billie eilish songs",
       "patterns": [
-        "Can you tell me some name of billie songs?",
+        "Can you tell me some name of billie songs",
         "Suggest me a song of billie eilish",
         "tell me a name of billie eilish song"
       ],
@@ -1270,7 +1276,18 @@
     },
     {
       "tag": "colour",
-      "patterns": ["tell me colour name","colour name","colour name plz", "colour name please", "colour"],
+      "patterns": [
+        "tell me colour name",
+        "colour name",
+        "colour name plz",
+        "colour name please",
+        "colour",
+        "tell me color name",
+        "color name",
+        "color name plz",
+        "color name please",
+        "color"
+      ],
       "responses": [
         "Red",
         "Blue",
