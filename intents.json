@@ -231,7 +231,7 @@
         "wish you good luck",
         "best of luck"
       ],
-      "responses": ["thank you", "thanx", "many thanks", "tnx"],
+      "responses": ["thank you", "thanx", "many thanks"],
       "context_set": ""
     },
     {
@@ -356,8 +356,7 @@
         "suggest me some indian bangla movie name",
         "can you tell me some indian bangla movie name",
         "suggest indian bangla movie",
-        "indian bangla",
-        "movie"
+        "indian bangla"
       ],
       "responses": [
         "cheeni",
@@ -481,8 +480,7 @@
         "tell me some hindi movie name",
         "suggest me some hindi movie name",
         "can you tell me some hindi  movie name",
-        "hindhi movie",
-        "movie"
+        "hindi movie"
       ],
       "responses": [
         "bell bottom",
@@ -708,7 +706,6 @@
         "suggest me some english movie name",
         "can you tell me some english  movie name",
         "english movie",
-        "movie",
         "suggest english movie"
       ],
       "responses": [
@@ -759,7 +756,6 @@
         "some books name plz",
         "can you suggest me books movie name",
         "books name",
-        "books",
         "movie book"
       ],
       "responses": [
@@ -876,8 +872,7 @@
         "Thank you!",
         "Thanks",
         "It's very helpful",
-        "Thanks for your help",
-        "tnx"
+        "Thanks for your help"
       ],
       "responses": [
         "Any time!",
@@ -1149,8 +1144,7 @@
         "list of horror movie",
         "some horror movies name",
         "famous horror movies list",
-        "horror movie",
-        "movie"
+        "horror movie"
       ],
       "responses": [
         "Us (2019)",
@@ -1191,7 +1185,6 @@
         "what can i watch to see action",
         "some names of action movies",
         "action",
-        "movie",
         "action movie"
       ],
       "responses": [
@@ -1358,8 +1351,7 @@
         "list of romantic movies",
         "top rated romantic movies",
         "good romantic movies",
-        "romantic",
-        "movie"
+        "romantic"
       ],
       "responses": [
         "Call Me By Your Name (2017)",
