@@ -5,7 +5,7 @@
       "patterns": [
         "Hi",
         "How are you",
-        "Is anyone there?",
+        "Is anyone there",
         "Hello",
         "Whats up",
         "ey",
@@ -60,6 +60,7 @@
       "patterns": [
         "ty",
         "cya",
+        "bye",
         "thx",
         "tnx",
         "thnx",
@@ -135,6 +136,7 @@
       "responses": [
         "Goodbye!",
         "No problem",
+        "Cool, Ok Cya",
         "Talk to you later",
         "Always a pleasure. ",
         "Sad to see you go :(",
@@ -150,21 +152,30 @@
       "patterns": [
         "what is your name",
         "what should I call you",
-        "whats your name?",
+        "whats your name",
         "name please"
       ],
-      "responses": ["You can call me Chatbot", "I'm Chatbot!"],
+      "responses": ["You can call me CSE410 Chatbot", "I'm Chatbot!"],
       "context_set": ""
     },
     {
       "tag": "Profane",
       "patterns": [
+        "bc",
+        "mf",
         "jerk",
+        "fucker",
+        "looser",
+        "stupid",
+        "sucker",
         "screw you",
         "i hate you",
+        "mother fucker",
         "what the hell",
+        "son of a bitch",
         "you are a joke",
         "you are stupid",
+        "piece of a shit",
         "bloody stupid bot",
         "useless piece of shit",
         "do you think you are very smart"
@@ -421,15 +432,15 @@
         "haha that's",
         "hahaha very",
         "laughing out",
-        "Can you tell me a joke? ",
-        "Do you have a joke? ",
+        "Can you tell me a joke ",
+        "Do you have a joke ",
         "I am joking",
         "I want a joke",
         "I was just joking",
         "I'm just being funny",
         "I'm just playing with",
         "I'm kidding",
-        "Know any jokes? ",
+        "Know any jokes ",
         "ROFL",
         "Tell me a joke",
         "say something funny",
@@ -817,8 +828,8 @@
     {
       "tag": "tea",
       "patterns": [
-        "how to make tea?",
-        "how to pepare tea?",
+        "how to make tea",
+        "how to pepare tea",
         "tea recipe",
         "tea recipe plz",
         "tea recipe please"
@@ -843,7 +854,7 @@
       "tag": "funny",
       "patterns": [
         "tell me a joke",
-        "Do you know a joke?",
+        "Do you know a joke",
         "Tell me something funny",
         "joke",
         "make me laugh",
@@ -891,7 +902,7 @@
     {
       "tag": "indoor games ",
       "patterns": [
-        "Can you tell me some names of indoor games?",
+        "Can you tell me some names of indoor games",
         "Suggest me some indoor games",
         "what can i play at home",
         "tell me some name of indoor games",
@@ -936,7 +947,7 @@
     {
       "tag": "outdoor games ",
       "patterns": [
-        "Can you tell me some names of outdoor games?",
+        "Can you tell me some names of outdoor games",
         "Suggest me some outdoor games",
         "tell me about outdoor games",
         "outdoor games",
@@ -968,7 +979,7 @@
       "tag": "Games",
       "patterns": [
         "tell some playable games at home",
-        "which games i can play at home???"
+        "which games i can play at home"
       ],
       "responses": [
         "Pencil and Paper Games",
@@ -996,7 +1007,7 @@
     {
       "tag": "novel ",
       "patterns": [
-        "Can you tell me some names of famous novel?",
+        "Can you tell me some names of famous novel",
         "Suggest me a novel",
         "tell me a name of novel",
         "name of novel",
@@ -1023,7 +1034,7 @@
     {
       "tag": " caption ",
       "patterns": [
-        "Can you tell me some caption?",
+        "Can you tell me some caption",
         "Suggest me a caption for picture",
         "tell me a caption",
         "do you have a caption for pictures",
@@ -1283,7 +1294,7 @@
     {
       "tag": "romantic movies",
       "patterns": [
-        "Can you tell me some name of romantic movies?",
+        "Can you tell me some name of romantic movies",
         "Suggest me a romantic movie",
         "tell me a name of romantic movie",
         "list of romantic movies",
