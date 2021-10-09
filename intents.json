@@ -1329,6 +1329,35 @@
              "responses":["It seems that you are suffering from Diabetes","you have diabetes","your symptoms says that you have Diabetes","it's all symptoms perfer 	                           that you are Diabetes patient"]
              "context_set": "" 
  },
+{
+             "tag":"Depression symptoms",
+             "patterns":["Hopeless outlook",
+             "Lost interest",
+             "Increased fatigue",
+             "sleep problem",
+             "Anxiety",
+             "change in weight",
+             "Looking at death"],
+             "responses":["It seem that you are suffering from depression","may be you are in depression","you are in depression"]
+"context_set": "" 
+            },
+            {
+             "tag":"Asthma symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["It seem that you are suffering from Asthma","it is asthma","you symptoms tell that you are in depression"]
+"context_set": "" 
+            },
+            {
+             "tag":"common cold prevention",
+             "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+"context_set": "" 
+            },
     {
       "tag": "colour",
       "patterns": ["tell me colour name","colour name","colour name plz", "colour name please", "colour"],
