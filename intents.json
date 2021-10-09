@@ -1289,10 +1289,46 @@
             {
              "tag":"name",
              "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
-             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant","i am your medical assistant","i am medical chatbot","i am                            medical assistant"]
 	     "context_set": ""            
 },
-
+{
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["It seems that you are suffering from common cold","your symptoms says that you are suffering from common cold","it's all symptoms perfer 	                           that common cold cought you","you have common cold","common cold caught you"]
+	     "context_set": "" 
+            },
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"],
+             "responses":["It seems that you are suffering from fever","you are suffering from fever","it is fever symptoms","you have fever"]
+	     "context_set": ""             
+},
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["It seems that you are suffering from Diabetes","you have diabetes","your symptoms says that you have Diabetes","it's all symptoms perfer 	                           that you are Diabetes patient"]
+             "context_set": "" 
+ },
     {
       "tag": "colour",
       "patterns": ["tell me colour name","colour name","colour name plz", "colour name please", "colour"],
