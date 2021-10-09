@@ -1268,6 +1268,31 @@
       ],
       "context_set": ""
     },
+{
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?","hlw","hi","how can i help you","are you want to know somthing","tell me how can i help you"]
+	      "context_set": ""
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye","Take Care","Good seeing you","Good talking with you","See you later","Catch you later!"]
+             "context_set": ""
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+ 	     "context_set": ""
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+	     "context_set": ""            
+},
+
     {
       "tag": "colour",
       "patterns": ["tell me colour name","colour name","colour name plz", "colour name please", "colour"],
