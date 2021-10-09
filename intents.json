@@ -1953,13 +1953,253 @@
                 "runny nose",
                 " blocked nose",
                 "itchy, red or watery eyes",
-                "itchy throat, mouth, nose and ears" , 
+                "itchy throat, mouth, nose and ears", 
                 "cough"
               ],
               "responses":[
                 "you might be suffering from hay fever",
                 "it can be hay fever",
                 "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Migraine",
+              "patterns":[
+                "Sensitivity to light, noise and odors",
+                "Tender scalp",
+                "Dizziness and blurred vision",
+                "Nausea and vomiting, upset stomach and abdominal pain",
+                "Pale skin color (pallor)", 
+                "feeling tired"
+              ],
+              "responses":[
+                "you might be suffering from migraine",
+                "it can be migraine",
+                "consult a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Anxiety",
+              "patterns":[
+                "Feeling nervous, restless or tense",
+                "Having an increased heart rate",
+                "Sweating",
+                "Breathing rapidly (hyperventilation)",
+                "Having a sense of impending danger, panic or doom", 
+                "feeling weak",
+                "Trouble concentrating or thinking about anything other than the present worry"
+              ],
+              "responses":[
+                "you might be suffering from anxiety",
+                "it can be anxiety",
+                "consult a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Insomnia",
+              "patterns":[
+                "find it hard to go to sleep",
+                "wake up early and cannot go back to sleep",
+                "find it hard to nap during the day even though I'm tired",
+                "wake up several times during the night",
+                "irritable during the day", 
+                "cannot sleep",
+                "I cannot sleep"
+              ],
+              "responses":[
+                "you might be suffering from insomnia",
+                "it can be insomnia",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a shower before sleep"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Depression",
+              "patterns":[
+                "Feeling sad or having a depressed mood",
+                "Loss of interest or pleasure in activities once enjoyed",
+                "Trouble sleeping or sleeping too much",
+                "Feeling worthless or guilty",
+                "Difficulty thinking, concentrating or making decisions", 
+                "I'm feeling restless",
+                "Changes in appetite — weight loss or gain unrelated to dieting"
+              ],
+              "responses":[
+                "you might be suffering from depression",
+                "it can be depression",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+             {
+              "tag":"Panic Attack",
+              "patterns":[
+                "chest pain",
+                "sweating",
+                "trembling",
+                "Feeling faint",
+                "feeling tired", 
+                "I'm feeling restless",
+                "my hands are shaky"
+              ],
+              "responses":[
+                "you might be suffering from panic attack",
+                "it can be panic attack",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Hospital list in Dhaka",
+              "patterns":[
+                "give me list of hospital in Dhaka",
+                "Can you give me a list of hospital in Dhaka",
+                "list of hospital in dhaka",
+                "suggest me hospital in dhaka",
+                "name of hospital in dhaka", 
+                "hospital"
+              ],
+              "responses":[
+                "Ad-din Hospital",
+                "Asgar Ali Hospital,Gandaria",
+                "Anwer Khan Modern Hospital Ltd.",
+                "Apollo Hospitals Dhaka",
+                "Bangladesh Eye Hospital Ltd",
+                "Bangladesh Institute of Health Sciences",
+                "Bangladesh Lions Eye Hospital",
+                "Aysha Memorial Specialised Hospital",
+                "BRB Hospital",
+                "Square Hospital Ltd",
+                "Somorita Hospital",
+                "Central Hospital",
+                "Green life Hospital",
+                "Comfort Hospital",
+                "Gonoshahthaya Nagar Hospital",
+                "Harun Eye Foundation & Green Hospital",
+                "Health & Hope Hospital Ltd.",
+                "Holy Family Red Crescent Medical College and Hospital",
+                "Impulse Hospital",
+                "Ibn Sina Hospital",
+                "Institute of Child and Mother Health (ICMH)",
+                "Islami Bank Central Hospital",
+                "Japan - Bangladesh Friendship Hospital (JBFH)",
+                "Kidney & Urology Hospital (Pvt.) Ltd. ( KHUL )",
+                "Liver Foundation of Bangladesh",
+                "Medinova Medical Services Ltd",
+                "Millennium Heart & General Hospital Ltd",
+                "Mirpur Adhunik Hospital",
+                "Mother Care Hospital (Pvt.) Ltd",
+                "Royal Children & Mothers Hospital Ltd"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Cancer hospital list",
+              "patterns":[
+                "give me list of cancer hospital",
+                "Can you give me a list of cancer hospital",
+                "list of cancer hospital",
+                "suggest me a cancer hospital",
+                "name of a cancer hospital", 
+                "cancer hospital"
+              ],
+              "responses":[
+                "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+                "Dhaka Medical College Hospital",
+                "National Institute of Cancer Research & Hospital",
+                "Shaheed Suhrawardy Medical College & Hospital",
+                "Sir Salimullah Medical College & Hospital",
+                "Chittagong Medical College & Hospital",
+                "Faridpur Medical College Hospital",
+                "Khulna Medical College Hospital",
+                "M Abdur Rahim Medical College Hospital",
+                "Mymensingh Medical College Hospital",
+                "Rangpur Medical College Hospital",
+                "Rajshahi Medical College Hospital",
+                "Sylhet MAG Osmani Medical College Hospital",
+                "Shahid Ziaur Rahman Medical College Hospital",
+                "Sher e Bangla Medical College Hospital, Borisha",
+                "Asgar Ali Hospital",
+                "Ahsania Mission Cancer and General Hospital",
+                "Combined Military Hospital (Dhaka)",
+                "Green Life Medical College Hospital",
+                "United Hospital",
+                "Specialized Cancer Research Hospital ltd.",
+                "North East Medical College",
+                "Parkview Medical College Hospital",
+                "Gonoshasthaya Samaj Vittik Medical College & Hospital",
+                "Enam Medical College & Hospital"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Eye hospital list",
+              "patterns":[
+                "give me list of eye hospital",
+                "Can you give me a list of eye hospital",
+                "list of eye hospital",
+                "suggest me a eye hospital",
+                "name of a eye hospital", 
+                "eye hospital"
+              ],
+              "responses":[
+                "National Institute of Ophthalmology & Hospital",
+                "Dhaka Eye Care Hospital",
+                "Lions Eye Institute & Hospital, Dhaka",
+                "Ophthalmological Society of Bangladesh (OSB) Eye Hospital",
+                "Mojibunnessa Eye Hospital Limited",
+                "Bangladesh Eye Hospital Ltd. Dhanmondi",
+                "Bangladesh Eye Hospital Ltd. Uttara Branch",
+                "Bangladesh Eye Hospital. Shantinagar",
+                "Harun Eye Foundation Hospital",
+                "Ispahani Islamia Eye Institute and Hospital",
+                "Eye Care Center",
+                "Fashion Eye Hospital Ltd",
+                "Green Eye & General Hospital",
+                "Lexus Vision Care",
+                "The Eye Pavilion Ltd",
+                "Vision Eye Hospital",
+                "Dr. Refatullah Eye Care Center"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Private hospital list",
+              "patterns":[
+                "give me list of private hospital",
+                "Can you give me a list of private hospital",
+                "list of private hospital",
+                "suggest me a private hospital",
+                "name of a private hospital", 
+                "private hospital"
+              ],
+              "responses":[
+                "Popular Medical College Hospital – Dhanmandi, Dhaka 1205",
+                "IBN SINA Medical College & Hospital – Kallyanpur, Dhaka 1216",
+                "Labaid Cardiac and Specialized Hospital – Dhanmondi, Dhaka 1229",
+                "Apollo Dhaka Hospital – Basundhara, Dhaka 1229",
+                "Evercare Hospital – Basundhara, Dhaka 1229",
+                "United Hospital Limited – General hospital in Dhaka",
+                "SQUARE Hospital",
+                "Bangladesh Institute of Research and Rehabilitation For Diabetes, Endocrine and Metabolic Disorders (BIRDEM)",
+                "National Heart Foundation – Mirpur, Dhaka 1205",
+                "Islami Bank Hospital – Motijheel, Dhaka 1000",
+                "Ad Din Hospital Ltd – Maghbazar, Dhaka 1217",
+                "Green Life Hospital"
               ],
               "context_set": ""
             }
