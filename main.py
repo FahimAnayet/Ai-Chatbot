@@ -2,8 +2,9 @@ from tkinter import Tk, Label, Text, DISABLED, NORMAL, END, Scrollbar, Entry, Bu
 from chat import get_response, bot_name
 
 BG_GRAY = "#ABB2B9"
-BG_COLOR = "#17202A"
-TEXT_COLOR = "#EAECEE"
+WHITE_TEXT_COLOR = "#FFFFFF"
+BLACK_WHITE_TEXT_COLOR = "#000000"
+BG_COLOR = "#EAECEE"
 
 FONT = "FiraCode 14"
 FONT_BOLD = "FiraCode 14 bold"
@@ -27,7 +28,7 @@ class ChatApplication:
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
         # Head label
-        head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
+        head_label = Label(self.window, bg=BG_COLOR, fg=BLACK_WHITE_TEXT_COLOR,
                            text="Welcome", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
 
@@ -37,14 +38,14 @@ class ChatApplication:
 
         # text width
         self.text_widget = Text(self.window, width=20, height=2,
-                                bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, padx=5, pady=5)
+                                bg=BG_COLOR, fg=BLACK_WHITE_TEXT_COLOR, font=FONT, padx=5, pady=5)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
-        # scroll bar
-        scrollbar = Scrollbar(self.text_widget)
-        scrollbar.place(relheight=1, relx=0.974)
-        scrollbar.configure(command=self.text_widget.yview)
+        # # scroll bar
+        # scrollbar = Scrollbar(self.text_widget)
+        # scrollbar.place(relheight=1, relx=0.974)
+        # scrollbar.configure(command=self.text_widget.yview)
 
         # bottom leabel
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)
@@ -52,7 +53,7 @@ class ChatApplication:
 
         # message entry box
         self.msg_entry = Entry(bottom_label, bg="#2C3E50",
-                               fg=TEXT_COLOR, font=FONT)
+                               fg=WHITE_TEXT_COLOR, font=FONT)
         self.msg_entry.place(relwidth=0.74, relheight=0.06,
                              rely=0.008, relx=0.011)
         self.msg_entry.focus()
