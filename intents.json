@@ -1436,6 +1436,991 @@
         "Rust"
       ],
       "context_set": ""
-    }
-  ]
+    },
+     {
+          "tag":"emotional problems",
+          "patterns":[
+            "anxiety",
+            "depression fatigue",
+            "feeling tense",
+            "flashbacks and nightmares", 
+            "disinterest in regular activities", 
+            "suicidal thoughts", 
+            "hallucinations", 
+            "delusions"
+          ],
+          "responses":[
+            "you might be suffering from emotional problems",
+            "you might be sad",
+            "do you need mental support",
+            "talk to a friend",
+            "talk to a psychiatrist",
+            "you might be having tough time"
+          ],
+          "context_set": ""
+      },
+       {
+           "tag":"jaundice",
+           "patterns":[
+             "yellow skin",
+             "yellowish white part of eye",
+             "itching of the skin",
+             "light colored stools",
+             "dark colored urine"
+              ],
+            "responses":[
+             "you might be suffering from jaundice",
+             "your symptoms are simillar to jaundice",
+             "consult a doctor",
+             "consult to your near ones",
+             "go to a doctor"
+           ],
+            "context_set": ""
+        },
+         {
+            "tag":"headache problems",
+            "patterns":[
+             "dizziness", 
+             "nausea", 
+             "vomiting", 
+             "inability to walk"
+           ],
+            "responses":[
+              "you might be suffering from headache problems",
+              "take some rest",
+              "you might be tired",
+              "take a break from work",
+              "have a glass of water",
+              "take a nap",
+              "consult a doctor"
+            ],
+            "context_set": ""
+          },
+          {
+              "tag":"appendicitis",
+              "patterns":[
+                "feeling sick (nausea)",
+                "being sick",
+                "loss of appetite",
+                "diarrhoea",
+                "a high temperature (fever) and a flushed face"
+              ],
+              "responses":[
+                "you might be suffering from appendicitis",
+                "consult a doctor",
+                "look for a doctor",
+                "you should consult a doctor",
+                "your symptoms are simillar to sppendicitis"
+              ],
+              "context_set": ""
+           },
+           {
+               "tag":"anal cancer",
+               "patterns":[
+                "bleeding from the bottom (rectal bleeding)",
+                "itching and pain around the anus",
+                "small lumps around the anus",
+                "a discharge of mucus from the anus",
+                "loss of bowel control"
+              ],
+               "responses":[
+                "you might be suffering from anal cancer",
+                "your symptoms are simillar to anal cancer",
+                "you should consult a doctor ASAP",
+                "consult a doctor imediately"
+              ],
+               "context_set": ""
+             },
+             {
+               "tag":"allergy",
+               "patterns":[
+                "sneezing and an itchy", 
+                "runny or blocked nose",
+                "itchy, red, watering eyes",
+                "wheezing", 
+                "chest tightness", 
+                "shortness of breath and a cough",
+                "a raised, itchy", 
+                "red rash (hives)",
+                "swollen lips, tongue, eyes or face",
+                "tummy pain, feeling sick, vomiting or diarrhoea",
+                "dry, red and cracked skin"
+              ],
+               "responses":[
+                "you might be suffering from allergy",
+                "take some rest",
+                "consult a doctor",
+                "stay away from those foods what gives you allergy"
+              ],
+               "context_set": ""
+             },
+             {
+               "tag":"Dengue",
+               "patterns":[
+                "headache",
+                "fever",
+                "muscle pain",
+                "joint pain",
+                "pain behind eyes",
+                "nausea and vomitting",
+                "rashes",
+                "minor bleeding from gums or nose"
+              ],
+               "responses":[
+                "you might be suffering from Dengue",
+                "your symptoms are simillar to Dengue",
+                "consult a doctor",
+                "take liquid foods",
+                "take proper rest",
+                "go to a doctor"
+              ],
+               "context_set": ""
+             },
+             {
+              "tag":"hepatitis_B",
+              "patterns":[
+                "abdominal pain",
+                "fever",
+                "dark urine",
+                "joint pain",
+                "loss of apetite",
+                "nausea and vomitting",
+                "weakness and fatigue",
+                "yellowing of skin",
+                "jaundice"
+              ],
+              "responses":[
+                "you might be suffering from hepatitis_B",
+                "your symptoms are simillar to hepatitis_B",
+                "consult a doctor ASAP"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Asthma",
+              "patterns":[
+                "shortness of breath",
+                "chest pain or tightness",
+                "cough",
+                "snizing"
+              ],
+              "responses":[
+                "you might be suffering from asthma",
+                "your symptoms are simillar to asthma",
+                "try to be relax",
+                "take some rest",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"influenza",
+              "patterns":[
+                "headache",
+                "pain in the head",
+                "cough",
+                "fever",
+                "snizing",
+                "runny nose",
+                "sore throat",
+                "pain in throat",
+                "itching throat"
+              ],
+              "responses":[
+                "you might be suffering from influeza",
+                "you might be suffering from flu",
+                "go for a checkup",
+                "consult a doctor",
+                "it can be flu"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"eating or weight problems",
+              "patterns":[
+                "extreme thirst", 
+                "dehydration", 
+                "excessive hunger", 
+                "losing weight without trying", 
+                "binging, vomiting", 
+                "starvation", 
+                "preoccupation with food and weight", 
+                "distorted body image", 
+                "compulsive exercise", 
+                "abuse of laxatives or diet pills", 
+                "depression"
+              ],
+               "responses":[
+                "you might be suffering from eating or weight problems",
+                "you might have eating disorder",
+                "go for a checkup",
+                "consult a doctor"
+              ],
+               "context_set": ""
+            },
+            {
+              "tag":"bladder problems",
+               "patterns":[
+                "difficult or painful urination", 
+                "frequent urination", 
+                "loss of bladder control", 
+                "blood in urine", 
+                "waking frequently at night to urinate",  
+                "wetting the bed at night", 
+                "leaking urine."
+              ],
+               "responses":[
+                "you might be suffering from bladder problems",
+                "it can be bladder problem",
+                "consult a doctor",
+                "go for a checkup"
+              ],
+               "context_set": ""
+            },
+            {
+              "tag":"Lung problems",
+              "patterns":[
+                "coughing up blood", 
+                "shortness of breath", 
+                "difficulty breathing", 
+                "chronic cough", 
+                "repeated bouts of bronchitis or pneumonia", 
+                "wheezing."
+              ],
+              "responses":[
+                "you might be suffering from lung problems",
+                "It can be lung problem",
+                "Consult a Doctor",
+                "You should go for a checkup"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"reproductive health problems",
+              "patterns":[
+                "bleeding or spotting between periods", 
+                "itching, burning, or irritation genital area", 
+                "pain or discomfort during sex", 
+                "heavy or painful menstrual bleeding",
+                "severe pelvic/abdominal pain", 
+                "unusual vaginal discharge", 
+                "feeling of fullness in the lower abdomen", 
+                " frequent urination or urinary urgency"
+              ],
+              "responses":[
+                "you might be suffering from reproductive health problems",
+                "It can be reproductive issue",
+                "consult a doctor",
+                "go to a gynecologist",
+                "talk to a gynecologist"
+              ],
+              "context_set": ""
+
+            },
+            {
+              "tag":"breast problems",
+              "patterns":[
+                "nipple discharge", 
+                "unusual breast tenderness or pain", 
+                "breast or nipple skin changes",  
+                "lump or thickening in or near breast or in the underarm area."
+              ],
+               "responses":[
+                "you might be suffering from breast problems",
+                "It can be breast problem",
+                "Consult a doctor",
+                "Go to a gynecologist"
+              ],
+               "context_set": ""
+            },
+            {
+              "tag":"stroke",
+              "patterns":[
+                "facial drooping", 
+                "arm weakness", 
+                "difficulty with speech", 
+                "rapidly developing dizziness or balance", 
+                "sudden numbness or weakness", 
+                "loss of vision", 
+                "confusion", 
+                "severe headache"
+              ],
+              "responses":[
+                "you might be suffering from stroke",
+                "Don't panick it can be a stroke",
+                "Sorry to say but this symptoms are simillar to stroke",
+                "Try to relax",
+                "Go to a Doctor ASAP",
+                "Consult a Doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"chickenpox",
+              "patterns":[
+                "feeling sick",
+                "a high temperature (fever) of 38C (100.4F) or over",
+                "aching, painful muscles",
+                "headache",
+                "generally feeling unwell",
+                "loss of appetite"
+              ],
+              "responses":[
+                "you might be suffering from chickenpox",
+                "It can be chickenpox",
+                "symptoms are simillar to chickenpox",
+                "consult a doctor",
+                "Go for a checkup it can be chickenpox"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"common cold",
+              "patterns":[
+                "a sore throat",
+                "a blocked or runny nose",
+                "sneezing","a cough",
+                "a hoarse voice",
+                "generally feeling unwell"
+              ],
+              "responses":[
+                "you might be suffering from common cold",
+                "Don't worry it's just a common cold",
+                "it can be common cold",
+                "take some rest",
+                "drink warm water",
+                "avoid cold foods or water"
+              ],
+              "context_set": ""
+
+            },
+            {
+              "tag":"eye cancer",
+              "patterns":[
+                "shadows, flashes of light, or wiggly lines in your vision",
+                "blurred vision","a dark patch in eye",
+                "partial or total loss of vision",
+                "bulging of one eye",
+                "lump on eyelid or in eye that's increasing in size",
+                "pain in or around eye"
+              ],
+              "responses":[
+                "you might be suffering from eye cancer",
+                "Consult a eye-specialist",
+                "Dont worry go for a checkup",
+                "Go to eye-specialist"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"dehydration",
+              "patterns":[
+                "izziness", 
+                "light headedness",
+                "headache",
+                "tiredness",
+                "dry mouth", 
+                "dry lips",
+                "dry eyes",
+                "passing small amounts of urine infrequently"
+              ],
+              "responses":[
+                "you might be suffering from dehydration",
+                "drink some water you're suffering from dehydration",
+                "it can be dehydration",
+                "symptoms are simillar to dehydration",
+                "take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Diabetic retinopathy",
+              "patterns":[
+                "gradually worsening vision",
+                "sudden vision loss",
+                "shapes floating in field of vision (floaters)",
+                "blurred vision",
+                " patchy vision",
+                "eye pain or redness"
+              ],
+              "responses":[
+                "you might be suffering from diabetic retinopathy",
+                "it can be diabetic retinopathy",
+                "go for a checkup",
+                "consult doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"type 1 diabetes",
+              "patterns":[
+                "feeling very thirsty",
+                "urinating more frequently than usual",
+                "urinating particularly at night",
+                "feeling very tired",
+                "weight loss",
+                "loss of muscle bulk",
+                "itchiness around the genital area",
+                "regular bouts of thrush",
+                "blurred vision",
+                "the lens of eye changing shape"
+              ],
+              "responses":[
+                "you might be suffering from type 1 diabetes",
+                "It can be type 1 diabetes",
+                "check your sugar level regularly it can be type 1 diabetes",
+                "symptoms are simillar to type  1 diabetes",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Hypoglycaemia",
+              "patterns":[
+                "feeling shaky and irritable",
+                "sweating",
+                "tingling lips",
+                "feeling weak",
+                "feeling confused",
+                "hunger",
+                "nausea",
+                "feeling sick"
+              ],
+              "responses":[
+                "you might be suffering from Hypoglycaemia (low blood glucose)",
+                "It can be Hypoglycaemia",
+                "Consult a doctor",
+                "Take advice from doctor",
+                "symptoms are simillar to Hypoglycaemia"
+              ],
+              "context_set":[""]
+            },
+            {
+              "tag":"Hyperglycaemia",
+              "patterns":[
+                "extreme thirst",
+                "a dry mouth",
+                "blurred vision",
+                "drowsiness",
+                "need to pass urine frequently"
+              ],
+              "responses":[
+                "you might be suffering from Hyperglycaemia (high blood glucose)",
+                "It can be Hyperglycaemia",
+                "Consult a doctor"
+              ],
+              "context_set": ""
+
+            },
+            {
+              "tag":"Diarrhoea",
+              "patterns":[
+                "stomach cramps",
+                "nausea",
+                "vomiting",
+                "headache",
+                "loss of appetite"
+              ],
+              "responses":[
+                "you might be suffering from Diarrhoea",
+                "It can be diarrhoea",
+                "avoid outside food",
+                "drink water",
+                "avoid fast-food",
+                "Don't eat unhealthy roadside food"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Ebola",
+              "patterns":[
+                "high temperature fever",
+                "headache",
+                "joint and muscle pain",
+                "sore throat",
+                "severe muscle weakness"
+              ],
+              "responses":[
+                "you might be suffering from headache Ebola",
+                "it can be ebola",
+                "go for a checkup",
+                "consult  a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"kidney cancer",
+              "patterns":[
+                "extreme tiredness (fatigue) or anaemia",
+                "unintentional weight loss",
+                "a high temperature of 38C (100.4F) or above",
+                "night sweats",
+                "general sense of feeling unwell",
+                "swelling of the veins in the testicles (in men)",
+                "loss of appetite",
+                "high blood pressure (hypertension)"
+              ],
+              "responses":[
+                "you might be suffering from kidney cancer",
+                "it can be kidney problem",
+                "you might have kidney problem",
+                "go for a checkup",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"glandular fever",
+              "patterns":[
+                "a high temperature fever",
+                "sore throat",
+                "swollen glands",
+                "fatigue",
+                "extreme tiredness"
+              ],
+              "responses":[
+                "you might be suffering from glandular fever",
+                "it can be glandular fever",
+                "talk to a doctor",
+                "have a checkup"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"fibromyalgia",
+              "patterns":[
+                "widespread pain",
+                "Fatigue",
+                "Cognitive difficulties"
+              ],
+              "responses":[
+                "you might be suffering from fibromyalgia",
+                "it can be fibromyalgia",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"type 2 diabetes",
+              "patterns":[
+                "rinating more often than usual, particularly at night",
+                "feeling very thirsty",
+                "feeling very tired",
+                "unexplained weight loss",
+                "itchiness around the genital area",
+                "cuts or wounds that heal slowly",
+                "blurred vision"
+              ],
+              "responses":[
+                "you might be suffering from type 2 diabetes",
+                "it can be type 2 diabetes",
+                "consult to doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"alcohol-related liver disease",
+              "patterns":[
+                " abdominal pain",
+                "loss of appetite",
+                "fatigue",
+                "feeling sick",
+                "diarrhoea",
+                "feeling generally unwell",
+                "yellowing of the skin and whites of the eyes (jaundice)",
+                "swelling in the legs, ankles and feet, due to a build-up of fluid",
+                "swelling in your abdomen, due to a build-up of fluid known as ascites",
+                "a high temperature (fever) and shivering attacks",
+                "very itchy skin",
+                "hair loss",
+                "unusually curved fingertips and nails (clubbed fingers)",
+                "blotchy red palms",
+                "significant weight loss",
+                "weakness and muscle wasting",
+                "confusion and memory problems, trouble sleeping (insomnia) and changes in your personality due to a build-up of toxins in the brain",
+                "vomiting blood and black, tarry stools due to internal bleeding",
+                "a tendency to bleed and bruise more easily, such as frequent nosebleeds and bleeding gums",
+                "increased sensitivity to alcohol and drugs"
+              ],
+              "responses":[
+                "you might be suffering from alcohol-related liver disease",
+                "it can be liver disease",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"hay fever",
+              "patterns":[
+                "frequent sneezing",
+                "runny nose",
+                " blocked nose",
+                "itchy, red or watery eyes",
+                "itchy throat, mouth, nose and ears", 
+                "cough"
+              ],
+              "responses":[
+                "you might be suffering from hay fever",
+                "it can be hay fever",
+                "consult a doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Migraine",
+              "patterns":[
+                "Sensitivity to light, noise and odors",
+                "Tender scalp",
+                "Dizziness and blurred vision",
+                "Nausea and vomiting, upset stomach and abdominal pain",
+                "Pale skin color (pallor)", 
+                "feeling tired"
+              ],
+              "responses":[
+                "you might be suffering from migraine",
+                "it can be migraine",
+                "consult a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Anxiety",
+              "patterns":[
+                "Feeling nervous, restless or tense",
+                "Having an increased heart rate",
+                "Sweating",
+                "Breathing rapidly (hyperventilation)",
+                "Having a sense of impending danger, panic or doom", 
+                "feeling weak",
+                "Trouble concentrating or thinking about anything other than the present worry"
+              ],
+              "responses":[
+                "you might be suffering from anxiety",
+                "it can be anxiety",
+                "consult a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Insomnia",
+              "patterns":[
+                "find it hard to go to sleep",
+                "wake up early and cannot go back to sleep",
+                "find it hard to nap during the day even though I'm tired",
+                "wake up several times during the night",
+                "irritable during the day", 
+                "cannot sleep",
+                "I cannot sleep"
+              ],
+              "responses":[
+                "you might be suffering from insomnia",
+                "it can be insomnia",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a shower before sleep"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Depression",
+              "patterns":[
+                "Feeling sad or having a depressed mood",
+                "Loss of interest or pleasure in activities once enjoyed",
+                "Trouble sleeping or sleeping too much",
+                "Feeling worthless or guilty",
+                "Difficulty thinking, concentrating or making decisions", 
+                "I'm feeling restless",
+                "Changes in appetite — weight loss or gain unrelated to dieting"
+              ],
+              "responses":[
+                "you might be suffering from depression",
+                "it can be depression",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+             {
+              "tag":"Panic Attack",
+              "patterns":[
+                "chest pain",
+                "sweating",
+                "trembling",
+                "Feeling faint",
+                "feeling tired", 
+                "I'm feeling restless",
+                "my hands are shaky"
+              ],
+              "responses":[
+                "you might be suffering from panic attack",
+                "it can be panic attack",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Meantal Breakdown",
+              "patterns":[
+                "chest pain",
+                "sweating",
+                "poor sleep",
+                "Feeling stress",
+                "I'm feeling restless"
+              ],
+              "responses":[
+                "you might be suffering from mental breakdown",
+                "it can be mental breakdown",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Low Blood Pressure",
+              "patterns":[
+                "Lack of concentration",
+                "Blurred vision",
+                "Dizziness or lightheadedness",
+                "Feeling of confusion",
+                "Nausea"
+              ],
+              "responses":[
+                "you might be suffering from low blood pressure",
+                "it can be low blood pressure",
+                "consult a doctor",
+                "Take some rest",
+                "Eat healthy",
+                "Try to get some sleep"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Zika Virus",
+              "patterns":[
+                "Fever",
+                "Joint and muscle pains",
+                "Abdominal pain",
+                "Conjunctivitis, red eyes",
+                "Body rashes"
+              ],
+              "responses":[
+                "you might be suffering from zika virus",
+                "it can be zika virus",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "take advice from doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Ulcers",
+              "patterns":[
+                "Belly pain that increases immediately after eating",
+                "Frequent burping or bloating",
+                "Nausea, or the queasy feeling that comes before vomiting",
+                "A burning, gnawing pain in the upper middle part of the abdomen and is relieved only by eating or taking an antacid"
+              ],
+              "responses":[
+                "you might be suffering from ulcers",
+                "it can be ulcer",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Drink more water",
+                "Avoid junk-food",
+                "Avoid oily food",
+                "Eat healthy",
+                "Avoid fast-food"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Osteoarthritis",
+              "patterns":[
+                "Joint pain, swelling, and stiffness",
+                "Pain in joints after physical stress",
+                "Joint stiffness after resting"
+              ],
+              "responses":[
+                "you might be suffering from osteoarthritis",
+                "it can be osteoarthritis",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Stomach Cancer",
+              "patterns":[
+                "Heartburn",
+                "Indigestion",
+                "Stomach aches",
+                "Blood in stool",
+                "Difficulty in swallowing",
+                "Swelling in the stomach region"
+              ],
+              "responses":[
+                "you might be suffering from stomach cancer",
+                "don't panic but it can be stomach cancer",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Hospital list in Dhaka",
+              "patterns":[
+                "give me list of hospital in Dhaka",
+                "Can you give me a list of hospital in Dhaka",
+                "list of hospital in dhaka",
+                "suggest me hospital in dhaka",
+                "name of hospital in dhaka", 
+                "hospital"
+              ],
+              "responses":[
+                "Ad-din Hospital",
+                "Asgar Ali Hospital,Gandaria",
+                "Anwer Khan Modern Hospital Ltd.",
+                "Apollo Hospitals Dhaka",
+                "Bangladesh Eye Hospital Ltd",
+                "Bangladesh Institute of Health Sciences",
+                "Bangladesh Lions Eye Hospital",
+                "Aysha Memorial Specialised Hospital",
+                "BRB Hospital",
+                "Square Hospital Ltd",
+                "Somorita Hospital",
+                "Central Hospital",
+                "Green life Hospital",
+                "Comfort Hospital",
+                "Gonoshahthaya Nagar Hospital",
+                "Harun Eye Foundation & Green Hospital",
+                "Health & Hope Hospital Ltd.",
+                "Holy Family Red Crescent Medical College and Hospital",
+                "Impulse Hospital",
+                "Ibn Sina Hospital",
+                "Institute of Child and Mother Health (ICMH)",
+                "Islami Bank Central Hospital",
+                "Japan - Bangladesh Friendship Hospital (JBFH)",
+                "Kidney & Urology Hospital (Pvt.) Ltd. ( KHUL )",
+                "Liver Foundation of Bangladesh",
+                "Medinova Medical Services Ltd",
+                "Millennium Heart & General Hospital Ltd",
+                "Mirpur Adhunik Hospital",
+                "Mother Care Hospital (Pvt.) Ltd",
+                "Royal Children & Mothers Hospital Ltd"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Cancer hospital list",
+              "patterns":[
+                "give me list of cancer hospital",
+                "Can you give me a list of cancer hospital",
+                "list of cancer hospital",
+                "suggest me a cancer hospital",
+                "name of a cancer hospital", 
+                "cancer hospital"
+              ],
+              "responses":[
+                "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+                "Dhaka Medical College Hospital",
+                "National Institute of Cancer Research & Hospital",
+                "Shaheed Suhrawardy Medical College & Hospital",
+                "Sir Salimullah Medical College & Hospital",
+                "Chittagong Medical College & Hospital",
+                "Faridpur Medical College Hospital",
+                "Khulna Medical College Hospital",
+                "M Abdur Rahim Medical College Hospital",
+                "Mymensingh Medical College Hospital",
+                "Rangpur Medical College Hospital",
+                "Rajshahi Medical College Hospital",
+                "Sylhet MAG Osmani Medical College Hospital",
+                "Shahid Ziaur Rahman Medical College Hospital",
+                "Sher e Bangla Medical College Hospital, Borisha",
+                "Asgar Ali Hospital",
+                "Ahsania Mission Cancer and General Hospital",
+                "Combined Military Hospital (Dhaka)",
+                "Green Life Medical College Hospital",
+                "United Hospital",
+                "Specialized Cancer Research Hospital ltd.",
+                "North East Medical College",
+                "Parkview Medical College Hospital",
+                "Gonoshasthaya Samaj Vittik Medical College & Hospital",
+                "Enam Medical College & Hospital"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Eye hospital list",
+              "patterns":[
+                "give me list of eye hospital",
+                "Can you give me a list of eye hospital",
+                "list of eye hospital",
+                "suggest me a eye hospital",
+                "name of a eye hospital", 
+                "eye hospital"
+              ],
+              "responses":[
+                "National Institute of Ophthalmology & Hospital",
+                "Dhaka Eye Care Hospital",
+                "Lions Eye Institute & Hospital, Dhaka",
+                "Ophthalmological Society of Bangladesh (OSB) Eye Hospital",
+                "Mojibunnessa Eye Hospital Limited",
+                "Bangladesh Eye Hospital Ltd. Dhanmondi",
+                "Bangladesh Eye Hospital Ltd. Uttara Branch",
+                "Bangladesh Eye Hospital. Shantinagar",
+                "Harun Eye Foundation Hospital",
+                "Ispahani Islamia Eye Institute and Hospital",
+                "Eye Care Center",
+                "Fashion Eye Hospital Ltd",
+                "Green Eye & General Hospital",
+                "Lexus Vision Care",
+                "The Eye Pavilion Ltd",
+                "Vision Eye Hospital",
+                "Dr. Refatullah Eye Care Center"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Private hospital list",
+              "patterns":[
+                "give me list of private hospital",
+                "Can you give me a list of private hospital",
+                "list of private hospital",
+                "suggest me a private hospital",
+                "name of a private hospital", 
+                "private hospital"
+              ],
+              "responses":[
+                "Popular Medical College Hospital – Dhanmandi, Dhaka 1205",
+                "IBN SINA Medical College & Hospital – Kallyanpur, Dhaka 1216",
+                "Labaid Cardiac and Specialized Hospital – Dhanmondi, Dhaka 1229",
+                "Apollo Dhaka Hospital – Basundhara, Dhaka 1229",
+                "Evercare Hospital – Basundhara, Dhaka 1229",
+                "United Hospital Limited – General hospital in Dhaka",
+                "SQUARE Hospital",
+                "Bangladesh Institute of Research and Rehabilitation For Diabetes, Endocrine and Metabolic Disorders (BIRDEM)",
+                "National Heart Foundation – Mirpur, Dhaka 1205",
+                "Islami Bank Hospital – Motijheel, Dhaka 1000",
+                "Ad Din Hospital Ltd – Maghbazar, Dhaka 1217",
+                "Green Life Hospital"
+              ],
+              "context_set": ""
+            }
+    ]
 }
