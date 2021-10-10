@@ -2064,6 +2064,122 @@
               "context_set": ""
             },
             {
+              "tag":"Meantal Breakdown",
+              "patterns":[
+                "chest pain",
+                "sweating",
+                "poor sleep",
+                "Feeling stress",
+                "I'm feeling restless"
+              ],
+              "responses":[
+                "you might be suffering from mental breakdown",
+                "it can be mental breakdown",
+                "consult a doctor",
+                "Take a vacation",
+                "Read some books before sleep",
+                "Take a break from regular routine"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Low Blood Pressure",
+              "patterns":[
+                "Lack of concentration",
+                "Blurred vision",
+                "Dizziness or lightheadedness",
+                "Feeling of confusion",
+                "Nausea"
+              ],
+              "responses":[
+                "you might be suffering from low blood pressure",
+                "it can be low blood pressure",
+                "consult a doctor",
+                "Take some rest",
+                "Eat healthy",
+                "Try to get some sleep"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Zika Virus",
+              "patterns":[
+                "Fever",
+                "Joint and muscle pains",
+                "Abdominal pain",
+                "Conjunctivitis, red eyes",
+                "Body rashes"
+              ],
+              "responses":[
+                "you might be suffering from zika virus",
+                "it can be zika virus",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "take advice from doctor"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Ulcers",
+              "patterns":[
+                "Belly pain that increases immediately after eating",
+                "Frequent burping or bloating",
+                "Nausea, or the queasy feeling that comes before vomiting",
+                "A burning, gnawing pain in the upper middle part of the abdomen and is relieved only by eating or taking an antacid"
+              ],
+              "responses":[
+                "you might be suffering from ulcers",
+                "it can be ulcer",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Drink more water",
+                "Avoid junk-food",
+                "Avoid oily food",
+                "Eat healthy",
+                "Avoid fast-food"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Osteoarthritis",
+              "patterns":[
+                "Joint pain, swelling, and stiffness",
+                "Pain in joints after physical stress",
+                "Joint stiffness after resting"
+              ],
+              "responses":[
+                "you might be suffering from osteoarthritis",
+                "it can be osteoarthritis",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
+              "tag":"Stomach Cancer",
+              "patterns":[
+                "Heartburn",
+                "Indigestion",
+                "Stomach aches",
+                "Blood in stool",
+                "Difficulty in swallowing",
+                "Swelling in the stomach region"
+              ],
+              "responses":[
+                "you might be suffering from stomach cancer",
+                "don't panic but it can be stomach cancer",
+                "consult a doctor ASAP",
+                "Go for a checkup",
+                "Call a doctor",
+                "Take some rest"
+              ],
+              "context_set": ""
+            },
+            {
               "tag":"Hospital list in Dhaka",
               "patterns":[
                 "give me list of hospital in Dhaka",
