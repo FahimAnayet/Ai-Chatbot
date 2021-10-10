@@ -1390,18 +1390,275 @@
       "context_set": ""
     },
     {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going"
+      ],
+      "responses": [
+        "hello",
+        "hey!",
+        "what can i do for you?",
+        "hlw",
+        "hi",
+        "how can i help you",
+        "are you want to know somthing",
+        "tell me how can i help you"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": [
+        "have a nice day",
+        "goodbye",
+        "Take Care",
+        "Good seeing you",
+        "Good talking with you",
+        "See you later",
+        "Catch you later!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation",
+        "hey!",
+        "my owners are averagely 20 years!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Medbot!",
+        "i am Medbot!",
+        "i am Medbot your medical assistant",
+        "i am your medical assistant",
+        "i am medical chatbot",
+        "i am                            medical assistant"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "common cold symptoms",
+      "patterns": [
+        "Runny or stuffy nose",
+        "Sore throat",
+        "Cough",
+        "Congestion",
+        "Slight body aches or a mild headache",
+        "Sneezing",
+        "Low-grade fever",
+        "Generally feeling unwell (malaise)"
+      ],
+      "responses": [
+        "It seems that you are suffering from common cold",
+        "your symptoms says that you are suffering from common cold",
+        "it's all symptoms perfer that common cold cought you",
+        "you have common cold",
+        "common cold caught you"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fever symptoms",
+      "patterns": [
+        "Sweating",
+        "Chills and shivering",
+        "Headache",
+        "Muscle aches",
+        "Loss of appetite",
+        "Irritability",
+        "Dehydration",
+        "General weakness"
+      ],
+      "responses": [
+        "It seems that you are suffering from fever",
+        "you are suffering from fever",
+        "it is fever symptoms",
+        "you have fever"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diabetes symptoms",
+      "patterns": [
+        "increased hunger",
+        "increased thirst",
+        "weight loss",
+        "frequent urination",
+        "blurry vision",
+        "extreme fatigue"
+      ],
+      "responses": [
+        "It seems that you are suffering from Diabetes",
+        "you have diabetes",
+        "your symptoms says that you have Diabetes",
+        "it's all symptoms perfer that you are Diabetes patient"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Depression symptoms",
+      "patterns": [
+        "Hopeless outlook",
+        "Lost interest",
+        "Increased fatigue",
+        "sleep problem",
+        "Anxiety",
+        "change in weight",
+        "Looking at death"
+      ],
+      "responses": [
+        "It seem that you are suffering from depression",
+        "may be you are in depression",
+        "you are in depression"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Asthma symptoms",
+      "patterns": [
+        "coughing",
+        "tightness in the chest",
+        "shortness of breath",
+        "difficulty talking",
+        "panic",
+        "fatigue"
+      ],
+      "responses": [
+        "It seem that you are suffering from Asthma",
+        "it is asthma",
+        "you symptoms tell that you are in depression"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "common cold prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my common cold?",
+        "tell me some prevention method from common cold",
+        "What should I eat or drink if i am suffering from common cold?",
+        "How can I keep from getting a cold or the flu?"
+      ],
+      "responses": [
+        "medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fever prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my fever?",
+        "tell me some prevention method from fever",
+        "What should I eat or drink if i am suffering from fever?",
+        "How can I keep from getting a fever?"
+      ],
+      "responses": [
+        "medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diabetes prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my diabetes?",
+        "tell me some prevention method from diabetes",
+        "What should I eat or drink if i am suffering from diabetes?",
+        "How can I keep from getting diabetes?"
+      ],
+      "responses": [
+        "medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "depression prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my depression?",
+        "tell me some prevention method from depression",
+        "What should I eat or drink if i am suffering from depression?",
+        "How can I keep from getting depression?"
+      ],
+      "responses": [
+        "medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "asthma prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my asthma?",
+        "tell me some prevention method from asthma",
+        "What should I eat or drink if i am suffering from asthma?",
+        "How can I keep from getting asthma?"
+      ],
+      "responses": [
+        "medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Consultation",
+      "patterns": [
+        "who should i contact for consultation?",
+        "is there any doctor available?",
+        "can you give me some suggestions for doctor consultations?",
+        "can you set up a meeting with a doctor for consultation?",
+        "is there any doctor available for consultation"
+      ],
+      "responses": [
+        "You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."
+      ],
+      "context_set": ""
+    },
+    {
       "tag": "colour",
       "patterns": [
         "tell me colour name",
         "colour name",
         "colour name plz",
         "colour name please",
+<<<<<<< HEAD
         "colour",
         "tell me color name",
         "color name",
         "color name plz",
         "color name please",
         "color"
+=======
+        "colour"
+>>>>>>> shorna
       ],
       "responses": [
         "Red",
