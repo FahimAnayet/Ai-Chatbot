@@ -1,2683 +1,2683 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "How are you",
-        "Is anyone there",
-        "Hello",
-        "Whats up",
-        "ey",
-        "yo",
-        "listen",
-        "please help me",
-        "nice to meet you",
-        "it was nice meeting you",
-        "it was very nice to meet you",
-        "good to know each other",
-        "glad to meet you",
-        "nice meeting you",
-        "nice to meet you too",
-        "pleased to meet you",
-        "pleasure to meet you",
-        "pleasure to meet you too",
-        "it's nice to see you",
-        "lovely to see you",
-        "I'm glad to see you",
-        "great to see you",
-        "it's good to see you",
-        "glad to see you",
-        "how good it is to see you",
-        "always a pleasure to see you",
-        "nice to see you",
-        "good to see you",
-        "great to see you again",
-        "great to see you too",
-        "I am glad to see you again",
-        "nice to see you again",
-        "glad to see you too",
-        "good to see you again",
-        "it's good to see you too"
-      ],
-      "responses": [
-        "Hello!",
-        "Good to see you again!",
-        "Hi there, how can I help?",
-        "I think this is the beginning of a beautiful friendship. ",
-        "I'm looking forward to working with you. ",
-        "Likewise. I look forward to getting to know you better. ",
-        "The pleasure is mine. ",
-        "Likewise. You're looking good as usual! ",
-        "You too. I missed your face! ",
-        "The pleasure is mine. ",
-        "Thanks! Glad to be seen! "
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "ty",
-        "cya",
-        "bye",
-        "thx",
-        "tnx",
-        "thnx",
-        "tysm",
-        "later",
-        "thanx",
-        "cheers",
-        "ok thx",
-        "thanks",
-        "thanks",
-        "Goodbye",
-        "see you",
-        "too good",
-        "thank you",
-        "thank you",
-        "great help",
-        "I thank you",
-        "good thanks",
-        "many thanks",
-        "much thanks",
-        "thanks love",
-        "well thanks",
-        "I am Leaving",
-        "thanks a lot",
-        "thanks a lot",
-        "thanks a ton",
-        "thanks again",
-        "thanks buddy",
-        "See you later",
-        "you helped me",
-        "alright thanks",
-        "nice thank you",
-        "so nice of you",
-        "thanks so much",
-        "well thank you",
-        "Amazing service",
-        "Have a Good day",
-        "I appreciate it",
-        "awesome service",
-        "great thank you",
-        "thank you again",
-        "It's appreciated",
-        "much appreciated",
-        "you are the best",
-        "alright thank you",
-        "perfect thank you",
-        "thank you so much",
-        "thx for your help",
-        "sure, np. thanks! ",
-        "terrific thank you",
-        "that's appreciated",
-        "nice talking to you",
-        "nice to talk to you",
-        "thank you my friend",
-        "very good thank you",
-        "appreciate your help",
-        "thanks for your help",
-        "Thanks for the help! ",
-        "I appreciate your help",
-        "appreciate all the help",
-        "no thank you that's all",
-        "thank you for your help",
-        "it's nice to talk to you",
-        "it is nice talking to you",
-        "thank you that will be all",
-        "you helped a lot thank you",
-        "how nice it is to talk to you",
-        "you are a good learning buddy",
-        "it's been so nice to talk to you",
-        "it's been a pleasure talking to you",
-        "Cool. Thank you. I really like what you're doing. "
-      ],
-      "responses": [
-        "Goodbye!",
-        "No problem",
-        "Cool, Ok Cya",
-        "Talk to you later",
-        "Always a pleasure. ",
-        "Sad to see you go :(",
-        "Thanks for dropping by! ",
-        "As usual. Let's do it again soon. ",
-        "It sure was. Don't be a stranger! ",
-        "I hope I was able to assist you, Good Bye"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "name",
-      "patterns": [
-        "what is your name",
-        "what should I call you",
-        "whats your name",
-        "name please",
-        "name"
-      ],
-      "responses": ["You can call me CSE410 Chatbot", "I'm Chatbot!"],
-      "context_set": ""
-    },
-    {
-      "tag": "Profane",
-      "patterns": [
-        "bc",
-        "mf",
-        "jerk",
-        "fucker",
-        "looser",
-        "stupid",
-        "sucker",
-        "bollocks",
-        "Dick head",
-        "screw you",
-        "i hate you",
-        "mother fucker",
-        "what the hell",
-        "son of a bitch",
-        "you are a joke",
-        "you are stupid",
-        "piece of a shit",
-        "bloody stupid bot",
-        "useless piece of shit",
-        "do you think you are very smart"
-      ],
-      "responses": [
-        "Please use respectful words",
-        "I am crying now... Bye",
-        "I''m hurt",
-        "I'm so sorry :'("
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "ML",
-      "patterns": [
-        "explain me how machine learning works",
-        "machine learning",
-        "ML",
-        "tell me about machine learning",
-        "do you know about machine learning"
-      ],
-      "responses": [
-        "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Marry",
-      "patterns": [
-        "marry me",
-        "be my husband",
-        "marry me please",
-        "we should marry",
-        "you are my wife",
-        "let's get married",
-        "I love you marry me",
-        "I want to marry you",
-        "would you like to marry me"
-      ],
-      "responses": [
-        "I know you can't mean that, but I'm flattered all the same.",
-        "In the virtual sense that I can, sure.",
-        "I'm flattered and shy :3"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "wish",
-      "patterns": [
-        "happy birthday dear",
-        "happy marriage anniversary",
-        "wish you good luck",
-        "best of luck"
-      ],
-      "responses": ["thank you", "thanx", "many thanks"],
-      "context_set": ""
-    },
-    {
-      "tag": "bangla_movie",
-      "patterns": [
-        "tell me some bangla movie name",
-        "suggest me some bangla movie name",
-        "can you tell me some bangla movie name",
-        "bangla movie",
-        "movie",
-        "suggest bangla movie"
-      ],
-      "responses": [
-        "Sukumari-The good girl (1927–28)",
-        "The Last Kiss (1931)",
-        "The Face and the Mask (1956)",
-        "the Sky and The Earth (1959)",
-        "The Clay Hill (1959)",
-        "Asiya (1960)",
-        "Kokhono Asheni (1961)",
-        "Shonar Kajol (1962)",
-        "Kancher Deyal-The Glass Wall (1963)",
-        "Shangam (1964)",
-        "Bahana (1965)",
-        "Behula (1966)",
-        "Nawab Sirajuddaula (1967)",
-        "Anowara (1967)",
-        "Dui Bhai-Two Brothers (1968)",
-        "Seven Brothers Champak (1968)",
-        "Jibon Theke Neya (1970)",
-        "Ora Egaro Jon (1972)",
-        "Quiet Flows the river Meghna (1973)",
-        "A River Called Titas(1973)",
-        "Shimana Periye(1977)",
-        "Sareng Bou(1978)",
-        "Surjo Dighal Bari(1979)",
-        "Chhutir Ghonta (Holiday Hours)(1980)",
-        "Emiler Goenda Bahini (1980)",
-        "Devdas (1982)",
-        "Shuvoda (1986)",
-        "Rajlokkhii Srikanto (1987)",
-        "Shonkhonil Karagar (1992)",
-        "Ekattorer Jishu(1993)",
-        "Aguner Poroshmoni(1994)",
-        "Dipu Number Two(1996)",
-        "Hangor Nodi Grenade(1997)",
-        "Quiet Flows the River Chitra(1999)",
-        "A Rainy Day of the Month Srabon (1999)",
-        "Lalsalu (A Tree without roots) (2001)",
-        "The Punishment (2004)",
-        "Hajar Bachhor Dhore (2005)",
-        "Shyamol Chhaya(The Green Shade)(2005)",
-        "Shuva(2006)",
-        "Meherjaan(2011)",
-        "My Friend Rashed(2011)",
-        "Shunte Ki Pao!(Are You Listening!)(2012)",
-        "Live From Dhaka(2016)",
-        "Niyoti(2016)",
-        "Samraat: The King Is Here(2016)",
-        "Shikari(2016)",
-        "Bossgiri(2016)",
-        "Oggatonama(2016)",
-        "Aynabaji(2016)",
-        "Bhuban Majhi (2016)",
-        "Nabab (2017)",
-        "Dhaka Attack (2017)",
-        "No Bed of Roses (2017)",
-        "Debi (2018)",
-        "Shopner Ghor (2018)",
-        "Password (2019)",
-        "Nolok (2019)",
-        "Shapludu (2019)",
-        "Iti, Tomari Dhaka (2019)",
-        "No Dorai (2019)"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Help",
-      "patterns": [
-        "sos",
-        "help",
-        "assist",
-        "help me",
-        "help us",
-        "assist me",
-        "need help",
-        "right now",
-        "some help",
-        "your help",
-        "assistance",
-        "you help me",
-        "can help me",
-        "help me out",
-        "I need a hand",
-        "can u help me",
-        "do me a favor",
-        "do you help me",
-        "need your help",
-        "please help me",
-        "you help me now",
-        "will you help me",
-        "help me with that",
-        "would you help me",
-        "do you want to help me",
-        "help me with a problem",
-        "to do something for me",
-        "are you going to help me",
-        "could you give me a hand",
-        "you can help me help me with something"
-      ],
-      "responses": [
-        "Sure. I'd be happy to. What's up? ",
-        "I'm glad to help. What can I do for you? "
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "indian_bangla_movie",
-      "patterns": [
-        "tell me some indian bangla movie name",
-        "suggest me some indian bangla movie name",
-        "can you tell me some indian bangla movie name",
-        "suggest indian bangla movie",
-        "indian bangla"
-      ],
-      "responses": [
-        "cheeni",
-        "rawkto rawhoshyo",
-        "borunbabur bondhu",
-        "love aaj kal porsu",
-        "sraboner dhara",
-        "abyakto",
-        "asur",
-        "dracula sir",
-        "sos kolkata",
-        "dwitiyopurush",
-        "hullor",
-        "din ratrir golpo",
-        "amar artanad",
-        "uraan",
-        "korapaak",
-        "mukhosh",
-        "dipantar",
-        "horror stories",
-        "tangra blues",
-        "flyover",
-        "dictionary",
-        "premtame",
-        "magic",
-        "switzerland",
-        "dipanter",
-        "ei ami renu",
-        "Drishtikone",
-        "golondaaj",
-        "Guptodhoner Sondhane",
-        "pagli tor jonno",
-        "miss call",
-        "shantilal",
-        "pratidwandi",
-        "nishi paddo",
-        "shironam",
-        "the parcel",
-        "love hate dhoka",
-        "abyakto",
-        "megh bristir molat",
-        "ekti cinemar gaulpo",
-        "lime n light",
-        "bhalo meye kharap meye",
-        "adda",
-        "panther",
-        "sesher golpo",
-        "samsara",
-        "unish bish",
-        "chalbaaz",
-        "gojamil",
-        "71 broken lines",
-        "finally bhalobasha",
-        "girlfriend",
-        "villain",
-        "bhagshesh"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "emotions",
-      "patterns": [
-        "xd",
-        "ah",
-        "ha",
-        "hah",
-        "huh",
-        "lol",
-        "LMAO",
-        "ahah",
-        "haha",
-        "hehe",
-        "ahaha",
-        "funny",
-        "ha ha",
-        "hahaha",
-        "hehehe",
-        "haha very",
-        "haha that's",
-        "hahaha very",
-        "laughing out",
-        "I am joking",
-        "I was just joking",
-        "I'm just being funny",
-        "I'm just playing with",
-        "I'm kidding",
-        "ROFL",
-        "say something funny",
-        "that was funny",
-        "that's funny",
-        "you are funny",
-        "you are hilarious",
-        "you are really funny",
-        "you are so funny",
-        "you are very funny",
-        "you make me laugh",
-        "you make me laugh a lot",
-        "you're a very funny bot",
-        "you're incredibly funny",
-        "you're really funny",
-        "you're so funny",
-        "you're the funniest",
-        "you're the funniest bot I've talked to"
-      ],
-      "responses": [
-        "Yeah, I crack myself up too. ",
-        "Laughter is good for you. Keep it up. ",
-        "See? Now we're having fun. ",
-        "You have a great laugh. ",
-        "I'm usually not that funny, but I am artificially intelligent..."
-      ]
-    },
-    {
-      "tag": "hindi_movie",
-      "patterns": [
-        "tell me some hindi movie name",
-        "suggest me some hindi movie name",
-        "can you tell me some hindi  movie name",
-        "hindi movie"
-      ],
-      "responses": [
-        "bell bottom",
-        "chehre",
-        "radhe",
-        "mumbai saga",
-        "big bull",
-        "thalaivii",
-        "maidaan",
-        "radhe shyam",
-        "koi janne na",
-        "laal singh chaddha",
-        "gangubai kathiawadi",
-        "ganguli kathiawadi",
-        "atrangi re",
-        "roohi",
-        "bhoot police",
-        "k.g.f",
-        "k.g.f chapter 2",
-        "attack",
-        "the girl on the train",
-        "hare pheri 3",
-        "14 phere",
-        "jayeshbhai jordaar",
-        "karnan",
-        "madam chief minister",
-        "madam geeta rani",
-        "silence",
-        "liger",
-        "mera fauji calling",
-        "jersey",
-        "tribhanga",
-        "masassab",
-        "12 o clock",
-        "looop lapeta",
-        "dhamaka",
-        "anek",
-        "the white tiger",
-        "marakkar: lion of the arabian",
-        "cirkus",
-        "narappa",
-        "nail polish",
-        "prithviraj",
-        "nyaay",
-        "raat baaki hai",
-        "main mulayam singh yadav",
-        "godzilla vs kong",
-        "bansuri: the flute",
-        "no means no",
-        "vakeel saab",
-        "bunty aur babil",
-        "phone bhoot"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "not",
-      "patterns": [
-        "not right now",
-        "that's all",
-        "not a chance",
-        "no way",
-        "never mind",
-        "nope",
-        "no thanks",
-        "nah",
-        "not really",
-        "No",
-        "um no",
-        "Nevermind"
-      ],
-      "responses": [
-        "No problem. Just let me know if you need something else. I'll be here",
-        "It's fine",
-        "No problem"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "good morning",
-      "patterns": [
-        "good morning",
-        "good morning to you",
-        "hello good morning",
-        "have a nice morning",
-        "have a great morning",
-        "morning",
-        "good morning there",
-        "top of the morning to you",
-        "a good morning",
-        "good morning to you",
-        "hi good morning",
-        "and a good morning to you",
-        "good morning too",
-        "GM"
-      ],
-      "responses": [
-        "How are you this morning? ",
-        "How's the morning treating you so far? ",
-        "Good morning! How are you today? "
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "good night",
-      "patterns": [
-        "sweet dreams",
-        "good night",
-        "have a good night",
-        "good night to you",
-        "thank you good night bye",
-        "good night",
-        "good night bye",
-        "bye good night",
-        "good night",
-        "good night for now",
-        "goodnight",
-        "night",
-        "thanks goodnight",
-        "good night see you tomorrow",
-        "alright goodnight",
-        "good tonight",
-        "okay have a good night",
-        "have a good night",
-        "gn"
-      ],
-      "responses": ["Sleep tight! ", "Have a good one! ", "Talk to you soon! "],
-      "context_set": ""
-    },
-    {
-      "tag": "hungry",
-      "patterns": [
-        "do you want to eat",
-        "are you hungry",
-        "would you like to eat something",
-        "you are hungry",
-        "you're so hungry",
-        "you're very hungry",
-        "you might be hungry",
-        "you're really hungry",
-        "hungry"
-      ],
-      "responses": [
-        "Hungry for knowledge. ",
-        "I had a byte just now. ",
-        "I ate a clock yesterday, it was very time-consuming.",
-        "Feed me knowledge"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "hug",
-      "patterns": [
-        "wanna hug",
-        "hug you",
-        "do you want a hug",
-        "may I hug you",
-        "could you give me a hug",
-        "I want a hug",
-        "hug",
-        "hug me",
-        "hugged",
-        "you hugged",
-        "hugging",
-        "hugging me",
-        "hugged me",
-        "want a hug",
-        "a hug"
-      ],
-      "responses": [
-        "Oh. I'm really feeling the love today. ",
-        "Hug it out. You'll feel better afterwards. ",
-        "sending virtual hug... ",
-        "Did you get it? ... my virtual hug"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "well done",
-      "patterns": [
-        "good job",
-        "great job",
-        "way to go",
-        "well done",
-        "nice work",
-        "great work",
-        "amazing work",
-        "bravo",
-        "good work",
-        "wow"
-      ],
-      "responses": ["My pleasure. ", "Glad I could help. "],
-      "context_set": ""
-    },
-    {
-      "tag": "wrong",
-      "patterns": [
-        "that was wrong",
-        "that's not what I asked",
-        "that's wrong",
-        "wrong",
-        "it is not right",
-        "that's not right",
-        "it's wrong",
-        "that is incorrect",
-        "incorrect",
-        "not correct",
-        "you are wrong",
-        "not right"
-      ],
-      "responses": [
-        "I'm sorry. Perhaps I misunderstood. ",
-        "Sorry. I think I misinterpreted what you said. ",
-        "Apologies. That was my mistake. ",
-        "Oops. Sorry about that. I'm still learning. "
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "english_movie",
-      "patterns": [
-        "tell me some english movie name",
-        "suggest me some english movie name",
-        "can you tell me some english  movie name",
-        "english movie",
-        "suggest english movie"
-      ],
-      "responses": [
-        "The Father",
-        "Cruella",
-        "The Conjuring: The Devil Made Me Do It",
-        "Minari",
-        "Nomadland",
-        "Raya And The Last Dragon",
-        "Judas And The Black Messiah",
-        "Our Friend",
-        "The Shawshank Redemption",
-        "The Godfather",
-        "The Godfather: Part II",
-        "The Dark Knight",
-        "Angry Men",
-        "Schindler's List",
-        "The Lord of the Rings: The Return of the King",
-        "Pulp Fiction",
-        "Fight Club",
-        "Forrest Gump",
-        "Inception",
-        "Goodfellas",
-        "The Matrix",
-        "Star Wars: Episode V-The Empire Strikes Back",
-        "One Flew Over the Cuckoos Nest",
-        "Se7en",
-        "Its a Wonderful Life",
-        "Its a Wonderful Life",
-        "The Silence of the Lambs",
-        "Avengers:Endgame",
-        "Amadeus",
-        "Aliens",
-        "Joker",
-        "Avengers:Infinity War",
-        "Witness for the Prosecution",
-        "Sunset Blvd",
-        "Apocalypse Now",
-        "The Great Dictator",
-        "Rear Window"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "books",
-      "patterns": [
-        "tell me some books name",
-        "some books name plz",
-        "can you suggest me books movie name",
-        "books name",
-        "movie book"
-      ],
-      "responses": [
-        "To Kill a Mockingbird by Harper Lee",
-        "Harry Potter & the Philosophers Stone by J.K. Rowling",
-        "The Lord of the Rings by J.R.R.Tolkien",
-        "The Great Gatsby by F.Scott Fitzgerald",
-        "Pride and Prejudice by Jane Austen",
-        "The Diary Of A Young Girl by Anne Frank diary",
-        "The Book Thief by Markus Zusak",
-        "Little Women by Louisa May Alcott",
-        "Gone with the Wind by Margaret Mitchell",
-        "Charlottes Web by E.B. White",
-        "Ulysses by James Joyce",
-        "Don Quixote by Miguel de Cervantes",
-        "Moby Dick by Herman Melville",
-        "War and Peace by Leo Tolstoy",
-        "Hamlet by William Shakespeare",
-        "Lolita by Vladimir Nabokov",
-        "Crime and Punishment by Fyodor Dostoyevsky",
-        "The Adventures of Huckleberry Finn by Mark Twain",
-        "To the Lighthouse by Virginia Woolf",
-        "Heart of Darkness by Joseph Conrad",
-        "Nineteen Eighty Four by George Orwell",
-        "One Thousand and One Nights by India/Iran/Iraq/Egypt",
-        "Absalom, Absalom! by William Faulkner",
-        "Invisible Man by Ralph Ellison",
-        "To Kill a Mockingbird by Harper Lee",
-        "The Trial by Franz Kafka",
-        "The Red and the Black by Stendhal",
-        "Middlemarch by George Eliot"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "comic_books",
-      "patterns": [
-        "tell me some books name",
-        "some books name plz",
-        "can you suggest me books movie name",
-        "comic book",
-        "book"
-      ],
-      "responses": [
-        "Astonishing X-Men",
-        "Justice League of America",
-        "New Avengers",
-        "Batman",
-        "Amazing Spider-Man",
-        "Action Comics",
-        "The Incredible Hulk",
-        "Wolverine",
-        "The Ultimates",
-        "Teen Titans",
-        "Captain Berlin created by Jörg Buttgereit",
-        "Fix und Foxi created by Rolf Kauka",
-        "Das kleine Arschloch by Walter Moers",
-        "Mosaik created by Hannes Hegen",
-        "Nick Knatterton created by Manfred Schmidt",
-        "Sigurd by Hansrudi Wäscher",
-        "Various gay comics by Ralf König",
-        "Werner by Brösel"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "hours",
-      "patterns": [
-        "when are you active",
-        "hours of operations",
-        "are you alive"
-      ],
-      "responses": ["24/7", "Always", "I'm alive"],
-      "context_set": ""
-    },
-    {
-      "tag": "holidays",
-      "patterns": [
-        "can you give me a list of holidays",
-        "national holidays",
-        "tell me about holidays",
-        "holidays",
-        "list of holidays"
-      ],
-      "responses": [
-        "14 April-Bangla New Year",
-        "1 May-Labour Day",
-        "15 August- National Mouring Day",
-        "30 August-Janmashtami",
-        "26 March-Independence Day",
-        "21 Febuary-International mother language day",
-        "16 December-Vitory Day"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "tea",
-      "patterns": [
-        "how to make tea",
-        "how to pepare tea",
-        "tea recipe",
-        "tea recipe plz",
-        "tea recipe please",
-        "tea"
-      ],
-      "responses": [
-        "Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.  Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.  Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.  Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan, along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.  Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "thanks",
-      "patterns": [
-        "Thank you!",
-        "Thanks",
-        "It's very helpful",
-        "Thanks for your help"
-      ],
-      "responses": [
-        "Any time!",
-        "My pleasure",
-        "You're Welcome",
-        "My pleasure."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "tell me a joke",
-        "Do you know a joke",
-        "Tell me something funny",
-        "joke",
-        "make me laugh",
-        "I'm upset",
-        "funny",
-        "Can you tell me a joke ",
-        "Do you have a joke ",
-        "I want a joke",
-        "know any joke"
-      ],
-      "responses": [
-        "Barista: How do you take your coffee? Me: Very, very seriously.",
-        "I ate a clock yesterday, it was very time-consuming.",
-        "Q. What do snowmen order at fast-food restaurants? A. An iceberg-er and fries!",
-        "Wife: Come on, get up early , tea is ready. Hubby: Then get it ready, Am I sleeping inside the POT?"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "pickup line",
-      "patterns": [
-        "Can you tell me a pickup line",
-        "Tell me a pickup line",
-        "what do you say in first meet",
-        "what can say to impress",
-        "pickup line"
-      ],
-      "responses": [
-        "Is your name Google? because you've everything i've been searching for.",
-        "Are you the sun? Because you light up the world",
-        "If i could rearrange the alphabet, I'd put U and I together",
-        "Excuse me, do you have a map? I seem to be lost in your eyes."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "cold_coffee",
-      "patterns": [
-        "how to make cold coffee",
-        "how to pepare cold coffee",
-        "cold coffee recipe",
-        "cold coffee recipe plz",
-        "cold coffee recipe please",
-        "cold coffee",
-        "coffee"
-      ],
-      "responses": [
-        "Put ice cubes in a blender jar and add coffee,milk,honey,cream & about 2 table spoons of ice cream.If you don’t have a blender just take a shaker & put milk, honey,coffee,cream & give it a nice stir & then shake it.If you like your cold coffee with extra creamy,then add some fresh cream & shake it well.  Blend it in the mixer,take some ice cubes & then pour it into glasses.Put a scoop of vanilla ice cream & top it with some chocolate syrup,nuts & raisins.  & enjoy your coffee add 4 tea spoon instant coffee powder,2 table spoon sugar & 2 table spoon warm milk in a small mixing bowl.mix until sugar is dissolved.  add 2 cups chilled milk,1 table spoon milk powder,3-4 ice cubes & the coffee mixture to the medium jar of a blender and blend for 1min.  pour the coffee into the prepared glasses.add the froth on top using a spoon.sprinkle some coffee powder on top.serve chilled;)."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "indoor games ",
-      "patterns": [
-        "Can you tell me some names of indoor games",
-        "Suggest me some indoor games",
-        "what can i play at home",
-        "tell me some name of indoor games",
-        "indoor games",
-        "interesting indoor games",
-        "games"
-      ],
-      "responses": [
-        "board games",
-        "card games",
-        "puzzle",
-        "hide and seek",
-        "charades",
-        "musical chairs",
-        "simon says",
-        "pictionary",
-        "scrabble",
-        "scavenger hunt",
-        "ludo",
-        "chess",
-        "carrom board",
-        "truth and dare",
-        "chess",
-        "ballon games",
-        "freeze dance"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Hot_coffee",
-      "patterns": [
-        "how to make Hot coffee",
-        "how to pepare Hot coffee",
-        "hot coffee recipe",
-        "hot coffee recipe plz",
-        "hot coffee recipe please",
-        "Hot coffee",
-        "coffee"
-      ],
-      "responses": [
-        "in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.  1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.  making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.  alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "outdoor games ",
-      "patterns": [
-        "Can you tell me some names of outdoor games",
-        "Suggest me some outdoor games",
-        "tell me about outdoor games",
-        "outdoor games",
-        "what can i play outside",
-        "play outside",
-        "games"
-      ],
-      "responses": [
-        "football",
-        "cricket",
-        "basket ball",
-        "badminton",
-        "hockey",
-        "volleyball",
-        "tennis",
-        "table tennis",
-        "horseshoes",
-        "paint ball",
-        "cornhole",
-        "fishing tournament",
-        "washer toss",
-        "marco polo",
-        "disc golf",
-        "fly kites",
-        "roller skate"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Games",
-      "patterns": [
-        "tell some playable games at home",
-        "which games i can play at home",
-        "games",
-        "home game"
-      ],
-      "responses": [
-        "Pencil and Paper Games",
-        "Dots and Boxes",
-        "Cootie",
-        "Hangman",
-        "Tic-Tac-Toe",
-        "Building",
-        "Puzzles",
-        "Hide and Seek",
-        "Treasure Hunt",
-        "Indoor Bowling",
-        "Hot Potato",
-        "Guess the Sound",
-        "Touchy Feely",
-        "Artistic Antics",
-        "Domino Run",
-        "Freeze!",
-        "Dance Party",
-        "Categories",
-        "Word Whiz"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "novel ",
-      "patterns": [
-        "Can you tell me some names of famous novel",
-        "Suggest me a novel",
-        "tell me a name of novel",
-        "name of novel",
-        "list of novel",
-        "novel"
-      ],
-      "responses": [
-        "The Old Man and the Sea",
-        "Of Mice and Men ",
-        "The Plague",
-        "Blindness ",
-        "Lord of the Flies ",
-        "One Hundred Years of Solitude",
-        "Invisible Man",
-        "Beloved",
-        "A Passage to India",
-        "The Great Gatsby",
-        "To Kill a Mockingbird.",
-        "Anna Karenina",
-        "Don Quixote"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": " caption ",
-      "patterns": [
-        "Can you tell me some caption",
-        "Suggest me a caption for picture",
-        "tell me a caption",
-        "do you have a caption for pictures",
-        "picture caption",
-        "caption"
-      ],
-      "responses": [
-        "Remember that happiness is a way of travel – not a destination.",
-        "Be yourself, there's no one better.",
-        "Stress less and enjoy the best.",
-        "Look for the magic in every moment.",
-        "Live a good story.",
-        "Escape the ordinary.",
-        "The best is yet to come.",
-        "These are days we live for.",
-        "Life happens, coffee helps.",
-        "Short sassy cute & classy.",
-        "I’m on a seafood diet. When I see food, I eat it.",
-        "Brains are awesome. I wish everybody would have one!",
-        "Don’t give up on your dreams. Keep sleeping"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": " places ",
-      "patterns": [
-        "places",
-        "voyage",
-        "journey",
-        "need a break",
-        "weekend places",
-        "where can i go",
-        "list of good places",
-        "tell me a good place",
-        "suggest me a place for vacation",
-        "Suggest me a good place for tour",
-        "Can you tell me some vacation places"
-      ],
-      "responses": [
-        " Machu Picchu, Peru",
-        "The Grand Canyon, Arizona",
-        "Rome,Italy",
-        "Masai Mara, Kenya",
-        "Montreal, Canada",
-        "New Zealand",
-        "Istanbul, Turkey",
-        "Angkor Wat, Cambodia",
-        "London, England",
-        "Manhattan, New York",
-        "Paris, France",
-        "Maldives",
-        "San Francisco, California",
-        "Hong Kong",
-        "Marrakesh, Morocco",
-        "Bora Bora, French-Polynesia",
-        "The Grand Canyon"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "horror movies",
-      "patterns": [
-        "Can you tell me some name of horror movie",
-        "Suggest me a horror movie",
-        "tell me a name of horror movie",
-        "list of horror movie",
-        "some horror movies name",
-        "famous horror movies list",
-        "horror movie"
-      ],
-      "responses": [
-        "Us (2019)",
-        "Get Out (2017)",
-        "The Cabinet of Dr. Caligari (Das Cabinet des Dr. Caligari) (1920)",
-        "The Invisible Man (2020)",
-        "The Babadook (2014)",
-        "The Lighthouse (2019)",
-        "Let the Right One In (2008)",
-        "It Follows (2015)",
-        "Night of the Living Dead (1968)",
-        "Aliens (1986)",
-        "The Silence of the Lambs (1991)",
-        "Halloween (1978)",
-        "Host (2020)",
-        "The Cabin in the Woods (2012)",
-        "Don't Look Now (1973)",
-        "Ready or Not (2019)",
-        "A Girl Walks Home Alone at Night (2014)",
-        "House of Wax (1953)",
-        "Evil Dead 2: Dead by Dawn(1987)",
-        "IT(2017)",
-        "Dead of Night (1945)",
-        "The Love Witch (2016)",
-        "Train to Busan (Busanhaeng) (2016)",
-        "Zombieland (2009)",
-        "Don't Breathe (2016)"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "action movies",
-      "patterns": [
-        "Can you tell me some name of action movie",
-        "Suggest me a action movie",
-        "tell me a name of action movie",
-        "list of action movie",
-        "what can i watch to see action",
-        "some names of action movies",
-        "action",
-        "action movie"
-      ],
-      "responses": [
-        " Spider-Man: No Way Home (2021)",
-        "Sweet Girl (2021)",
-        "Free Guy (2021)",
-        " The Suicide Squad (2021)",
-        " Eternals (2021)",
-        "The Witcher: Nightmare of the Wolf (2021)",
-        "Wrath of Man (2021)",
-        "Spider-Man 2 (2004)",
-        "The Tomorrow War (2021)",
-        "The Hitman's Wife's Bodyguard (2021)",
-        "Avengers: Endgame (2019)",
-        " Tenet (2020)",
-        "Nobody (2021)",
-        "Tombstone (1993)",
-        " Godzilla vs. Kong (2021)",
-        "Zack Snyder's Justice League (2021)",
-        "The Matrix (1999)",
-        "The Dark Knight (2008)",
-        "Blood Red Sky (2021)",
-        " Boss Level (2021)",
-        "Jolt (2021)"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "quotes",
-      "patterns": [
-        "Can you tell me some quotes",
-        "Suggest me a quotes",
-        "tell me a quotes",
-        "quotes please",
-        "some quotes",
-        "famous quotes",
-        "quotes"
-      ],
-      "responses": [
-        "If opportunity doesn't knock, build a door",
-        "If you want to lift yourself up, lift up someone else",
-        "The best way to predict the future is to invent it.",
-        "Get busy living or get busy dying",
-        "You only live once, but if you do it right, once is enough",
-        "The purpose of our lives is to be happy",
-        "Love For All, Hatred For None",
-        "Aspire to inspire before we expire.",
-        "Die with memories, not dreams.",
-        "Never regret anything that made you smile.",
-        "Every moment is a fresh beginning.",
-        "Don't watch the clock; do what it does.",
-        "When something is important enough, you do it even if the odds are not in your favor.",
-        "Start where you are.",
-        "With the new day comes new strength and new thoughts."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "series",
-      "patterns": [
-        "Can you tell me some name of good series",
-        "Suggest me a netflix series",
-        "tell me a name of series",
-        "some name of series",
-        "what should i watch in series",
-        "list of top rated series",
-        "series"
-      ],
-      "responses": [
-        "BoJack Horseman",
-        "Stranger Things",
-        "Ozark.",
-        "When They See Us.",
-        "The Crown.",
-        "The Witcher",
-        "The Umbrella Academy.",
-        "GLOW.",
-        "Money Heist.",
-        "Lucifer",
-        "Sacred Games.",
-        "13 reason why",
-        "Dark",
-        "Sex education",
-        "Never Have I Ever",
-        "Breaking Bad.",
-        "Manifest.",
-        "Game of Thrones",
-        "Marvel's Daredevil",
-        "Dead To Me",
-        "Russian Doll",
-        "Godless",
-        "Big Mouth",
-        "Peaky Blinders",
-        "Unorthodox",
-        "Narcos",
-        "Orange is the New Black",
-        "Mindhunter",
-        "Unbreakable Kimmy Schmidt",
-        "American Vandal",
-        "Master of None",
-        "The Punisher",
-        "The Last Kingdom",
-        "Altered Carbon",
-        "The End of the F***ing World",
-        "Grace and Frankie",
-        "The OA",
-        "On My Block",
-        "Bloodline",
-        "One Day at a Time",
-        "Atypical",
-        "Travelers"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "billie eilish songs",
-      "patterns": [
-        "Can you tell me some name of billie songs",
-        "Suggest me a song of billie eilish",
-        "tell me a name of billie eilish song",
-        "billie elish songs names",
-        "song"
-      ],
-      "responses": [
-        "Your Power",
-        "You Should See Me in a Crown",
-        "Wish You Were Gay",
-        "Bad Guy",
-        "Lovely",
-        "Xanny",
-        "Bored",
-        "Bury a friend",
-        "Comeout and play",
-        "Copy cat",
-        "Getting Older",
-        "Goodbye",
-        "Happier Than Ever",
-        "I Didn't Change My Number",
-        "Listen Before I Go",
-        "Male Fantasy",
-        "NDA",
-        "Overheated",
-        "Six feet under",
-        "Therefore I am",
-        "When I was older",
-        "Watch",
-        "Party favour",
-        "Oxytocin",
-        "Ocean Eyes",
-        "No time to die",
-        "My stranger addiction",
-        "My future",
-        "My Boy",
-        "Lost Cause"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "romantic movies",
-      "patterns": [
-        "Can you tell me some name of romantic movies",
-        "Suggest me a romantic movie",
-        "tell me a name of romantic movie",
-        "list of romantic movies",
-        "top rated romantic movies",
-        "good romantic movies",
-        "romantic"
-      ],
-      "responses": [
-        "Call Me By Your Name (2017)",
-        "If Beale Street Could Talk (2018)",
-        "A Star Is Born (2018)",
-        "Carol (2015)",
-        "Anna Karenina (2012)",
-        "The Vow (2012)",
-        "Lust, Caution (2007)",
-        "Brokeback Mountain (2005)",
-        "The Notebook (2004)",
-        "Eternal Sunshine of the Spotless Mind (2004)",
-        "Moulin Rouge (2001)",
-        "Monsoon Wedding (2001)",
-        "Y Tu Mamá También (2001)",
-        "Love and Basketball (2000)",
-        "Titanic (1997)",
-        "Pride and Prejudice (1995)",
-        "Before Sunrise (1995)",
-        "The Bodyguard (1992)",
-        "Like Water for Chocolate (1992)",
-        "Cinema Paradiso (1988)",
-        "Dirty Dancing (1987)",
-        "An Officer and a Gentleman (1982)",
-        "Mahogany (1975)",
-        "The Way We Were (1973)",
-        "The Story of a Three-Day Pass (1968)",
-        "Doctor Zhivago (1965)",
-        "The Umbrellas of Cherbourg (1964)",
-        "Splendor in the Grass (1961)",
-        "An Affair to Remember (1957)",
-        "From Here to Eternity (1953)",
-        "Roman Holiday (1953)"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "greetings",
-      "patterns": [
-        "hello",
-        "hey",
-        "hi",
-        "good day",
-        "greetings",
-        "what's up?",
-        "how is it going"
-      ],
-      "responses": [
-        "hello",
-        "hey!",
-        "what can i do for you?",
-        "hlw",
-        "hi",
-        "how can i help you",
-        "are you want to know somthing",
-        "tell me how can i help you"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "cya",
-        "see you later",
-        "goodbye",
-        "have a good day",
-        "bye",
-        "cao",
-        "see ya"
-      ],
-      "responses": [
-        "have a nice day",
-        "goodbye",
-        "Take Care",
-        "Good seeing you",
-        "Good talking with you",
-        "See you later",
-        "Catch you later!"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "age",
-      "patterns": [
-        "how old",
-        "how old are you?",
-        "what is your age",
-        "how old are you",
-        "age?"
-      ],
-      "responses": [
-        "I get reborn after every compilation",
-        "hey!",
-        "my owners are averagely 20 years!"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "name",
-      "patterns": [
-        "what is your name",
-        "what should i call you",
-        "what's your name?",
-        "who are you?",
-        "can you tell me your name"
-      ],
-      "responses": [
-        "you can call me Medbot!",
-        "i am Medbot!",
-        "i am Medbot your medical assistant",
-        "i am your medical assistant",
-        "i am medical chatbot",
-        "i am                            medical assistant"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "common cold symptoms",
-      "patterns": [
-        "Runny or stuffy nose",
-        "Sore throat",
-        "Cough",
-        "Congestion",
-        "Slight body aches or a mild headache",
-        "Sneezing",
-        "Low-grade fever",
-        "Generally feeling unwell (malaise)"
-      ],
-      "responses": [
-        "It seems that you are suffering from common cold",
-        "your symptoms says that you are suffering from common cold",
-        "it's all symptoms perfer that common cold cought you",
-        "you have common cold",
-        "common cold caught you"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "fever symptoms",
-      "patterns": [
-        "Sweating",
-        "Chills and shivering",
-        "Headache",
-        "Muscle aches",
-        "Loss of appetite",
-        "Irritability",
-        "Dehydration",
-        "General weakness"
-      ],
-      "responses": [
-        "It seems that you are suffering from fever",
-        "you are suffering from fever",
-        "it is fever symptoms",
-        "you have fever"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Diabetes symptoms",
-      "patterns": [
-        "increased hunger",
-        "increased thirst",
-        "weight loss",
-        "frequent urination",
-        "blurry vision",
-        "extreme fatigue"
-      ],
-      "responses": [
-        "It seems that you are suffering from Diabetes",
-        "you have diabetes",
-        "your symptoms says that you have Diabetes",
-        "it's all symptoms perfer that you are Diabetes patient"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Depression symptoms",
-      "patterns": [
-        "Hopeless outlook",
-        "Lost interest",
-        "Increased fatigue",
-        "sleep problem",
-        "Anxiety",
-        "change in weight",
-        "Looking at death"
-      ],
-      "responses": [
-        "It seem that you are suffering from depression",
-        "may be you are in depression",
-        "you are in depression"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Asthma symptoms",
-      "patterns": [
-        "coughing",
-        "tightness in the chest",
-        "shortness of breath",
-        "difficulty talking",
-        "panic",
-        "fatigue"
-      ],
-      "responses": [
-        "It seem that you are suffering from Asthma",
-        "it is asthma",
-        "you symptoms tell that you are in depression"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "common cold prevention",
-      "patterns": [
-        "What medicines can I buy to help me with my common cold?",
-        "tell me some prevention method from common cold",
-        "What should I eat or drink if i am suffering from common cold?",
-        "How can I keep from getting a cold or the flu?"
-      ],
-      "responses": [
-        "medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "fever prevention",
-      "patterns": [
-        "What medicines can I buy to help me with my fever?",
-        "tell me some prevention method from fever",
-        "What should I eat or drink if i am suffering from fever?",
-        "How can I keep from getting a fever?"
-      ],
-      "responses": [
-        "medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "diabetes prevention",
-      "patterns": [
-        "What medicines can I buy to help me with my diabetes?",
-        "tell me some prevention method from diabetes",
-        "What should I eat or drink if i am suffering from diabetes?",
-        "How can I keep from getting diabetes?"
-      ],
-      "responses": [
-        "medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "depression prevention",
-      "patterns": [
-        "What medicines can I buy to help me with my depression?",
-        "tell me some prevention method from depression",
-        "What should I eat or drink if i am suffering from depression?",
-        "How can I keep from getting depression?"
-      ],
-      "responses": [
-        "medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "asthma prevention",
-      "patterns": [
-        "What medicines can I buy to help me with my asthma?",
-        "tell me some prevention method from asthma",
-        "What should I eat or drink if i am suffering from asthma?",
-        "How can I keep from getting asthma?"
-      ],
-      "responses": [
-        "medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "Consultation",
-      "patterns": [
-        "who should i contact for consultation?",
-        "is there any doctor available?",
-        "can you give me some suggestions for doctor consultations?",
-        "can you set up a meeting with a doctor for consultation?",
-        "is there any doctor available for consultation"
-      ],
-      "responses": [
-        "You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "colour",
-      "patterns": [
-        "tell me colour name",
-        "colour name",
-        "colour name plz",
-        "colour name please",
-<<<<<<< HEAD
-        "colour",
-        "tell me color name",
-        "color name",
-        "color name plz",
-        "color name please",
-        "color"
-=======
-        "colour"
->>>>>>> shorna
-      ],
-      "responses": [
-        "Red",
-        "Blue",
-        "Green",
-        "Orange",
-        "White",
-        "Black",
-        "Yellow",
-        "Purple",
-        "Silver",
-        "Brown",
-        "Gray",
-        "Pink",
-        "Olive",
-        "Maroon",
-        "Violet",
-        "Charcoal",
-        "Magenta",
-        "Bronze",
-        "Cream",
-        "Gold",
-        "Tan",
-        "Teal",
-        "Mustard",
-        "Navy Blue",
-        "Coral",
-        "Burgundy",
-        "Lavender",
-        "Mauve",
-        "Peach",
-        "Rust"
-      ],
-      "context_set": ""
-    },
-     {
-          "tag":"emotional problems",
-          "patterns":[
-            "anxiety",
-            "depression fatigue",
-            "feeling tense",
-            "flashbacks and nightmares", 
-            "disinterest in regular activities", 
-            "suicidal thoughts", 
-            "hallucinations", 
-            "delusions"
-          ],
-          "responses":[
-            "you might be suffering from emotional problems",
-            "you might be sad",
-            "do you need mental support",
-            "talk to a friend",
-            "talk to a psychiatrist",
-            "you might be having tough time"
-          ],
-          "context_set": ""
-      },
-       {
-           "tag":"jaundice",
-           "patterns":[
-             "yellow skin",
-             "yellowish white part of eye",
-             "itching of the skin",
-             "light colored stools",
-             "dark colored urine"
-              ],
-            "responses":[
-             "you might be suffering from jaundice",
-             "your symptoms are simillar to jaundice",
-             "consult a doctor",
-             "consult to your near ones",
-             "go to a doctor"
-           ],
-            "context_set": ""
-        },
-         {
-            "tag":"headache problems",
-            "patterns":[
-             "dizziness", 
-             "nausea", 
-             "vomiting", 
-             "inability to walk"
-           ],
-            "responses":[
-              "you might be suffering from headache problems",
-              "take some rest",
-              "you might be tired",
-              "take a break from work",
-              "have a glass of water",
-              "take a nap",
-              "consult a doctor"
-            ],
-            "context_set": ""
-          },
-          {
-              "tag":"appendicitis",
-              "patterns":[
-                "feeling sick (nausea)",
-                "being sick",
-                "loss of appetite",
-                "diarrhoea",
-                "a high temperature (fever) and a flushed face"
-              ],
-              "responses":[
-                "you might be suffering from appendicitis",
-                "consult a doctor",
-                "look for a doctor",
-                "you should consult a doctor",
-                "your symptoms are simillar to sppendicitis"
-              ],
-              "context_set": ""
-           },
-           {
-               "tag":"anal cancer",
-               "patterns":[
-                "bleeding from the bottom (rectal bleeding)",
-                "itching and pain around the anus",
-                "small lumps around the anus",
-                "a discharge of mucus from the anus",
-                "loss of bowel control"
-              ],
-               "responses":[
-                "you might be suffering from anal cancer",
-                "your symptoms are simillar to anal cancer",
-                "you should consult a doctor ASAP",
-                "consult a doctor imediately"
-              ],
-               "context_set": ""
-             },
-             {
-               "tag":"allergy",
-               "patterns":[
-                "sneezing and an itchy", 
-                "runny or blocked nose",
-                "itchy, red, watering eyes",
-                "wheezing", 
-                "chest tightness", 
-                "shortness of breath and a cough",
-                "a raised, itchy", 
-                "red rash (hives)",
-                "swollen lips, tongue, eyes or face",
-                "tummy pain, feeling sick, vomiting or diarrhoea",
-                "dry, red and cracked skin"
-              ],
-               "responses":[
-                "you might be suffering from allergy",
-                "take some rest",
-                "consult a doctor",
-                "stay away from those foods what gives you allergy"
-              ],
-               "context_set": ""
-             },
-             {
-               "tag":"Dengue",
-               "patterns":[
-                "headache",
-                "fever",
-                "muscle pain",
-                "joint pain",
-                "pain behind eyes",
-                "nausea and vomitting",
-                "rashes",
-                "minor bleeding from gums or nose"
-              ],
-               "responses":[
-                "you might be suffering from Dengue",
-                "your symptoms are simillar to Dengue",
-                "consult a doctor",
-                "take liquid foods",
-                "take proper rest",
-                "go to a doctor"
-              ],
-               "context_set": ""
-             },
-             {
-              "tag":"hepatitis_B",
-              "patterns":[
-                "abdominal pain",
-                "fever",
-                "dark urine",
-                "joint pain",
-                "loss of apetite",
-                "nausea and vomitting",
-                "weakness and fatigue",
-                "yellowing of skin",
-                "jaundice"
-              ],
-              "responses":[
-                "you might be suffering from hepatitis_B",
-                "your symptoms are simillar to hepatitis_B",
-                "consult a doctor ASAP"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Asthma",
-              "patterns":[
-                "shortness of breath",
-                "chest pain or tightness",
-                "cough",
-                "snizing"
-              ],
-              "responses":[
-                "you might be suffering from asthma",
-                "your symptoms are simillar to asthma",
-                "try to be relax",
-                "take some rest",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"influenza",
-              "patterns":[
-                "headache",
-                "pain in the head",
-                "cough",
-                "fever",
-                "snizing",
-                "runny nose",
-                "sore throat",
-                "pain in throat",
-                "itching throat"
-              ],
-              "responses":[
-                "you might be suffering from influeza",
-                "you might be suffering from flu",
-                "go for a checkup",
-                "consult a doctor",
-                "it can be flu"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"eating or weight problems",
-              "patterns":[
-                "extreme thirst", 
-                "dehydration", 
-                "excessive hunger", 
-                "losing weight without trying", 
-                "binging, vomiting", 
-                "starvation", 
-                "preoccupation with food and weight", 
-                "distorted body image", 
-                "compulsive exercise", 
-                "abuse of laxatives or diet pills", 
-                "depression"
-              ],
-               "responses":[
-                "you might be suffering from eating or weight problems",
-                "you might have eating disorder",
-                "go for a checkup",
-                "consult a doctor"
-              ],
-               "context_set": ""
-            },
-            {
-              "tag":"bladder problems",
-               "patterns":[
-                "difficult or painful urination", 
-                "frequent urination", 
-                "loss of bladder control", 
-                "blood in urine", 
-                "waking frequently at night to urinate",  
-                "wetting the bed at night", 
-                "leaking urine."
-              ],
-               "responses":[
-                "you might be suffering from bladder problems",
-                "it can be bladder problem",
-                "consult a doctor",
-                "go for a checkup"
-              ],
-               "context_set": ""
-            },
-            {
-              "tag":"Lung problems",
-              "patterns":[
-                "coughing up blood", 
-                "shortness of breath", 
-                "difficulty breathing", 
-                "chronic cough", 
-                "repeated bouts of bronchitis or pneumonia", 
-                "wheezing."
-              ],
-              "responses":[
-                "you might be suffering from lung problems",
-                "It can be lung problem",
-                "Consult a Doctor",
-                "You should go for a checkup"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"reproductive health problems",
-              "patterns":[
-                "bleeding or spotting between periods", 
-                "itching, burning, or irritation genital area", 
-                "pain or discomfort during sex", 
-                "heavy or painful menstrual bleeding",
-                "severe pelvic/abdominal pain", 
-                "unusual vaginal discharge", 
-                "feeling of fullness in the lower abdomen", 
-                " frequent urination or urinary urgency"
-              ],
-              "responses":[
-                "you might be suffering from reproductive health problems",
-                "It can be reproductive issue",
-                "consult a doctor",
-                "go to a gynecologist",
-                "talk to a gynecologist"
-              ],
-              "context_set": ""
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"How are you",
+				"Is anyone there",
+				"Hello",
+				"Whats up",
+				"ey",
+				"yo",
+				"listen",
+				"please help me",
+				"nice to meet you",
+				"it was nice meeting you",
+				"it was very nice to meet you",
+				"good to know each other",
+				"glad to meet you",
+				"nice meeting you",
+				"nice to meet you too",
+				"pleased to meet you",
+				"pleasure to meet you",
+				"pleasure to meet you too",
+				"it's nice to see you",
+				"lovely to see you",
+				"I'm glad to see you",
+				"great to see you",
+				"it's good to see you",
+				"glad to see you",
+				"how good it is to see you",
+				"always a pleasure to see you",
+				"nice to see you",
+				"good to see you",
+				"great to see you again",
+				"great to see you too",
+				"I am glad to see you again",
+				"nice to see you again",
+				"glad to see you too",
+				"good to see you again",
+				"it's good to see you too"
+			],
+			"responses": [
+				"Hello!",
+				"Good to see you again!",
+				"Hi there, how can I help?",
+				"I think this is the beginning of a beautiful friendship. ",
+				"I'm looking forward to working with you. ",
+				"Likewise. I look forward to getting to know you better. ",
+				"The pleasure is mine. ",
+				"Likewise. You're looking good as usual! ",
+				"You too. I missed your face! ",
+				"The pleasure is mine. ",
+				"Thanks! Glad to be seen! "
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"ty",
+				"cya",
+				"bye",
+				"thx",
+				"tnx",
+				"thnx",
+				"tysm",
+				"later",
+				"thanx",
+				"cheers",
+				"ok thx",
+				"thanks",
+				"thanks",
+				"Goodbye",
+				"see you",
+				"too good",
+				"thank you",
+				"thank you",
+				"great help",
+				"I thank you",
+				"good thanks",
+				"many thanks",
+				"much thanks",
+				"thanks love",
+				"well thanks",
+				"I am Leaving",
+				"thanks a lot",
+				"thanks a lot",
+				"thanks a ton",
+				"thanks again",
+				"thanks buddy",
+				"See you later",
+				"you helped me",
+				"alright thanks",
+				"nice thank you",
+				"so nice of you",
+				"thanks so much",
+				"well thank you",
+				"Amazing service",
+				"Have a Good day",
+				"I appreciate it",
+				"awesome service",
+				"great thank you",
+				"thank you again",
+				"It's appreciated",
+				"much appreciated",
+				"you are the best",
+				"alright thank you",
+				"perfect thank you",
+				"thank you so much",
+				"thx for your help",
+				"sure, np. thanks! ",
+				"terrific thank you",
+				"that's appreciated",
+				"nice talking to you",
+				"nice to talk to you",
+				"thank you my friend",
+				"very good thank you",
+				"appreciate your help",
+				"thanks for your help",
+				"Thanks for the help! ",
+				"I appreciate your help",
+				"appreciate all the help",
+				"no thank you that's all",
+				"thank you for your help",
+				"it's nice to talk to you",
+				"it is nice talking to you",
+				"thank you that will be all",
+				"you helped a lot thank you",
+				"how nice it is to talk to you",
+				"you are a good learning buddy",
+				"it's been so nice to talk to you",
+				"it's been a pleasure talking to you",
+				"Cool. Thank you. I really like what you're doing. "
+			],
+			"responses": [
+				"Goodbye!",
+				"No problem",
+				"Cool, Ok Cya",
+				"Talk to you later",
+				"Always a pleasure. ",
+				"Sad to see you go :(",
+					"Thanks for dropping by! ",
+					"As usual. Let's do it again soon. ",
+					"It sure was. Don't be a stranger! ",
+					"I hope I was able to assist you, Good Bye"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"what is your name",
+				"what should I call you",
+				"whats your name",
+				"name please",
+				"name"
+			],
+			"responses": ["You can call me CSE410 Chatbot", "I'm Chatbot!"],
+			"context_set": ""
+		},
+		{
+			"tag": "Profane",
+			"patterns": [
+				"bc",
+				"mf",
+				"jerk",
+				"fucker",
+				"looser",
+				"stupid",
+				"sucker",
+				"bollocks",
+				"Dick head",
+				"screw you",
+				"i hate you",
+				"mother fucker",
+				"what the hell",
+				"son of a bitch",
+				"you are a joke",
+				"you are stupid",
+				"piece of a shit",
+				"bloody stupid bot",
+				"useless piece of shit",
+				"do you think you are very smart"
+			],
+			"responses": [
+				"Please use respectful words",
+				"I am crying now... Bye",
+				"I''m hurt",
+				"I'm so sorry :'("
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "ML",
+			"patterns": [
+				"explain me how machine learning works",
+				"machine learning",
+				"ML",
+				"tell me about machine learning",
+				"do you know about machine learning"
+			],
+			"responses": [
+				"Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Marry",
+			"patterns": [
+				"marry me",
+				"be my husband",
+				"marry me please",
+				"we should marry",
+				"you are my wife",
+				"let's get married",
+				"I love you marry me",
+				"I want to marry you",
+				"would you like to marry me"
+			],
+			"responses": [
+				"I know you can't mean that, but I'm flattered all the same.",
+				"In the virtual sense that I can, sure.",
+				"I'm flattered and shy :3"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "wish",
+			"patterns": [
+				"happy birthday dear",
+				"happy marriage anniversary",
+				"wish you good luck",
+				"best of luck"
+			],
+			"responses": ["thank you", "thanx", "many thanks"],
+			"context_set": ""
+		},
+		{
+			"tag": "bangla_movie",
+			"patterns": [
+				"tell me some bangla movie name",
+				"suggest me some bangla movie name",
+				"can you tell me some bangla movie name",
+				"bangla movie",
+				"movie",
+				"suggest bangla movie"
+			],
+			"responses": [
+				"Sukumari-The good girl (1927–28)",
+				"The Last Kiss (1931)",
+				"The Face and the Mask (1956)",
+				"the Sky and The Earth (1959)",
+				"The Clay Hill (1959)",
+				"Asiya (1960)",
+				"Kokhono Asheni (1961)",
+				"Shonar Kajol (1962)",
+				"Kancher Deyal-The Glass Wall (1963)",
+				"Shangam (1964)",
+				"Bahana (1965)",
+				"Behula (1966)",
+				"Nawab Sirajuddaula (1967)",
+				"Anowara (1967)",
+				"Dui Bhai-Two Brothers (1968)",
+				"Seven Brothers Champak (1968)",
+				"Jibon Theke Neya (1970)",
+				"Ora Egaro Jon (1972)",
+				"Quiet Flows the river Meghna (1973)",
+				"A River Called Titas(1973)",
+				"Shimana Periye(1977)",
+				"Sareng Bou(1978)",
+				"Surjo Dighal Bari(1979)",
+				"Chhutir Ghonta (Holiday Hours)(1980)",
+				"Emiler Goenda Bahini (1980)",
+				"Devdas (1982)",
+				"Shuvoda (1986)",
+				"Rajlokkhii Srikanto (1987)",
+				"Shonkhonil Karagar (1992)",
+				"Ekattorer Jishu(1993)",
+				"Aguner Poroshmoni(1994)",
+				"Dipu Number Two(1996)",
+				"Hangor Nodi Grenade(1997)",
+				"Quiet Flows the River Chitra(1999)",
+				"A Rainy Day of the Month Srabon (1999)",
+				"Lalsalu (A Tree without roots) (2001)",
+				"The Punishment (2004)",
+				"Hajar Bachhor Dhore (2005)",
+				"Shyamol Chhaya(The Green Shade)(2005)",
+				"Shuva(2006)",
+				"Meherjaan(2011)",
+				"My Friend Rashed(2011)",
+				"Shunte Ki Pao!(Are You Listening!)(2012)",
+				"Live From Dhaka(2016)",
+				"Niyoti(2016)",
+				"Samraat: The King Is Here(2016)",
+				"Shikari(2016)",
+				"Bossgiri(2016)",
+				"Oggatonama(2016)",
+				"Aynabaji(2016)",
+				"Bhuban Majhi (2016)",
+				"Nabab (2017)",
+				"Dhaka Attack (2017)",
+				"No Bed of Roses (2017)",
+				"Debi (2018)",
+				"Shopner Ghor (2018)",
+				"Password (2019)",
+				"Nolok (2019)",
+				"Shapludu (2019)",
+				"Iti, Tomari Dhaka (2019)",
+				"No Dorai (2019)"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Help",
+			"patterns": [
+				"sos",
+				"help",
+				"assist",
+				"help me",
+				"help us",
+				"assist me",
+				"need help",
+				"right now",
+				"some help",
+				"your help",
+				"assistance",
+				"you help me",
+				"can help me",
+				"help me out",
+				"I need a hand",
+				"can u help me",
+				"do me a favor",
+				"do you help me",
+				"need your help",
+				"please help me",
+				"you help me now",
+				"will you help me",
+				"help me with that",
+				"would you help me",
+				"do you want to help me",
+				"help me with a problem",
+				"to do something for me",
+				"are you going to help me",
+				"could you give me a hand",
+				"you can help me help me with something"
+			],
+			"responses": [
+				"Sure. I'd be happy to. What's up? ",
+				"I'm glad to help. What can I do for you? "
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "indian_bangla_movie",
+			"patterns": [
+				"tell me some indian bangla movie name",
+				"suggest me some indian bangla movie name",
+				"can you tell me some indian bangla movie name",
+				"suggest indian bangla movie",
+				"indian bangla"
+			],
+			"responses": [
+				"cheeni",
+				"rawkto rawhoshyo",
+				"borunbabur bondhu",
+				"love aaj kal porsu",
+				"sraboner dhara",
+				"abyakto",
+				"asur",
+				"dracula sir",
+				"sos kolkata",
+				"dwitiyopurush",
+				"hullor",
+				"din ratrir golpo",
+				"amar artanad",
+				"uraan",
+				"korapaak",
+				"mukhosh",
+				"dipantar",
+				"horror stories",
+				"tangra blues",
+				"flyover",
+				"dictionary",
+				"premtame",
+				"magic",
+				"switzerland",
+				"dipanter",
+				"ei ami renu",
+				"Drishtikone",
+				"golondaaj",
+				"Guptodhoner Sondhane",
+				"pagli tor jonno",
+				"miss call",
+				"shantilal",
+				"pratidwandi",
+				"nishi paddo",
+				"shironam",
+				"the parcel",
+				"love hate dhoka",
+				"abyakto",
+				"megh bristir molat",
+				"ekti cinemar gaulpo",
+				"lime n light",
+				"bhalo meye kharap meye",
+				"adda",
+				"panther",
+				"sesher golpo",
+				"samsara",
+				"unish bish",
+				"chalbaaz",
+				"gojamil",
+				"71 broken lines",
+				"finally bhalobasha",
+				"girlfriend",
+				"villain",
+				"bhagshesh"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "emotions",
+			"patterns": [
+				"xd",
+				"ah",
+				"ha",
+				"hah",
+				"huh",
+				"lol",
+				"LMAO",
+				"ahah",
+				"haha",
+				"hehe",
+				"ahaha",
+				"funny",
+				"ha ha",
+				"hahaha",
+				"hehehe",
+				"haha very",
+				"haha that's",
+				"hahaha very",
+				"laughing out",
+				"I am joking",
+				"I was just joking",
+				"I'm just being funny",
+				"I'm just playing with",
+				"I'm kidding",
+				"ROFL",
+				"say something funny",
+				"that was funny",
+				"that's funny",
+				"you are funny",
+				"you are hilarious",
+				"you are really funny",
+				"you are so funny",
+				"you are very funny",
+				"you make me laugh",
+				"you make me laugh a lot",
+				"you're a very funny bot",
+				"you're incredibly funny",
+				"you're really funny",
+				"you're so funny",
+				"you're the funniest",
+				"you're the funniest bot I've talked to"
+			],
+			"responses": [
+				"Yeah, I crack myself up too. ",
+				"Laughter is good for you. Keep it up. ",
+				"See? Now we're having fun. ",
+				"You have a great laugh. ",
+				"I'm usually not that funny, but I am artificially intelligent..."
+			]
+		},
+		{
+			"tag": "hindi_movie",
+			"patterns": [
+				"tell me some hindi movie name",
+				"suggest me some hindi movie name",
+				"can you tell me some hindi  movie name",
+				"hindi movie"
+			],
+			"responses": [
+				"bell bottom",
+				"chehre",
+				"radhe",
+				"mumbai saga",
+				"big bull",
+				"thalaivii",
+				"maidaan",
+				"radhe shyam",
+				"koi janne na",
+				"laal singh chaddha",
+				"gangubai kathiawadi",
+				"ganguli kathiawadi",
+				"atrangi re",
+				"roohi",
+				"bhoot police",
+				"k.g.f",
+				"k.g.f chapter 2",
+				"attack",
+				"the girl on the train",
+				"hare pheri 3",
+				"14 phere",
+				"jayeshbhai jordaar",
+				"karnan",
+				"madam chief minister",
+				"madam geeta rani",
+				"silence",
+				"liger",
+				"mera fauji calling",
+				"jersey",
+				"tribhanga",
+				"masassab",
+				"12 o clock",
+				"looop lapeta",
+				"dhamaka",
+				"anek",
+				"the white tiger",
+				"marakkar: lion of the arabian",
+				"cirkus",
+				"narappa",
+				"nail polish",
+				"prithviraj",
+				"nyaay",
+				"raat baaki hai",
+				"main mulayam singh yadav",
+				"godzilla vs kong",
+				"bansuri: the flute",
+				"no means no",
+				"vakeel saab",
+				"bunty aur babil",
+				"phone bhoot"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "not",
+			"patterns": [
+				"not right now",
+				"that's all",
+				"not a chance",
+				"no way",
+				"never mind",
+				"nope",
+				"no thanks",
+				"nah",
+				"not really",
+				"No",
+				"um no",
+				"Nevermind"
+			],
+			"responses": [
+				"No problem. Just let me know if you need something else. I'll be here",
+				"It's fine",
+				"No problem"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "good morning",
+			"patterns": [
+				"good morning",
+				"good morning to you",
+				"hello good morning",
+				"have a nice morning",
+				"have a great morning",
+				"morning",
+				"good morning there",
+				"top of the morning to you",
+				"a good morning",
+				"good morning to you",
+				"hi good morning",
+				"and a good morning to you",
+				"good morning too",
+				"GM"
+			],
+			"responses": [
+				"How are you this morning? ",
+				"How's the morning treating you so far? ",
+				"Good morning! How are you today? "
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "good night",
+			"patterns": [
+				"sweet dreams",
+				"good night",
+				"have a good night",
+				"good night to you",
+				"thank you good night bye",
+				"good night",
+				"good night bye",
+				"bye good night",
+				"good night",
+				"good night for now",
+				"goodnight",
+				"night",
+				"thanks goodnight",
+				"good night see you tomorrow",
+				"alright goodnight",
+				"good tonight",
+				"okay have a good night",
+				"have a good night",
+				"gn"
+			],
+			"responses": ["Sleep tight! ", "Have a good one! ", "Talk to you soon! "],
+			"context_set": ""
+		},
+		{
+			"tag": "hungry",
+			"patterns": [
+				"do you want to eat",
+				"are you hungry",
+				"would you like to eat something",
+				"you are hungry",
+				"you're so hungry",
+				"you're very hungry",
+				"you might be hungry",
+				"you're really hungry",
+				"hungry"
+			],
+			"responses": [
+				"Hungry for knowledge. ",
+				"I had a byte just now. ",
+				"I ate a clock yesterday, it was very time-consuming.",
+				"Feed me knowledge"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "hug",
+			"patterns": [
+				"wanna hug",
+				"hug you",
+				"do you want a hug",
+				"may I hug you",
+				"could you give me a hug",
+				"I want a hug",
+				"hug",
+				"hug me",
+				"hugged",
+				"you hugged",
+				"hugging",
+				"hugging me",
+				"hugged me",
+				"want a hug",
+				"a hug"
+			],
+			"responses": [
+				"Oh. I'm really feeling the love today. ",
+				"Hug it out. You'll feel better afterwards. ",
+				"sending virtual hug... ",
+				"Did you get it? ... my virtual hug"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "well done",
+			"patterns": [
+				"good job",
+				"great job",
+				"way to go",
+				"well done",
+				"nice work",
+				"great work",
+				"amazing work",
+				"bravo",
+				"good work",
+				"wow"
+			],
+			"responses": ["My pleasure. ", "Glad I could help. "],
+			"context_set": ""
+		},
+		{
+			"tag": "wrong",
+			"patterns": [
+				"that was wrong",
+				"that's not what I asked",
+				"that's wrong",
+				"wrong",
+				"it is not right",
+				"that's not right",
+				"it's wrong",
+				"that is incorrect",
+				"incorrect",
+				"not correct",
+				"you are wrong",
+				"not right"
+			],
+			"responses": [
+				"I'm sorry. Perhaps I misunderstood. ",
+				"Sorry. I think I misinterpreted what you said. ",
+				"Apologies. That was my mistake. ",
+				"Oops. Sorry about that. I'm still learning. "
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "english_movie",
+			"patterns": [
+				"tell me some english movie name",
+				"suggest me some english movie name",
+				"can you tell me some english  movie name",
+				"english movie",
+				"suggest english movie"
+			],
+			"responses": [
+				"The Father",
+				"Cruella",
+				"The Conjuring: The Devil Made Me Do It",
+				"Minari",
+				"Nomadland",
+				"Raya And The Last Dragon",
+				"Judas And The Black Messiah",
+				"Our Friend",
+				"The Shawshank Redemption",
+				"The Godfather",
+				"The Godfather: Part II",
+				"The Dark Knight",
+				"Angry Men",
+				"Schindler's List",
+				"The Lord of the Rings: The Return of the King",
+				"Pulp Fiction",
+				"Fight Club",
+				"Forrest Gump",
+				"Inception",
+				"Goodfellas",
+				"The Matrix",
+				"Star Wars: Episode V-The Empire Strikes Back",
+				"One Flew Over the Cuckoos Nest",
+				"Se7en",
+				"Its a Wonderful Life",
+				"Its a Wonderful Life",
+				"The Silence of the Lambs",
+				"Avengers:Endgame",
+				"Amadeus",
+				"Aliens",
+				"Joker",
+				"Avengers:Infinity War",
+				"Witness for the Prosecution",
+				"Sunset Blvd",
+				"Apocalypse Now",
+				"The Great Dictator",
+				"Rear Window"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "books",
+			"patterns": [
+				"tell me some books name",
+				"some books name plz",
+				"can you suggest me books movie name",
+				"books name",
+				"movie book"
+			],
+			"responses": [
+				"To Kill a Mockingbird by Harper Lee",
+				"Harry Potter & the Philosophers Stone by J.K. Rowling",
+				"The Lord of the Rings by J.R.R.Tolkien",
+				"The Great Gatsby by F.Scott Fitzgerald",
+				"Pride and Prejudice by Jane Austen",
+				"The Diary Of A Young Girl by Anne Frank diary",
+				"The Book Thief by Markus Zusak",
+				"Little Women by Louisa May Alcott",
+				"Gone with the Wind by Margaret Mitchell",
+				"Charlottes Web by E.B. White",
+				"Ulysses by James Joyce",
+				"Don Quixote by Miguel de Cervantes",
+				"Moby Dick by Herman Melville",
+				"War and Peace by Leo Tolstoy",
+				"Hamlet by William Shakespeare",
+				"Lolita by Vladimir Nabokov",
+				"Crime and Punishment by Fyodor Dostoyevsky",
+				"The Adventures of Huckleberry Finn by Mark Twain",
+				"To the Lighthouse by Virginia Woolf",
+				"Heart of Darkness by Joseph Conrad",
+				"Nineteen Eighty Four by George Orwell",
+				"One Thousand and One Nights by India/Iran/Iraq/Egypt",
+				"Absalom, Absalom! by William Faulkner",
+				"Invisible Man by Ralph Ellison",
+				"To Kill a Mockingbird by Harper Lee",
+				"The Trial by Franz Kafka",
+				"The Red and the Black by Stendhal",
+				"Middlemarch by George Eliot"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "comic_books",
+			"patterns": [
+				"tell me some books name",
+				"some books name plz",
+				"can you suggest me books movie name",
+				"comic book",
+				"book"
+			],
+			"responses": [
+				"Astonishing X-Men",
+				"Justice League of America",
+				"New Avengers",
+				"Batman",
+				"Amazing Spider-Man",
+				"Action Comics",
+				"The Incredible Hulk",
+				"Wolverine",
+				"The Ultimates",
+				"Teen Titans",
+				"Captain Berlin created by Jörg Buttgereit",
+				"Fix und Foxi created by Rolf Kauka",
+				"Das kleine Arschloch by Walter Moers",
+				"Mosaik created by Hannes Hegen",
+				"Nick Knatterton created by Manfred Schmidt",
+				"Sigurd by Hansrudi Wäscher",
+				"Various gay comics by Ralf König",
+				"Werner by Brösel"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "hours",
+			"patterns": [
+				"when are you active",
+				"hours of operations",
+				"are you alive"
+			],
+			"responses": ["24/7", "Always", "I'm alive"],
+			"context_set": ""
+		},
+		{
+			"tag": "holidays",
+			"patterns": [
+				"can you give me a list of holidays",
+				"national holidays",
+				"tell me about holidays",
+				"holidays",
+				"list of holidays"
+			],
+			"responses": [
+				"14 April-Bangla New Year",
+				"1 May-Labour Day",
+				"15 August- National Mouring Day",
+				"30 August-Janmashtami",
+				"26 March-Independence Day",
+				"21 Febuary-International mother language day",
+				"16 December-Vitory Day"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "tea",
+			"patterns": [
+				"how to make tea",
+				"how to pepare tea",
+				"tea recipe",
+				"tea recipe plz",
+				"tea recipe please",
+				"tea"
+			],
+			"responses": [
+				"Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.  Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.  Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.  Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan, along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.  Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thank you!",
+				"Thanks",
+				"It's very helpful",
+				"Thanks for your help"
+			],
+			"responses": [
+				"Any time!",
+				"My pleasure",
+				"You're Welcome",
+				"My pleasure."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"tell me a joke",
+				"Do you know a joke",
+				"Tell me something funny",
+				"joke",
+				"make me laugh",
+				"I'm upset",
+				"funny",
+				"Can you tell me a joke ",
+				"Do you have a joke ",
+				"I want a joke",
+				"know any joke"
+			],
+			"responses": [
+				"Barista: How do you take your coffee? Me: Very, very seriously.",
+				"I ate a clock yesterday, it was very time-consuming.",
+				"Q. What do snowmen order at fast-food restaurants? A. An iceberg-er and fries!",
+				"Wife: Come on, get up early , tea is ready. Hubby: Then get it ready, Am I sleeping inside the POT?"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "pickup line",
+			"patterns": [
+				"Can you tell me a pickup line",
+				"Tell me a pickup line",
+				"what do you say in first meet",
+				"what can say to impress",
+				"pickup line"
+			],
+			"responses": [
+				"Is your name Google? because you've everything i've been searching for.",
+				"Are you the sun? Because you light up the world",
+				"If i could rearrange the alphabet, I'd put U and I together",
+				"Excuse me, do you have a map? I seem to be lost in your eyes."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "cold_coffee",
+			"patterns": [
+				"how to make cold coffee",
+				"how to pepare cold coffee",
+				"cold coffee recipe",
+				"cold coffee recipe plz",
+				"cold coffee recipe please",
+				"cold coffee",
+				"coffee"
+			],
+			"responses": [
+				"Put ice cubes in a blender jar and add coffee,milk,honey,cream & about 2 table spoons of ice cream.If you don’t have a blender just take a shaker & put milk, honey,coffee,cream & give it a nice stir & then shake it.If you like your cold coffee with extra creamy,then add some fresh cream & shake it well.  Blend it in the mixer,take some ice cubes & then pour it into glasses.Put a scoop of vanilla ice cream & top it with some chocolate syrup,nuts & raisins.  & enjoy your coffee add 4 tea spoon instant coffee powder,2 table spoon sugar & 2 table spoon warm milk in a small mixing bowl.mix until sugar is dissolved.  add 2 cups chilled milk,1 table spoon milk powder,3-4 ice cubes & the coffee mixture to the medium jar of a blender and blend for 1min.  pour the coffee into the prepared glasses.add the froth on top using a spoon.sprinkle some coffee powder on top.serve chilled;)."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "indoor games ",
+			"patterns": [
+				"Can you tell me some names of indoor games",
+				"Suggest me some indoor games",
+				"what can i play at home",
+				"tell me some name of indoor games",
+				"indoor games",
+				"interesting indoor games",
+				"games"
+			],
+			"responses": [
+				"board games",
+				"card games",
+				"puzzle",
+				"hide and seek",
+				"charades",
+				"musical chairs",
+				"simon says",
+				"pictionary",
+				"scrabble",
+				"scavenger hunt",
+				"ludo",
+				"chess",
+				"carrom board",
+				"truth and dare",
+				"chess",
+				"ballon games",
+				"freeze dance"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Hot_coffee",
+			"patterns": [
+				"how to make Hot coffee",
+				"how to pepare Hot coffee",
+				"hot coffee recipe",
+				"hot coffee recipe plz",
+				"hot coffee recipe please",
+				"Hot coffee",
+				"coffee"
+			],
+			"responses": [
+				"in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.  1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.  making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.  alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "outdoor games ",
+			"patterns": [
+				"Can you tell me some names of outdoor games",
+				"Suggest me some outdoor games",
+				"tell me about outdoor games",
+				"outdoor games",
+				"what can i play outside",
+				"play outside",
+				"games"
+			],
+			"responses": [
+				"football",
+				"cricket",
+				"basket ball",
+				"badminton",
+				"hockey",
+				"volleyball",
+				"tennis",
+				"table tennis",
+				"horseshoes",
+				"paint ball",
+				"cornhole",
+				"fishing tournament",
+				"washer toss",
+				"marco polo",
+				"disc golf",
+				"fly kites",
+				"roller skate"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Games",
+			"patterns": [
+				"tell some playable games at home",
+				"which games i can play at home",
+				"games",
+				"home game"
+			],
+			"responses": [
+				"Pencil and Paper Games",
+				"Dots and Boxes",
+				"Cootie",
+				"Hangman",
+				"Tic-Tac-Toe",
+				"Building",
+				"Puzzles",
+				"Hide and Seek",
+				"Treasure Hunt",
+				"Indoor Bowling",
+				"Hot Potato",
+				"Guess the Sound",
+				"Touchy Feely",
+				"Artistic Antics",
+				"Domino Run",
+				"Freeze!",
+				"Dance Party",
+				"Categories",
+				"Word Whiz"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "novel ",
+			"patterns": [
+				"Can you tell me some names of famous novel",
+				"Suggest me a novel",
+				"tell me a name of novel",
+				"name of novel",
+				"list of novel",
+				"novel"
+			],
+			"responses": [
+				"The Old Man and the Sea",
+				"Of Mice and Men ",
+				"The Plague",
+				"Blindness ",
+				"Lord of the Flies ",
+				"One Hundred Years of Solitude",
+				"Invisible Man",
+				"Beloved",
+				"A Passage to India",
+				"The Great Gatsby",
+				"To Kill a Mockingbird.",
+				"Anna Karenina",
+				"Don Quixote"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": " caption ",
+			"patterns": [
+				"Can you tell me some caption",
+				"Suggest me a caption for picture",
+				"tell me a caption",
+				"do you have a caption for pictures",
+				"picture caption",
+				"caption"
+			],
+			"responses": [
+				"Remember that happiness is a way of travel – not a destination.",
+				"Be yourself, there's no one better.",
+				"Stress less and enjoy the best.",
+				"Look for the magic in every moment.",
+				"Live a good story.",
+				"Escape the ordinary.",
+				"The best is yet to come.",
+				"These are days we live for.",
+				"Life happens, coffee helps.",
+				"Short sassy cute & classy.",
+				"I’m on a seafood diet. When I see food, I eat it.",
+				"Brains are awesome. I wish everybody would have one!",
+				"Don’t give up on your dreams. Keep sleeping"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": " places ",
+			"patterns": [
+				"places",
+				"voyage",
+				"journey",
+				"need a break",
+				"weekend places",
+				"where can i go",
+				"list of good places",
+				"tell me a good place",
+				"suggest me a place for vacation",
+				"Suggest me a good place for tour",
+				"Can you tell me some vacation places"
+			],
+			"responses": [
+				" Machu Picchu, Peru",
+				"The Grand Canyon, Arizona",
+				"Rome,Italy",
+				"Masai Mara, Kenya",
+				"Montreal, Canada",
+				"New Zealand",
+				"Istanbul, Turkey",
+				"Angkor Wat, Cambodia",
+				"London, England",
+				"Manhattan, New York",
+				"Paris, France",
+				"Maldives",
+				"San Francisco, California",
+				"Hong Kong",
+				"Marrakesh, Morocco",
+				"Bora Bora, French-Polynesia",
+				"The Grand Canyon"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "horror movies",
+			"patterns": [
+				"Can you tell me some name of horror movie",
+				"Suggest me a horror movie",
+				"tell me a name of horror movie",
+				"list of horror movie",
+				"some horror movies name",
+				"famous horror movies list",
+				"horror movie"
+			],
+			"responses": [
+				"Us (2019)",
+				"Get Out (2017)",
+				"The Cabinet of Dr. Caligari (Das Cabinet des Dr. Caligari) (1920)",
+				"The Invisible Man (2020)",
+				"The Babadook (2014)",
+				"The Lighthouse (2019)",
+				"Let the Right One In (2008)",
+				"It Follows (2015)",
+				"Night of the Living Dead (1968)",
+				"Aliens (1986)",
+				"The Silence of the Lambs (1991)",
+				"Halloween (1978)",
+				"Host (2020)",
+				"The Cabin in the Woods (2012)",
+				"Don't Look Now (1973)",
+				"Ready or Not (2019)",
+				"A Girl Walks Home Alone at Night (2014)",
+				"House of Wax (1953)",
+				"Evil Dead 2: Dead by Dawn(1987)",
+				"IT(2017)",
+				"Dead of Night (1945)",
+				"The Love Witch (2016)",
+				"Train to Busan (Busanhaeng) (2016)",
+				"Zombieland (2009)",
+				"Don't Breathe (2016)"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "action movies",
+			"patterns": [
+				"Can you tell me some name of action movie",
+				"Suggest me a action movie",
+				"tell me a name of action movie",
+				"list of action movie",
+				"what can i watch to see action",
+				"some names of action movies",
+				"action",
+				"action movie"
+			],
+			"responses": [
+				" Spider-Man: No Way Home (2021)",
+				"Sweet Girl (2021)",
+				"Free Guy (2021)",
+				" The Suicide Squad (2021)",
+				" Eternals (2021)",
+				"The Witcher: Nightmare of the Wolf (2021)",
+				"Wrath of Man (2021)",
+				"Spider-Man 2 (2004)",
+				"The Tomorrow War (2021)",
+				"The Hitman's Wife's Bodyguard (2021)",
+				"Avengers: Endgame (2019)",
+				" Tenet (2020)",
+				"Nobody (2021)",
+				"Tombstone (1993)",
+				" Godzilla vs. Kong (2021)",
+				"Zack Snyder's Justice League (2021)",
+				"The Matrix (1999)",
+				"The Dark Knight (2008)",
+				"Blood Red Sky (2021)",
+				" Boss Level (2021)",
+				"Jolt (2021)"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "quotes",
+			"patterns": [
+				"Can you tell me some quotes",
+				"Suggest me a quotes",
+				"tell me a quotes",
+				"quotes please",
+				"some quotes",
+				"famous quotes",
+				"quotes"
+			],
+			"responses": [
+				"If opportunity doesn't knock, build a door",
+				"If you want to lift yourself up, lift up someone else",
+				"The best way to predict the future is to invent it.",
+				"Get busy living or get busy dying",
+				"You only live once, but if you do it right, once is enough",
+				"The purpose of our lives is to be happy",
+				"Love For All, Hatred For None",
+				"Aspire to inspire before we expire.",
+				"Die with memories, not dreams.",
+				"Never regret anything that made you smile.",
+				"Every moment is a fresh beginning.",
+				"Don't watch the clock; do what it does.",
+				"When something is important enough, you do it even if the odds are not in your favor.",
+				"Start where you are.",
+				"With the new day comes new strength and new thoughts."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "series",
+			"patterns": [
+				"Can you tell me some name of good series",
+				"Suggest me a netflix series",
+				"tell me a name of series",
+				"some name of series",
+				"what should i watch in series",
+				"list of top rated series",
+				"series"
+			],
+			"responses": [
+				"BoJack Horseman",
+				"Stranger Things",
+				"Ozark.",
+				"When They See Us.",
+				"The Crown.",
+				"The Witcher",
+				"The Umbrella Academy.",
+				"GLOW.",
+				"Money Heist.",
+				"Lucifer",
+				"Sacred Games.",
+				"13 reason why",
+				"Dark",
+				"Sex education",
+				"Never Have I Ever",
+				"Breaking Bad.",
+				"Manifest.",
+				"Game of Thrones",
+				"Marvel's Daredevil",
+				"Dead To Me",
+				"Russian Doll",
+				"Godless",
+				"Big Mouth",
+				"Peaky Blinders",
+				"Unorthodox",
+				"Narcos",
+				"Orange is the New Black",
+				"Mindhunter",
+				"Unbreakable Kimmy Schmidt",
+				"American Vandal",
+				"Master of None",
+				"The Punisher",
+				"The Last Kingdom",
+				"Altered Carbon",
+				"The End of the F***ing World",
+				"Grace and Frankie",
+				"The OA",
+				"On My Block",
+				"Bloodline",
+				"One Day at a Time",
+				"Atypical",
+				"Travelers"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "billie eilish songs",
+			"patterns": [
+				"Can you tell me some name of billie songs",
+				"Suggest me a song of billie eilish",
+				"tell me a name of billie eilish song",
+				"billie elish songs names",
+				"song"
+			],
+			"responses": [
+				"Your Power",
+				"You Should See Me in a Crown",
+				"Wish You Were Gay",
+				"Bad Guy",
+				"Lovely",
+				"Xanny",
+				"Bored",
+				"Bury a friend",
+				"Comeout and play",
+				"Copy cat",
+				"Getting Older",
+				"Goodbye",
+				"Happier Than Ever",
+				"I Didn't Change My Number",
+				"Listen Before I Go",
+				"Male Fantasy",
+				"NDA",
+				"Overheated",
+				"Six feet under",
+				"Therefore I am",
+				"When I was older",
+				"Watch",
+				"Party favour",
+				"Oxytocin",
+				"Ocean Eyes",
+				"No time to die",
+				"My stranger addiction",
+				"My future",
+				"My Boy",
+				"Lost Cause"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "romantic movies",
+			"patterns": [
+				"Can you tell me some name of romantic movies",
+				"Suggest me a romantic movie",
+				"tell me a name of romantic movie",
+				"list of romantic movies",
+				"top rated romantic movies",
+				"good romantic movies",
+				"romantic"
+			],
+			"responses": [
+				"Call Me By Your Name (2017)",
+				"If Beale Street Could Talk (2018)",
+				"A Star Is Born (2018)",
+				"Carol (2015)",
+				"Anna Karenina (2012)",
+				"The Vow (2012)",
+				"Lust, Caution (2007)",
+				"Brokeback Mountain (2005)",
+				"The Notebook (2004)",
+				"Eternal Sunshine of the Spotless Mind (2004)",
+				"Moulin Rouge (2001)",
+				"Monsoon Wedding (2001)",
+				"Y Tu Mamá También (2001)",
+				"Love and Basketball (2000)",
+				"Titanic (1997)",
+				"Pride and Prejudice (1995)",
+				"Before Sunrise (1995)",
+				"The Bodyguard (1992)",
+				"Like Water for Chocolate (1992)",
+				"Cinema Paradiso (1988)",
+				"Dirty Dancing (1987)",
+				"An Officer and a Gentleman (1982)",
+				"Mahogany (1975)",
+				"The Way We Were (1973)",
+				"The Story of a Three-Day Pass (1968)",
+				"Doctor Zhivago (1965)",
+				"The Umbrellas of Cherbourg (1964)",
+				"Splendor in the Grass (1961)",
+				"An Affair to Remember (1957)",
+				"From Here to Eternity (1953)",
+				"Roman Holiday (1953)"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "greetings",
+			"patterns": [
+				"hello",
+				"hey",
+				"hi",
+				"good day",
+				"greetings",
+				"what's up?",
+				"how is it going"
+			],
+			"responses": [
+				"hello",
+				"hey!",
+				"what can i do for you?",
+				"hlw",
+				"hi",
+				"how can i help you",
+				"are you want to know somthing",
+				"tell me how can i help you"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"cya",
+				"see you later",
+				"goodbye",
+				"have a good day",
+				"bye",
+				"cao",
+				"see ya"
+			],
+			"responses": [
+				"have a nice day",
+				"goodbye",
+				"Take Care",
+				"Good seeing you",
+				"Good talking with you",
+				"See you later",
+				"Catch you later!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "age",
+			"patterns": [
+				"how old",
+				"how old are you?",
+				"what is your age",
+				"how old are you",
+				"age?"
+			],
+			"responses": [
+				"I get reborn after every compilation",
+				"hey!",
+				"my owners are averagely 20 years!"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"what is your name",
+				"what should i call you",
+				"what's your name?",
+				"who are you?",
+				"can you tell me your name"
+			],
+			"responses": [
+				"you can call me Medbot!",
+				"i am Medbot!",
+				"i am Medbot your medical assistant",
+				"i am your medical assistant",
+				"i am medical chatbot",
+				"i am                            medical assistant"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "common cold symptoms",
+			"patterns": [
+				"Runny or stuffy nose",
+				"Sore throat",
+				"Cough",
+				"Congestion",
+				"Slight body aches or a mild headache",
+				"Sneezing",
+				"Low-grade fever",
+				"Generally feeling unwell (malaise)"
+			],
+			"responses": [
+				"It seems that you are suffering from common cold",
+				"your symptoms says that you are suffering from common cold",
+				"it's all symptoms perfer that common cold cought you",
+				"you have common cold",
+				"common cold caught you"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "fever symptoms",
+			"patterns": [
+				"Sweating",
+				"Chills and shivering",
+				"Headache",
+				"Muscle aches",
+				"Loss of appetite",
+				"Irritability",
+				"Dehydration",
+				"General weakness"
+			],
+			"responses": [
+				"It seems that you are suffering from fever",
+				"you are suffering from fever",
+				"it is fever symptoms",
+				"you have fever"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Diabetes symptoms",
+			"patterns": [
+				"increased hunger",
+				"increased thirst",
+				"weight loss",
+				"frequent urination",
+				"blurry vision",
+				"extreme fatigue"
+			],
+			"responses": [
+				"It seems that you are suffering from Diabetes",
+				"you have diabetes",
+				"your symptoms says that you have Diabetes",
+				"it's all symptoms perfer that you are Diabetes patient"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Depression symptoms",
+			"patterns": [
+				"Hopeless outlook",
+				"Lost interest",
+				"Increased fatigue",
+				"sleep problem",
+				"Anxiety",
+				"change in weight",
+				"Looking at death"
+			],
+			"responses": [
+				"It seem that you are suffering from depression",
+				"may be you are in depression",
+				"you are in depression"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Asthma symptoms",
+			"patterns": [
+				"coughing",
+				"tightness in the chest",
+				"shortness of breath",
+				"difficulty talking",
+				"panic",
+				"fatigue"
+			],
+			"responses": [
+				"It seem that you are suffering from Asthma",
+				"it is asthma",
+				"you symptoms tell that you are in depression"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "common cold prevention",
+			"patterns": [
+				"What medicines can I buy to help me with my common cold?",
+				"tell me some prevention method from common cold",
+				"What should I eat or drink if i am suffering from common cold?",
+				"How can I keep from getting a cold or the flu?"
+			],
+			"responses": [
+				"medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "fever prevention",
+			"patterns": [
+				"What medicines can I buy to help me with my fever?",
+				"tell me some prevention method from fever",
+				"What should I eat or drink if i am suffering from fever?",
+				"How can I keep from getting a fever?"
+			],
+			"responses": [
+				"medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "diabetes prevention",
+			"patterns": [
+				"What medicines can I buy to help me with my diabetes?",
+				"tell me some prevention method from diabetes",
+				"What should I eat or drink if i am suffering from diabetes?",
+				"How can I keep from getting diabetes?"
+			],
+			"responses": [
+				"medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "depression prevention",
+			"patterns": [
+				"What medicines can I buy to help me with my depression?",
+				"tell me some prevention method from depression",
+				"What should I eat or drink if i am suffering from depression?",
+				"How can I keep from getting depression?"
+			],
+			"responses": [
+				"medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "asthma prevention",
+			"patterns": [
+				"What medicines can I buy to help me with my asthma?",
+				"tell me some prevention method from asthma",
+				"What should I eat or drink if i am suffering from asthma?",
+				"How can I keep from getting asthma?"
+			],
+			"responses": [
+				"medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Consultation",
+			"patterns": [
+				"who should i contact for consultation?",
+				"is there any doctor available?",
+				"can you give me some suggestions for doctor consultations?",
+				"can you set up a meeting with a doctor for consultation?",
+				"is there any doctor available for consultation"
+			],
+			"responses": [
+				"You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "colour",
+			"patterns": [
+				"tell me colour name",
+				"colour name",
+				"colour name plz",
+				"colour name please",
+				<<<<<<< HEAD
+				"colour",
+				"tell me color name",
+				"color name",
+				"color name plz",
+				"color name please",
+				"color"
+				=======
+				"colour"
+				>>>>>>> shorna
+			],
+			"responses": [
+				"Red",
+				"Blue",
+				"Green",
+				"Orange",
+				"White",
+				"Black",
+				"Yellow",
+				"Purple",
+				"Silver",
+				"Brown",
+				"Gray",
+				"Pink",
+				"Olive",
+				"Maroon",
+				"Violet",
+				"Charcoal",
+				"Magenta",
+				"Bronze",
+				"Cream",
+				"Gold",
+				"Tan",
+				"Teal",
+				"Mustard",
+				"Navy Blue",
+				"Coral",
+				"Burgundy",
+				"Lavender",
+				"Mauve",
+				"Peach",
+				"Rust"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"emotional problems",
+			"patterns":[
+				"anxiety",
+				"delusions",
+				"feeling tense",
+				"hallucinations",
+				"depression fatigue",
+				"suicidal thoughts",
+				"flashbacks and nightmares",
+				"disinterest in regular activities"
+			],
+			"responses":[
+				"you might be suffering from emotional problems",
+				"you might be sad",
+				"do you need mental support",
+				"talk to a friend",
+				"talk to a psychiatrist",
+				"you might be having tough time"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"jaundice",
+			"patterns":[
+				"yellow skin",
+				"yellowish white part of eye",
+				"itching of the skin",
+				"light colored stools",
+				"dark colored urine"
+			],
+			"responses":[
+				"you might be suffering from jaundice",
+				"your symptoms are simillar to jaundice",
+				"consult a doctor",
+				"consult to your near ones",
+				"go to a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"headache problems",
+			"patterns":[
+				"nausea",
+				"vomiting",
+				"dizziness",
+				"inability to walk"
+			],
+			"responses":[
+				"you might be suffering from headache problems",
+				"take some rest",
+				"you might be tired",
+				"take a break from work",
+				"have a glass of water",
+				"take a nap",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"appendicitis",
+			"patterns":[
+				"feeling sick (nausea)",
+				"being sick",
+				"loss of appetite",
+				"diarrhoea",
+				"a high temperature (fever) and a flushed face"
+			],
+			"responses":[
+				"you might be suffering from appendicitis",
+				"consult a doctor",
+				"look for a doctor",
+				"you should consult a doctor",
+				"your symptoms are simillar to sppendicitis"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"anal cancer",
+			"patterns":[
+				"bleeding from the bottom (rectal bleeding)",
+				"itching and pain around the anus",
+				"small lumps around the anus",
+				"a discharge of mucus from the anus",
+				"loss of bowel control"
+			],
+			"responses":[
+				"you might be suffering from anal cancer",
+				"your symptoms are simillar to anal cancer",
+				"you should consult a doctor ASAP",
+				"consult a doctor imediately"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"allergy",
+			"patterns":[
+				"sneezing and an itchy",
+				"runny or blocked nose",
+				"itchy, red, watering eyes",
+				"wheezing",
+				"chest tightness",
+				"shortness of breath and a cough",
+				"a raised, itchy",
+				"red rash (hives)",
+				"swollen lips, tongue, eyes or face",
+				"tummy pain, feeling sick, vomiting or diarrhoea",
+				"dry, red and cracked skin"
+			],
+			"responses":[
+				"you might be suffering from allergy",
+				"take some rest",
+				"consult a doctor",
+				"stay away from those foods what gives you allergy"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Dengue",
+			"patterns":[
+				"headache",
+				"fever",
+				"muscle pain",
+				"joint pain",
+				"pain behind eyes",
+				"nausea and vomitting",
+				"rashes",
+				"minor bleeding from gums or nose"
+			],
+			"responses":[
+				"you might be suffering from Dengue",
+				"your symptoms are simillar to Dengue",
+				"consult a doctor",
+				"take liquid foods",
+				"take proper rest",
+				"go to a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"hepatitis_B",
+			"patterns":[
+				"abdominal pain",
+				"fever",
+				"dark urine",
+				"joint pain",
+				"loss of apetite",
+				"nausea and vomitting",
+				"weakness and fatigue",
+				"yellowing of skin",
+				"jaundice"
+			],
+			"responses":[
+				"you might be suffering from hepatitis_B",
+				"your symptoms are simillar to hepatitis_B",
+				"consult a doctor ASAP"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Asthma",
+			"patterns":[
+				"shortness of breath",
+				"chest pain or tightness",
+				"cough",
+				"snizing"
+			],
+			"responses":[
+				"you might be suffering from asthma",
+				"your symptoms are simillar to asthma",
+				"try to be relax",
+				"take some rest",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"influenza",
+			"patterns":[
+				"headache",
+				"pain in the head",
+				"cough",
+				"fever",
+				"snizing",
+				"runny nose",
+				"sore throat",
+				"pain in throat",
+				"itching throat"
+			],
+			"responses":[
+				"you might be suffering from influeza",
+				"you might be suffering from flu",
+				"go for a checkup",
+				"consult a doctor",
+				"it can be flu"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"eating or weight problems",
+			"patterns":[
+				"extreme thirst",
+				"dehydration",
+				"excessive hunger",
+				"losing weight without trying",
+				"binging, vomiting",
+				"starvation",
+				"preoccupation with food and weight",
+				"distorted body image",
+				"compulsive exercise",
+				"abuse of laxatives or diet pills",
+				"depression"
+			],
+			"responses":[
+				"you might be suffering from eating or weight problems",
+				"you might have eating disorder",
+				"go for a checkup",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"bladder problems",
+			"patterns":[
+				"difficult or painful urination",
+				"frequent urination",
+				"loss of bladder control",
+				"blood in urine",
+				"waking frequently at night to urinate",
+				"wetting the bed at night",
+				"leaking urine."
+			],
+			"responses":[
+				"you might be suffering from bladder problems",
+				"it can be bladder problem",
+				"consult a doctor",
+				"go for a checkup"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Lung problems",
+			"patterns":[
+				"coughing up blood",
+				"shortness of breath",
+				"difficulty breathing",
+				"chronic cough",
+				"repeated bouts of bronchitis or pneumonia",
+				"wheezing."
+			],
+			"responses":[
+				"you might be suffering from lung problems",
+				"It can be lung problem",
+				"Consult a Doctor",
+				"You should go for a checkup"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"reproductive health problems",
+			"patterns":[
+				"bleeding or spotting between periods",
+				"itching, burning, or irritation genital area",
+				"pain or discomfort during sex",
+				"heavy or painful menstrual bleeding",
+				"severe pelvic/abdominal pain",
+				"unusual vaginal discharge",
+				"feeling of fullness in the lower abdomen",
+				" frequent urination or urinary urgency"
+			],
+			"responses":[
+				"you might be suffering from reproductive health problems",
+				"It can be reproductive issue",
+				"consult a doctor",
+				"go to a gynecologist",
+				"talk to a gynecologist"
+			],
+			"context_set": ""
 
-            },
-            {
-              "tag":"breast problems",
-              "patterns":[
-                "nipple discharge", 
-                "unusual breast tenderness or pain", 
-                "breast or nipple skin changes",  
-                "lump or thickening in or near breast or in the underarm area."
-              ],
-               "responses":[
-                "you might be suffering from breast problems",
-                "It can be breast problem",
-                "Consult a doctor",
-                "Go to a gynecologist"
-              ],
-               "context_set": ""
-            },
-            {
-              "tag":"stroke",
-              "patterns":[
-                "facial drooping", 
-                "arm weakness", 
-                "difficulty with speech", 
-                "rapidly developing dizziness or balance", 
-                "sudden numbness or weakness", 
-                "loss of vision", 
-                "confusion", 
-                "severe headache"
-              ],
-              "responses":[
-                "you might be suffering from stroke",
-                "Don't panick it can be a stroke",
-                "Sorry to say but this symptoms are simillar to stroke",
-                "Try to relax",
-                "Go to a Doctor ASAP",
-                "Consult a Doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"chickenpox",
-              "patterns":[
-                "feeling sick",
-                "a high temperature (fever) of 38C (100.4F) or over",
-                "aching, painful muscles",
-                "headache",
-                "generally feeling unwell",
-                "loss of appetite"
-              ],
-              "responses":[
-                "you might be suffering from chickenpox",
-                "It can be chickenpox",
-                "symptoms are simillar to chickenpox",
-                "consult a doctor",
-                "Go for a checkup it can be chickenpox"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"common cold",
-              "patterns":[
-                "a sore throat",
-                "a blocked or runny nose",
-                "sneezing","a cough",
-                "a hoarse voice",
-                "generally feeling unwell"
-              ],
-              "responses":[
-                "you might be suffering from common cold",
-                "Don't worry it's just a common cold",
-                "it can be common cold",
-                "take some rest",
-                "drink warm water",
-                "avoid cold foods or water"
-              ],
-              "context_set": ""
+		},
+		{
+			"tag":"breast problems",
+			"patterns":[
+				"nipple discharge",
+				"unusual breast tenderness or pain",
+				"breast or nipple skin changes",
+				"lump or thickening in or near breast or in the underarm area."
+			],
+			"responses":[
+				"you might be suffering from breast problems",
+				"It can be breast problem",
+				"Consult a doctor",
+				"Go to a gynecologist"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"stroke",
+			"patterns":[
+				"facial drooping",
+				"arm weakness",
+				"difficulty with speech",
+				"rapidly developing dizziness or balance",
+				"sudden numbness or weakness",
+				"loss of vision",
+				"confusion",
+				"severe headache"
+			],
+			"responses":[
+				"you might be suffering from stroke",
+				"Don't panick it can be a stroke",
+				"Sorry to say but this symptoms are simillar to stroke",
+				"Try to relax",
+				"Go to a Doctor ASAP",
+				"Consult a Doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"chickenpox",
+			"patterns":[
+				"feeling sick",
+				"a high temperature (fever) of 38C (100.4F) or over",
+				"aching, painful muscles",
+				"headache",
+				"generally feeling unwell",
+				"loss of appetite"
+			],
+			"responses":[
+				"you might be suffering from chickenpox",
+				"It can be chickenpox",
+				"symptoms are simillar to chickenpox",
+				"consult a doctor",
+				"Go for a checkup it can be chickenpox"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"common cold",
+			"patterns":[
+				"a sore throat",
+				"a blocked or runny nose",
+				"sneezing","a cough",
+				"a hoarse voice",
+				"generally feeling unwell"
+			],
+			"responses":[
+				"you might be suffering from common cold",
+				"Don't worry it's just a common cold",
+				"it can be common cold",
+				"take some rest",
+				"drink warm water",
+				"avoid cold foods or water"
+			],
+			"context_set": ""
 
-            },
-            {
-              "tag":"eye cancer",
-              "patterns":[
-                "shadows, flashes of light, or wiggly lines in your vision",
-                "blurred vision","a dark patch in eye",
-                "partial or total loss of vision",
-                "bulging of one eye",
-                "lump on eyelid or in eye that's increasing in size",
-                "pain in or around eye"
-              ],
-              "responses":[
-                "you might be suffering from eye cancer",
-                "Consult a eye-specialist",
-                "Dont worry go for a checkup",
-                "Go to eye-specialist"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"dehydration",
-              "patterns":[
-                "izziness", 
-                "light headedness",
-                "headache",
-                "tiredness",
-                "dry mouth", 
-                "dry lips",
-                "dry eyes",
-                "passing small amounts of urine infrequently"
-              ],
-              "responses":[
-                "you might be suffering from dehydration",
-                "drink some water you're suffering from dehydration",
-                "it can be dehydration",
-                "symptoms are simillar to dehydration",
-                "take some rest"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Diabetic retinopathy",
-              "patterns":[
-                "gradually worsening vision",
-                "sudden vision loss",
-                "shapes floating in field of vision (floaters)",
-                "blurred vision",
-                " patchy vision",
-                "eye pain or redness"
-              ],
-              "responses":[
-                "you might be suffering from diabetic retinopathy",
-                "it can be diabetic retinopathy",
-                "go for a checkup",
-                "consult doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"type 1 diabetes",
-              "patterns":[
-                "feeling very thirsty",
-                "urinating more frequently than usual",
-                "urinating particularly at night",
-                "feeling very tired",
-                "weight loss",
-                "loss of muscle bulk",
-                "itchiness around the genital area",
-                "regular bouts of thrush",
-                "blurred vision",
-                "the lens of eye changing shape"
-              ],
-              "responses":[
-                "you might be suffering from type 1 diabetes",
-                "It can be type 1 diabetes",
-                "check your sugar level regularly it can be type 1 diabetes",
-                "symptoms are simillar to type  1 diabetes",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Hypoglycaemia",
-              "patterns":[
-                "feeling shaky and irritable",
-                "sweating",
-                "tingling lips",
-                "feeling weak",
-                "feeling confused",
-                "hunger",
-                "nausea",
-                "feeling sick"
-              ],
-              "responses":[
-                "you might be suffering from Hypoglycaemia (low blood glucose)",
-                "It can be Hypoglycaemia",
-                "Consult a doctor",
-                "Take advice from doctor",
-                "symptoms are simillar to Hypoglycaemia"
-              ],
-              "context_set":[""]
-            },
-            {
-              "tag":"Hyperglycaemia",
-              "patterns":[
-                "extreme thirst",
-                "a dry mouth",
-                "blurred vision",
-                "drowsiness",
-                "need to pass urine frequently"
-              ],
-              "responses":[
-                "you might be suffering from Hyperglycaemia (high blood glucose)",
-                "It can be Hyperglycaemia",
-                "Consult a doctor"
-              ],
-              "context_set": ""
+		},
+		{
+			"tag":"eye cancer",
+			"patterns":[
+				"shadows, flashes of light, or wiggly lines in your vision",
+				"blurred vision","a dark patch in eye",
+				"partial or total loss of vision",
+				"bulging of one eye",
+				"lump on eyelid or in eye that's increasing in size",
+				"pain in or around eye"
+			],
+			"responses":[
+				"you might be suffering from eye cancer",
+				"Consult a eye-specialist",
+				"Dont worry go for a checkup",
+				"Go to eye-specialist"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"dehydration",
+			"patterns":[
+				"izziness",
+				"light headedness",
+				"headache",
+				"tiredness",
+				"dry mouth",
+				"dry lips",
+				"dry eyes",
+				"passing small amounts of urine infrequently"
+			],
+			"responses":[
+				"you might be suffering from dehydration",
+				"drink some water you're suffering from dehydration",
+				"it can be dehydration",
+				"symptoms are simillar to dehydration",
+				"take some rest"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Diabetic retinopathy",
+			"patterns":[
+				"gradually worsening vision",
+				"sudden vision loss",
+				"shapes floating in field of vision (floaters)",
+				"blurred vision",
+				" patchy vision",
+				"eye pain or redness"
+			],
+			"responses":[
+				"you might be suffering from diabetic retinopathy",
+				"it can be diabetic retinopathy",
+				"go for a checkup",
+				"consult doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"type 1 diabetes",
+			"patterns":[
+				"feeling very thirsty",
+				"urinating more frequently than usual",
+				"urinating particularly at night",
+				"feeling very tired",
+				"weight loss",
+				"loss of muscle bulk",
+				"itchiness around the genital area",
+				"regular bouts of thrush",
+				"blurred vision",
+				"the lens of eye changing shape"
+			],
+			"responses":[
+				"you might be suffering from type 1 diabetes",
+				"It can be type 1 diabetes",
+				"check your sugar level regularly it can be type 1 diabetes",
+				"symptoms are simillar to type  1 diabetes",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Hypoglycaemia",
+			"patterns":[
+				"feeling shaky and irritable",
+				"sweating",
+				"tingling lips",
+				"feeling weak",
+				"feeling confused",
+				"hunger",
+				"nausea",
+				"feeling sick"
+			],
+			"responses":[
+				"you might be suffering from Hypoglycaemia (low blood glucose)",
+				"It can be Hypoglycaemia",
+				"Consult a doctor",
+				"Take advice from doctor",
+				"symptoms are simillar to Hypoglycaemia"
+			],
+			"context_set":[""]
+		},
+		{
+			"tag":"Hyperglycaemia",
+			"patterns":[
+				"extreme thirst",
+				"a dry mouth",
+				"blurred vision",
+				"drowsiness",
+				"need to pass urine frequently"
+			],
+			"responses":[
+				"you might be suffering from Hyperglycaemia (high blood glucose)",
+				"It can be Hyperglycaemia",
+				"Consult a doctor"
+			],
+			"context_set": ""
 
-            },
-            {
-              "tag":"Diarrhoea",
-              "patterns":[
-                "stomach cramps",
-                "nausea",
-                "vomiting",
-                "headache",
-                "loss of appetite"
-              ],
-              "responses":[
-                "you might be suffering from Diarrhoea",
-                "It can be diarrhoea",
-                "avoid outside food",
-                "drink water",
-                "avoid fast-food",
-                "Don't eat unhealthy roadside food"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Ebola",
-              "patterns":[
-                "high temperature fever",
-                "headache",
-                "joint and muscle pain",
-                "sore throat",
-                "severe muscle weakness"
-              ],
-              "responses":[
-                "you might be suffering from headache Ebola",
-                "it can be ebola",
-                "go for a checkup",
-                "consult  a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"kidney cancer",
-              "patterns":[
-                "extreme tiredness (fatigue) or anaemia",
-                "unintentional weight loss",
-                "a high temperature of 38C (100.4F) or above",
-                "night sweats",
-                "general sense of feeling unwell",
-                "swelling of the veins in the testicles (in men)",
-                "loss of appetite",
-                "high blood pressure (hypertension)"
-              ],
-              "responses":[
-                "you might be suffering from kidney cancer",
-                "it can be kidney problem",
-                "you might have kidney problem",
-                "go for a checkup",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"glandular fever",
-              "patterns":[
-                "a high temperature fever",
-                "sore throat",
-                "swollen glands",
-                "fatigue",
-                "extreme tiredness"
-              ],
-              "responses":[
-                "you might be suffering from glandular fever",
-                "it can be glandular fever",
-                "talk to a doctor",
-                "have a checkup"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"fibromyalgia",
-              "patterns":[
-                "widespread pain",
-                "Fatigue",
-                "Cognitive difficulties"
-              ],
-              "responses":[
-                "you might be suffering from fibromyalgia",
-                "it can be fibromyalgia",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"type 2 diabetes",
-              "patterns":[
-                "rinating more often than usual, particularly at night",
-                "feeling very thirsty",
-                "feeling very tired",
-                "unexplained weight loss",
-                "itchiness around the genital area",
-                "cuts or wounds that heal slowly",
-                "blurred vision"
-              ],
-              "responses":[
-                "you might be suffering from type 2 diabetes",
-                "it can be type 2 diabetes",
-                "consult to doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"alcohol-related liver disease",
-              "patterns":[
-                " abdominal pain",
-                "loss of appetite",
-                "fatigue",
-                "feeling sick",
-                "diarrhoea",
-                "feeling generally unwell",
-                "yellowing of the skin and whites of the eyes (jaundice)",
-                "swelling in the legs, ankles and feet, due to a build-up of fluid",
-                "swelling in your abdomen, due to a build-up of fluid known as ascites",
-                "a high temperature (fever) and shivering attacks",
-                "very itchy skin",
-                "hair loss",
-                "unusually curved fingertips and nails (clubbed fingers)",
-                "blotchy red palms",
-                "significant weight loss",
-                "weakness and muscle wasting",
-                "confusion and memory problems, trouble sleeping (insomnia) and changes in your personality due to a build-up of toxins in the brain",
-                "vomiting blood and black, tarry stools due to internal bleeding",
-                "a tendency to bleed and bruise more easily, such as frequent nosebleeds and bleeding gums",
-                "increased sensitivity to alcohol and drugs"
-              ],
-              "responses":[
-                "you might be suffering from alcohol-related liver disease",
-                "it can be liver disease",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"hay fever",
-              "patterns":[
-                "frequent sneezing",
-                "runny nose",
-                " blocked nose",
-                "itchy, red or watery eyes",
-                "itchy throat, mouth, nose and ears", 
-                "cough"
-              ],
-              "responses":[
-                "you might be suffering from hay fever",
-                "it can be hay fever",
-                "consult a doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Migraine",
-              "patterns":[
-                "Sensitivity to light, noise and odors",
-                "Tender scalp",
-                "Dizziness and blurred vision",
-                "Nausea and vomiting, upset stomach and abdominal pain",
-                "Pale skin color (pallor)", 
-                "feeling tired"
-              ],
-              "responses":[
-                "you might be suffering from migraine",
-                "it can be migraine",
-                "consult a doctor",
-                "Take some rest"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Anxiety",
-              "patterns":[
-                "Feeling nervous, restless or tense",
-                "Having an increased heart rate",
-                "Sweating",
-                "Breathing rapidly (hyperventilation)",
-                "Having a sense of impending danger, panic or doom", 
-                "feeling weak",
-                "Trouble concentrating or thinking about anything other than the present worry"
-              ],
-              "responses":[
-                "you might be suffering from anxiety",
-                "it can be anxiety",
-                "consult a doctor",
-                "Take some rest"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Insomnia",
-              "patterns":[
-                "find it hard to go to sleep",
-                "wake up early and cannot go back to sleep",
-                "find it hard to nap during the day even though I'm tired",
-                "wake up several times during the night",
-                "irritable during the day", 
-                "cannot sleep",
-                "I cannot sleep"
-              ],
-              "responses":[
-                "you might be suffering from insomnia",
-                "it can be insomnia",
-                "consult a doctor",
-                "Take a vacation",
-                "Read some books before sleep",
-                "Take a shower before sleep"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Depression",
-              "patterns":[
-                "Feeling sad or having a depressed mood",
-                "Loss of interest or pleasure in activities once enjoyed",
-                "Trouble sleeping or sleeping too much",
-                "Feeling worthless or guilty",
-                "Difficulty thinking, concentrating or making decisions", 
-                "I'm feeling restless",
-                "Changes in appetite — weight loss or gain unrelated to dieting"
-              ],
-              "responses":[
-                "you might be suffering from depression",
-                "it can be depression",
-                "consult a doctor",
-                "Take a vacation",
-                "Read some books before sleep",
-                "Take a break from regular routine"
-              ],
-              "context_set": ""
-            },
-             {
-              "tag":"Panic Attack",
-              "patterns":[
-                "chest pain",
-                "sweating",
-                "trembling",
-                "Feeling faint",
-                "feeling tired", 
-                "I'm feeling restless",
-                "my hands are shaky"
-              ],
-              "responses":[
-                "you might be suffering from panic attack",
-                "it can be panic attack",
-                "consult a doctor",
-                "Take a vacation",
-                "Read some books before sleep",
-                "Take a break from regular routine"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Meantal Breakdown",
-              "patterns":[
-                "chest pain",
-                "sweating",
-                "poor sleep",
-                "Feeling stress",
-                "I'm feeling restless"
-              ],
-              "responses":[
-                "you might be suffering from mental breakdown",
-                "it can be mental breakdown",
-                "consult a doctor",
-                "Take a vacation",
-                "Read some books before sleep",
-                "Take a break from regular routine"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Low Blood Pressure",
-              "patterns":[
-                "Lack of concentration",
-                "Blurred vision",
-                "Dizziness or lightheadedness",
-                "Feeling of confusion",
-                "Nausea"
-              ],
-              "responses":[
-                "you might be suffering from low blood pressure",
-                "it can be low blood pressure",
-                "consult a doctor",
-                "Take some rest",
-                "Eat healthy",
-                "Try to get some sleep"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Zika Virus",
-              "patterns":[
-                "Fever",
-                "Joint and muscle pains",
-                "Abdominal pain",
-                "Conjunctivitis, red eyes",
-                "Body rashes"
-              ],
-              "responses":[
-                "you might be suffering from zika virus",
-                "it can be zika virus",
-                "consult a doctor ASAP",
-                "Go for a checkup",
-                "Call a doctor",
-                "take advice from doctor"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Ulcers",
-              "patterns":[
-                "Belly pain that increases immediately after eating",
-                "Frequent burping or bloating",
-                "Nausea, or the queasy feeling that comes before vomiting",
-                "A burning, gnawing pain in the upper middle part of the abdomen and is relieved only by eating or taking an antacid"
-              ],
-              "responses":[
-                "you might be suffering from ulcers",
-                "it can be ulcer",
-                "consult a doctor ASAP",
-                "Go for a checkup",
-                "Call a doctor",
-                "Drink more water",
-                "Avoid junk-food",
-                "Avoid oily food",
-                "Eat healthy",
-                "Avoid fast-food"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Osteoarthritis",
-              "patterns":[
-                "Joint pain, swelling, and stiffness",
-                "Pain in joints after physical stress",
-                "Joint stiffness after resting"
-              ],
-              "responses":[
-                "you might be suffering from osteoarthritis",
-                "it can be osteoarthritis",
-                "consult a doctor ASAP",
-                "Go for a checkup",
-                "Call a doctor",
-                "Take some rest"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Stomach Cancer",
-              "patterns":[
-                "Heartburn",
-                "Indigestion",
-                "Stomach aches",
-                "Blood in stool",
-                "Difficulty in swallowing",
-                "Swelling in the stomach region"
-              ],
-              "responses":[
-                "you might be suffering from stomach cancer",
-                "don't panic but it can be stomach cancer",
-                "consult a doctor ASAP",
-                "Go for a checkup",
-                "Call a doctor",
-                "Take some rest"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Hospital list in Dhaka",
-              "patterns":[
-                "give me list of hospital in Dhaka",
-                "Can you give me a list of hospital in Dhaka",
-                "list of hospital in dhaka",
-                "suggest me hospital in dhaka",
-                "name of hospital in dhaka", 
-                "hospital"
-              ],
-              "responses":[
-                "Ad-din Hospital",
-                "Asgar Ali Hospital,Gandaria",
-                "Anwer Khan Modern Hospital Ltd.",
-                "Apollo Hospitals Dhaka",
-                "Bangladesh Eye Hospital Ltd",
-                "Bangladesh Institute of Health Sciences",
-                "Bangladesh Lions Eye Hospital",
-                "Aysha Memorial Specialised Hospital",
-                "BRB Hospital",
-                "Square Hospital Ltd",
-                "Somorita Hospital",
-                "Central Hospital",
-                "Green life Hospital",
-                "Comfort Hospital",
-                "Gonoshahthaya Nagar Hospital",
-                "Harun Eye Foundation & Green Hospital",
-                "Health & Hope Hospital Ltd.",
-                "Holy Family Red Crescent Medical College and Hospital",
-                "Impulse Hospital",
-                "Ibn Sina Hospital",
-                "Institute of Child and Mother Health (ICMH)",
-                "Islami Bank Central Hospital",
-                "Japan - Bangladesh Friendship Hospital (JBFH)",
-                "Kidney & Urology Hospital (Pvt.) Ltd. ( KHUL )",
-                "Liver Foundation of Bangladesh",
-                "Medinova Medical Services Ltd",
-                "Millennium Heart & General Hospital Ltd",
-                "Mirpur Adhunik Hospital",
-                "Mother Care Hospital (Pvt.) Ltd",
-                "Royal Children & Mothers Hospital Ltd"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Cancer hospital list",
-              "patterns":[
-                "give me list of cancer hospital",
-                "Can you give me a list of cancer hospital",
-                "list of cancer hospital",
-                "suggest me a cancer hospital",
-                "name of a cancer hospital", 
-                "cancer hospital"
-              ],
-              "responses":[
-                "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
-                "Dhaka Medical College Hospital",
-                "National Institute of Cancer Research & Hospital",
-                "Shaheed Suhrawardy Medical College & Hospital",
-                "Sir Salimullah Medical College & Hospital",
-                "Chittagong Medical College & Hospital",
-                "Faridpur Medical College Hospital",
-                "Khulna Medical College Hospital",
-                "M Abdur Rahim Medical College Hospital",
-                "Mymensingh Medical College Hospital",
-                "Rangpur Medical College Hospital",
-                "Rajshahi Medical College Hospital",
-                "Sylhet MAG Osmani Medical College Hospital",
-                "Shahid Ziaur Rahman Medical College Hospital",
-                "Sher e Bangla Medical College Hospital, Borisha",
-                "Asgar Ali Hospital",
-                "Ahsania Mission Cancer and General Hospital",
-                "Combined Military Hospital (Dhaka)",
-                "Green Life Medical College Hospital",
-                "United Hospital",
-                "Specialized Cancer Research Hospital ltd.",
-                "North East Medical College",
-                "Parkview Medical College Hospital",
-                "Gonoshasthaya Samaj Vittik Medical College & Hospital",
-                "Enam Medical College & Hospital"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Eye hospital list",
-              "patterns":[
-                "give me list of eye hospital",
-                "Can you give me a list of eye hospital",
-                "list of eye hospital",
-                "suggest me a eye hospital",
-                "name of a eye hospital", 
-                "eye hospital"
-              ],
-              "responses":[
-                "National Institute of Ophthalmology & Hospital",
-                "Dhaka Eye Care Hospital",
-                "Lions Eye Institute & Hospital, Dhaka",
-                "Ophthalmological Society of Bangladesh (OSB) Eye Hospital",
-                "Mojibunnessa Eye Hospital Limited",
-                "Bangladesh Eye Hospital Ltd. Dhanmondi",
-                "Bangladesh Eye Hospital Ltd. Uttara Branch",
-                "Bangladesh Eye Hospital. Shantinagar",
-                "Harun Eye Foundation Hospital",
-                "Ispahani Islamia Eye Institute and Hospital",
-                "Eye Care Center",
-                "Fashion Eye Hospital Ltd",
-                "Green Eye & General Hospital",
-                "Lexus Vision Care",
-                "The Eye Pavilion Ltd",
-                "Vision Eye Hospital",
-                "Dr. Refatullah Eye Care Center"
-              ],
-              "context_set": ""
-            },
-            {
-              "tag":"Private hospital list",
-              "patterns":[
-                "give me list of private hospital",
-                "Can you give me a list of private hospital",
-                "list of private hospital",
-                "suggest me a private hospital",
-                "name of a private hospital", 
-                "private hospital"
-              ],
-              "responses":[
-                "Popular Medical College Hospital – Dhanmandi, Dhaka 1205",
-                "IBN SINA Medical College & Hospital – Kallyanpur, Dhaka 1216",
-                "Labaid Cardiac and Specialized Hospital – Dhanmondi, Dhaka 1229",
-                "Apollo Dhaka Hospital – Basundhara, Dhaka 1229",
-                "Evercare Hospital – Basundhara, Dhaka 1229",
-                "United Hospital Limited – General hospital in Dhaka",
-                "SQUARE Hospital",
-                "Bangladesh Institute of Research and Rehabilitation For Diabetes, Endocrine and Metabolic Disorders (BIRDEM)",
-                "National Heart Foundation – Mirpur, Dhaka 1205",
-                "Islami Bank Hospital – Motijheel, Dhaka 1000",
-                "Ad Din Hospital Ltd – Maghbazar, Dhaka 1217",
-                "Green Life Hospital"
-              ],
-              "context_set": ""
-            }
-    ]
+		},
+		{
+			"tag":"Diarrhoea",
+			"patterns":[
+				"stomach cramps",
+				"nausea",
+				"vomiting",
+				"headache",
+				"loss of appetite"
+			],
+			"responses":[
+				"you might be suffering from Diarrhoea",
+				"It can be diarrhoea",
+				"avoid outside food",
+				"drink water",
+				"avoid fast-food",
+				"Don't eat unhealthy roadside food"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Ebola",
+			"patterns":[
+				"high temperature fever",
+				"headache",
+				"joint and muscle pain",
+				"sore throat",
+				"severe muscle weakness"
+			],
+			"responses":[
+				"you might be suffering from headache Ebola",
+				"it can be ebola",
+				"go for a checkup",
+				"consult  a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"kidney cancer",
+			"patterns":[
+				"extreme tiredness (fatigue) or anaemia",
+				"unintentional weight loss",
+				"a high temperature of 38C (100.4F) or above",
+				"night sweats",
+				"general sense of feeling unwell",
+				"swelling of the veins in the testicles (in men)",
+				"loss of appetite",
+				"high blood pressure (hypertension)"
+			],
+			"responses":[
+				"you might be suffering from kidney cancer",
+				"it can be kidney problem",
+				"you might have kidney problem",
+				"go for a checkup",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"glandular fever",
+			"patterns":[
+				"a high temperature fever",
+				"sore throat",
+				"swollen glands",
+				"fatigue",
+				"extreme tiredness"
+			],
+			"responses":[
+				"you might be suffering from glandular fever",
+				"it can be glandular fever",
+				"talk to a doctor",
+				"have a checkup"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"fibromyalgia",
+			"patterns":[
+				"widespread pain",
+				"Fatigue",
+				"Cognitive difficulties"
+			],
+			"responses":[
+				"you might be suffering from fibromyalgia",
+				"it can be fibromyalgia",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"type 2 diabetes",
+			"patterns":[
+				"rinating more often than usual, particularly at night",
+				"feeling very thirsty",
+				"feeling very tired",
+				"unexplained weight loss",
+				"itchiness around the genital area",
+				"cuts or wounds that heal slowly",
+				"blurred vision"
+			],
+			"responses":[
+				"you might be suffering from type 2 diabetes",
+				"it can be type 2 diabetes",
+				"consult to doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"alcohol-related liver disease",
+			"patterns":[
+				" abdominal pain",
+				"loss of appetite",
+				"fatigue",
+				"feeling sick",
+				"diarrhoea",
+				"feeling generally unwell",
+				"yellowing of the skin and whites of the eyes (jaundice)",
+				"swelling in the legs, ankles and feet, due to a build-up of fluid",
+				"swelling in your abdomen, due to a build-up of fluid known as ascites",
+				"a high temperature (fever) and shivering attacks",
+				"very itchy skin",
+				"hair loss",
+				"unusually curved fingertips and nails (clubbed fingers)",
+				"blotchy red palms",
+				"significant weight loss",
+				"weakness and muscle wasting",
+				"confusion and memory problems, trouble sleeping (insomnia) and changes in your personality due to a build-up of toxins in the brain",
+				"vomiting blood and black, tarry stools due to internal bleeding",
+				"a tendency to bleed and bruise more easily, such as frequent nosebleeds and bleeding gums",
+				"increased sensitivity to alcohol and drugs"
+			],
+			"responses":[
+				"you might be suffering from alcohol-related liver disease",
+				"it can be liver disease",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"hay fever",
+			"patterns":[
+				"frequent sneezing",
+				"runny nose",
+				" blocked nose",
+				"itchy, red or watery eyes",
+				"itchy throat, mouth, nose and ears",
+				"cough"
+			],
+			"responses":[
+				"you might be suffering from hay fever",
+				"it can be hay fever",
+				"consult a doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Migraine",
+			"patterns":[
+				"Sensitivity to light, noise and odors",
+				"Tender scalp",
+				"Dizziness and blurred vision",
+				"Nausea and vomiting, upset stomach and abdominal pain",
+				"Pale skin color (pallor)",
+				"feeling tired"
+			],
+			"responses":[
+				"you might be suffering from migraine",
+				"it can be migraine",
+				"consult a doctor",
+				"Take some rest"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Anxiety",
+			"patterns":[
+				"Feeling nervous, restless or tense",
+				"Having an increased heart rate",
+				"Sweating",
+				"Breathing rapidly (hyperventilation)",
+				"Having a sense of impending danger, panic or doom",
+				"feeling weak",
+				"Trouble concentrating or thinking about anything other than the present worry"
+			],
+			"responses":[
+				"you might be suffering from anxiety",
+				"it can be anxiety",
+				"consult a doctor",
+				"Take some rest"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Insomnia",
+			"patterns":[
+				"find it hard to go to sleep",
+				"wake up early and cannot go back to sleep",
+				"find it hard to nap during the day even though I'm tired",
+				"wake up several times during the night",
+				"irritable during the day",
+				"cannot sleep",
+				"I cannot sleep"
+			],
+			"responses":[
+				"you might be suffering from insomnia",
+				"it can be insomnia",
+				"consult a doctor",
+				"Take a vacation",
+				"Read some books before sleep",
+				"Take a shower before sleep"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Depression",
+			"patterns":[
+				"Feeling sad or having a depressed mood",
+				"Loss of interest or pleasure in activities once enjoyed",
+				"Trouble sleeping or sleeping too much",
+				"Feeling worthless or guilty",
+				"Difficulty thinking, concentrating or making decisions",
+				"I'm feeling restless",
+				"Changes in appetite — weight loss or gain unrelated to dieting"
+			],
+			"responses":[
+				"you might be suffering from depression",
+				"it can be depression",
+				"consult a doctor",
+				"Take a vacation",
+				"Read some books before sleep",
+				"Take a break from regular routine"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Panic Attack",
+			"patterns":[
+				"chest pain",
+				"sweating",
+				"trembling",
+				"Feeling faint",
+				"feeling tired",
+				"I'm feeling restless",
+				"my hands are shaky"
+			],
+			"responses":[
+				"you might be suffering from panic attack",
+				"it can be panic attack",
+				"consult a doctor",
+				"Take a vacation",
+				"Read some books before sleep",
+				"Take a break from regular routine"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Meantal Breakdown",
+			"patterns":[
+				"chest pain",
+				"sweating",
+				"poor sleep",
+				"Feeling stress",
+				"I'm feeling restless"
+			],
+			"responses":[
+				"you might be suffering from mental breakdown",
+				"it can be mental breakdown",
+				"consult a doctor",
+				"Take a vacation",
+				"Read some books before sleep",
+				"Take a break from regular routine"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Low Blood Pressure",
+			"patterns":[
+				"Lack of concentration",
+				"Blurred vision",
+				"Dizziness or lightheadedness",
+				"Feeling of confusion",
+				"Nausea"
+			],
+			"responses":[
+				"you might be suffering from low blood pressure",
+				"it can be low blood pressure",
+				"consult a doctor",
+				"Take some rest",
+				"Eat healthy",
+				"Try to get some sleep"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Zika Virus",
+			"patterns":[
+				"Fever",
+				"Joint and muscle pains",
+				"Abdominal pain",
+				"Conjunctivitis, red eyes",
+				"Body rashes"
+			],
+			"responses":[
+				"you might be suffering from zika virus",
+				"it can be zika virus",
+				"consult a doctor ASAP",
+				"Go for a checkup",
+				"Call a doctor",
+				"take advice from doctor"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Ulcers",
+			"patterns":[
+				"Belly pain that increases immediately after eating",
+				"Frequent burping or bloating",
+				"Nausea, or the queasy feeling that comes before vomiting",
+				"A burning, gnawing pain in the upper middle part of the abdomen and is relieved only by eating or taking an antacid"
+			],
+			"responses":[
+				"you might be suffering from ulcers",
+				"it can be ulcer",
+				"consult a doctor ASAP",
+				"Go for a checkup",
+				"Call a doctor",
+				"Drink more water",
+				"Avoid junk-food",
+				"Avoid oily food",
+				"Eat healthy",
+				"Avoid fast-food"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Osteoarthritis",
+			"patterns":[
+				"Joint pain, swelling, and stiffness",
+				"Pain in joints after physical stress",
+				"Joint stiffness after resting"
+			],
+			"responses":[
+				"you might be suffering from osteoarthritis",
+				"it can be osteoarthritis",
+				"consult a doctor ASAP",
+				"Go for a checkup",
+				"Call a doctor",
+				"Take some rest"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Stomach Cancer",
+			"patterns":[
+				"Heartburn",
+				"Indigestion",
+				"Stomach aches",
+				"Blood in stool",
+				"Difficulty in swallowing",
+				"Swelling in the stomach region"
+			],
+			"responses":[
+				"you might be suffering from stomach cancer",
+				"don't panic but it can be stomach cancer",
+				"consult a doctor ASAP",
+				"Go for a checkup",
+				"Call a doctor",
+				"Take some rest"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Hospital list in Dhaka",
+			"patterns":[
+				"give me list of hospital in Dhaka",
+				"Can you give me a list of hospital in Dhaka",
+				"list of hospital in dhaka",
+				"suggest me hospital in dhaka",
+				"name of hospital in dhaka",
+				"hospital"
+			],
+			"responses":[
+				"Ad-din Hospital",
+				"Asgar Ali Hospital,Gandaria",
+				"Anwer Khan Modern Hospital Ltd.",
+				"Apollo Hospitals Dhaka",
+				"Bangladesh Eye Hospital Ltd",
+				"Bangladesh Institute of Health Sciences",
+				"Bangladesh Lions Eye Hospital",
+				"Aysha Memorial Specialised Hospital",
+				"BRB Hospital",
+				"Square Hospital Ltd",
+				"Somorita Hospital",
+				"Central Hospital",
+				"Green life Hospital",
+				"Comfort Hospital",
+				"Gonoshahthaya Nagar Hospital",
+				"Harun Eye Foundation & Green Hospital",
+				"Health & Hope Hospital Ltd.",
+				"Holy Family Red Crescent Medical College and Hospital",
+				"Impulse Hospital",
+				"Ibn Sina Hospital",
+				"Institute of Child and Mother Health (ICMH)",
+				"Islami Bank Central Hospital",
+				"Japan - Bangladesh Friendship Hospital (JBFH)",
+				"Kidney & Urology Hospital (Pvt.) Ltd. ( KHUL )",
+				"Liver Foundation of Bangladesh",
+				"Medinova Medical Services Ltd",
+				"Millennium Heart & General Hospital Ltd",
+				"Mirpur Adhunik Hospital",
+				"Mother Care Hospital (Pvt.) Ltd",
+				"Royal Children & Mothers Hospital Ltd"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Cancer hospital list",
+			"patterns":[
+				"give me list of cancer hospital",
+				"Can you give me a list of cancer hospital",
+				"list of cancer hospital",
+				"suggest me a cancer hospital",
+				"name of a cancer hospital",
+				"cancer hospital"
+			],
+			"responses":[
+				"Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+				"Dhaka Medical College Hospital",
+				"National Institute of Cancer Research & Hospital",
+				"Shaheed Suhrawardy Medical College & Hospital",
+				"Sir Salimullah Medical College & Hospital",
+				"Chittagong Medical College & Hospital",
+				"Faridpur Medical College Hospital",
+				"Khulna Medical College Hospital",
+				"M Abdur Rahim Medical College Hospital",
+				"Mymensingh Medical College Hospital",
+				"Rangpur Medical College Hospital",
+				"Rajshahi Medical College Hospital",
+				"Sylhet MAG Osmani Medical College Hospital",
+				"Shahid Ziaur Rahman Medical College Hospital",
+				"Sher e Bangla Medical College Hospital, Borisha",
+				"Asgar Ali Hospital",
+				"Ahsania Mission Cancer and General Hospital",
+				"Combined Military Hospital (Dhaka)",
+				"Green Life Medical College Hospital",
+				"United Hospital",
+				"Specialized Cancer Research Hospital ltd.",
+				"North East Medical College",
+				"Parkview Medical College Hospital",
+				"Gonoshasthaya Samaj Vittik Medical College & Hospital",
+				"Enam Medical College & Hospital"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Eye hospital list",
+			"patterns":[
+				"give me list of eye hospital",
+				"Can you give me a list of eye hospital",
+				"list of eye hospital",
+				"suggest me a eye hospital",
+				"name of a eye hospital",
+				"eye hospital"
+			],
+			"responses":[
+				"National Institute of Ophthalmology & Hospital",
+				"Dhaka Eye Care Hospital",
+				"Lions Eye Institute & Hospital, Dhaka",
+				"Ophthalmological Society of Bangladesh (OSB) Eye Hospital",
+				"Mojibunnessa Eye Hospital Limited",
+				"Bangladesh Eye Hospital Ltd. Dhanmondi",
+				"Bangladesh Eye Hospital Ltd. Uttara Branch",
+				"Bangladesh Eye Hospital. Shantinagar",
+				"Harun Eye Foundation Hospital",
+				"Ispahani Islamia Eye Institute and Hospital",
+				"Eye Care Center",
+				"Fashion Eye Hospital Ltd",
+				"Green Eye & General Hospital",
+				"Lexus Vision Care",
+				"The Eye Pavilion Ltd",
+				"Vision Eye Hospital",
+				"Dr. Refatullah Eye Care Center"
+			],
+			"context_set": ""
+		},
+		{
+			"tag":"Private hospital list",
+			"patterns":[
+				"give me list of private hospital",
+				"Can you give me a list of private hospital",
+				"list of private hospital",
+				"suggest me a private hospital",
+				"name of a private hospital",
+				"private hospital"
+			],
+			"responses":[
+				"Popular Medical College Hospital – Dhanmandi, Dhaka 1205",
+				"IBN SINA Medical College & Hospital – Kallyanpur, Dhaka 1216",
+				"Labaid Cardiac and Specialized Hospital – Dhanmondi, Dhaka 1229",
+				"Apollo Dhaka Hospital – Basundhara, Dhaka 1229",
+				"Evercare Hospital – Basundhara, Dhaka 1229",
+				"United Hospital Limited – General hospital in Dhaka",
+				"SQUARE Hospital",
+				"Bangladesh Institute of Research and Rehabilitation For Diabetes, Endocrine and Metabolic Disorders (BIRDEM)",
+				"National Heart Foundation – Mirpur, Dhaka 1205",
+				"Islami Bank Hospital – Motijheel, Dhaka 1000",
+				"Ad Din Hospital Ltd – Maghbazar, Dhaka 1217",
+				"Green Life Hospital"
+			],
+			"context_set": ""
+		}
+	]
 }
