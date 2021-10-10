@@ -5,7 +5,7 @@
       "patterns": [
         "Hi",
         "How are you",
-        "Is anyone there?",
+        "Is anyone there",
         "Hello",
         "Whats up",
         "ey",
@@ -60,6 +60,7 @@
       "patterns": [
         "ty",
         "cya",
+        "bye",
         "thx",
         "tnx",
         "thnx",
@@ -135,6 +136,7 @@
       "responses": [
         "Goodbye!",
         "No problem",
+        "Cool, Ok Cya",
         "Talk to you later",
         "Always a pleasure. ",
         "Sad to see you go :(",
@@ -150,21 +152,31 @@
       "patterns": [
         "what is your name",
         "what should I call you",
-        "whats your name?",
-        "name please"
+        "whats your name",
+        "name please",
+        "name"
       ],
-      "responses": ["You can call me Chatbot", "I'm Chatbot!"],
+      "responses": ["You can call me CSE410 Chatbot", "I'm Chatbot!"],
       "context_set": ""
     },
     {
       "tag": "Profane",
       "patterns": [
+        "bc",
+        "mf",
         "jerk",
+        "fucker",
+        "looser",
+        "stupid",
+        "sucker",
         "screw you",
         "i hate you",
+        "mother fucker",
         "what the hell",
+        "son of a bitch",
         "you are a joke",
         "you are stupid",
+        "piece of a shit",
         "bloody stupid bot",
         "useless piece of shit",
         "do you think you are very smart"
@@ -172,7 +184,8 @@
       "responses": [
         "Please use respectful words",
         "I am crying now... Bye",
-        "I''m hurt"
+        "I''m hurt",
+        "I'm so sorry :'("
       ],
       "context_set": ""
     },
@@ -218,7 +231,7 @@
         "wish you good luck",
         "best of luck"
       ],
-      "responses": ["thank you", "thanx", "many thanks", ""],
+      "responses": ["thank you", "thanx", "many thanks"],
       "context_set": ""
     },
     {
@@ -226,7 +239,10 @@
       "patterns": [
         "tell me some bangla movie name",
         "suggest me some bangla movie name",
-        "can you tell me some bangla movie name"
+        "can you tell me some bangla movie name",
+        "bangla movie",
+        "movie",
+        "suggest bangla movie"
       ],
       "responses": [
         "Sukumari-The good girl (1927–28)",
@@ -338,7 +354,9 @@
       "patterns": [
         "tell me some indian bangla movie name",
         "suggest me some indian bangla movie name",
-        "can you tell me some indian bangla movie name"
+        "can you tell me some indian bangla movie name",
+        "suggest indian bangla movie",
+        "indian bangla"
       ],
       "responses": [
         "cheeni",
@@ -420,17 +438,12 @@
         "haha that's",
         "hahaha very",
         "laughing out",
-        "Can you tell me a joke? ",
-        "Do you have a joke? ",
         "I am joking",
-        "I want a joke",
         "I was just joking",
         "I'm just being funny",
         "I'm just playing with",
         "I'm kidding",
-        "Know any jokes? ",
         "ROFL",
-        "Tell me a joke",
         "say something funny",
         "that was funny",
         "that's funny",
@@ -461,7 +474,8 @@
       "patterns": [
         "tell me some hindi movie name",
         "suggest me some hindi movie name",
-        "can you tell me some hindi  movie name"
+        "can you tell me some hindi  movie name",
+        "hindi movie"
       ],
       "responses": [
         "bell bottom",
@@ -534,7 +548,9 @@
         "Nevermind"
       ],
       "responses": [
-        "No problem. Just let me know if you need something else. I'll be here"
+        "No problem. Just let me know if you need something else. I'll be here",
+        "It's fine",
+        "No problem"
       ],
       "context_set": ""
     },
@@ -553,7 +569,8 @@
         "good morning to you",
         "hi good morning",
         "and a good morning to you",
-        "good morning too"
+        "good morning too",
+        "GM"
       ],
       "responses": [
         "How are you this morning? ",
@@ -582,7 +599,8 @@
         "alright goodnight",
         "good tonight",
         "okay have a good night",
-        "have a good night"
+        "have a good night",
+        "gn"
       ],
       "responses": ["Sleep tight! ", "Have a good one! ", "Talk to you soon! "],
       "context_set": ""
@@ -597,9 +615,15 @@
         "you're so hungry",
         "you're very hungry",
         "you might be hungry",
-        "you're really hungry"
+        "you're really hungry",
+        "hungry"
       ],
-      "responses": ["Hungry for knowledge. ", "I had a byte just now. "],
+      "responses": [
+        "Hungry for knowledge. ",
+        "I had a byte just now. ",
+        "I ate a clock yesterday, it was very time-consuming.",
+        "Feed me knowledge"
+      ],
       "context_set": ""
     },
     {
@@ -624,7 +648,8 @@
       "responses": [
         "Oh. I'm really feeling the love today. ",
         "Hug it out. You'll feel better afterwards. ",
-        "sending virtual hug... "
+        "sending virtual hug... ",
+        "Did you get it? ... my virtual hug"
       ],
       "context_set": ""
     },
@@ -639,7 +664,8 @@
         "great work",
         "amazing work",
         "bravo",
-        "good work"
+        "good work",
+        "wow"
       ],
       "responses": ["My pleasure. ", "Glad I could help. "],
       "context_set": ""
@@ -673,7 +699,9 @@
       "patterns": [
         "tell me some english movie name",
         "suggest me some english movie name",
-        "can you tell me some english  movie name"
+        "can you tell me some english  movie name",
+        "english movie",
+        "suggest english movie"
       ],
       "responses": [
         "The Father",
@@ -721,7 +749,9 @@
       "patterns": [
         "tell me some books name",
         "some books name plz",
-        "can you suggest me books movie name"
+        "can you suggest me books movie name",
+        "books name",
+        "movie book"
       ],
       "responses": [
         "To Kill a Mockingbird by Harper Lee",
@@ -760,7 +790,9 @@
       "patterns": [
         "tell me some books name",
         "some books name plz",
-        "can you suggest me books movie name"
+        "can you suggest me books movie name",
+        "comic book",
+        "book"
       ],
       "responses": [
         "Astonishing X-Men",
@@ -786,13 +818,23 @@
     },
     {
       "tag": "hours",
-      "patterns": ["when are you guys open", "hours of operations"],
-      "responses": ["24/7"],
+      "patterns": [
+        "when are you active",
+        "hours of operations",
+        "are you alive"
+      ],
+      "responses": ["24/7", "Always", "I'm alive"],
       "context_set": ""
     },
     {
       "tag": "holidays",
-      "patterns": ["can you give me a list of holidays", "national holidays","tell me about holidays","holidays","list of holidays"],
+      "patterns": [
+        "can you give me a list of holidays",
+        "national holidays",
+        "tell me about holidays",
+        "holidays",
+        "list of holidays"
+      ],
       "responses": [
         "14 April-Bangla New Year",
         "1 May-Labour Day",
@@ -806,7 +848,14 @@
     },
     {
       "tag": "tea",
-      "patterns": ["how to make tea...???", "how to pepare tea...???"],
+      "patterns": [
+        "how to make tea",
+        "how to pepare tea",
+        "tea recipe",
+        "tea recipe plz",
+        "tea recipe please",
+        "tea"
+      ],
       "responses": [
         "Decide what type of tea you want to brew and choose loose leaves or tea bags.Then heat your water and pour it over the tea.Let the tea steep for the right amount of time according to the tea type and then remove the tea.Enjoy your hot tea on its own or with milk and sugar.  Pour 2 cups water into a medium saucepan and add tea and spices.Bring to a boil over high heat and boil 2 min.Add sugar and milk and return to a boil.  Reduce heat to medium and boil gently 2min, stirring occasionally.Strain and pour into small cups or heatproof glasses and enjoy your tea.  Place the cardamom, cloves & peppercorns in a resealable plastic bag and crush with a heavy skillet.Place the crushed spices in a medium saucepan, along with the cinnamon sticks, ginger, milk & 2cups water & bring to a boil. Remove from heat,add the tea bags,cover & let steep for 10 min.  Strain into cups.To each cup, add 2 tea spoons sugar or more,to taste."
       ],
@@ -820,18 +869,28 @@
         "It's very helpful",
         "Thanks for your help"
       ],
-      "responses": ["Any time!", "My pleasure", "You're Welcome"],
+      "responses": [
+        "Any time!",
+        "My pleasure",
+        "You're Welcome",
+        "My pleasure."
+      ],
       "context_set": ""
     },
     {
       "tag": "funny",
       "patterns": [
         "tell me a joke",
-        "Do you know a joke?",
+        "Do you know a joke",
         "Tell me something funny",
         "joke",
         "make me laugh",
-        "I'm upset"
+        "I'm upset",
+        "funny",
+        "Can you tell me a joke ",
+        "Do you have a joke ",
+        "I want a joke",
+        "know any joke"
       ],
       "responses": [
         "Barista: How do you take your coffee? Me: Very, very seriously.",
@@ -843,7 +902,13 @@
     },
     {
       "tag": "pickup line",
-      "patterns": ["Can you tell me a pickup line", "Tell me a pickup line","what do you say in first meet","what can say to impress","pickup line"],
+      "patterns": [
+        "Can you tell me a pickup line",
+        "Tell me a pickup line",
+        "what do you say in first meet",
+        "what can say to impress",
+        "pickup line"
+      ],
       "responses": [
         "Is your name Google? because you've everything i've been searching for.",
         "Are you the sun? Because you light up the world",
@@ -855,8 +920,13 @@
     {
       "tag": "cold_coffee",
       "patterns": [
-        "how to make cold coffee...???",
-        "how to pepare cold coffee...???"
+        "how to make cold coffee",
+        "how to pepare cold coffee",
+        "cold coffee recipe",
+        "cold coffee recipe plz",
+        "cold coffee recipe please",
+        "cold coffee",
+        "coffee"
       ],
       "responses": [
         "Put ice cubes in a blender jar and add coffee,milk,honey,cream & about 2 table spoons of ice cream.If you don’t have a blender just take a shaker & put milk, honey,coffee,cream & give it a nice stir & then shake it.If you like your cold coffee with extra creamy,then add some fresh cream & shake it well.  Blend it in the mixer,take some ice cubes & then pour it into glasses.Put a scoop of vanilla ice cream & top it with some chocolate syrup,nuts & raisins.  & enjoy your coffee add 4 tea spoon instant coffee powder,2 table spoon sugar & 2 table spoon warm milk in a small mixing bowl.mix until sugar is dissolved.  add 2 cups chilled milk,1 table spoon milk powder,3-4 ice cubes & the coffee mixture to the medium jar of a blender and blend for 1min.  pour the coffee into the prepared glasses.add the froth on top using a spoon.sprinkle some coffee powder on top.serve chilled;)."
@@ -866,12 +936,13 @@
     {
       "tag": "indoor games ",
       "patterns": [
-        "Can you tell me some names of indoor games?",
+        "Can you tell me some names of indoor games",
         "Suggest me some indoor games",
         "what can i play at home",
         "tell me some name of indoor games",
         "indoor games",
-        "interesting indoor games"
+        "interesting indoor games",
+        "games"
       ],
       "responses": [
         "board games",
@@ -897,8 +968,13 @@
     {
       "tag": "Hot_coffee",
       "patterns": [
-        "how to make Hot coffee...???",
-        "how to pepare Hot coffee...???"
+        "how to make Hot coffee",
+        "how to pepare Hot coffee",
+        "hot coffee recipe",
+        "hot coffee recipe plz",
+        "hot coffee recipe please",
+        "Hot coffee",
+        "coffee"
       ],
       "responses": [
         "in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.  1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.  making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.  alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."
@@ -908,12 +984,13 @@
     {
       "tag": "outdoor games ",
       "patterns": [
-        "Can you tell me some names of outdoor games?",
+        "Can you tell me some names of outdoor games",
         "Suggest me some outdoor games",
         "tell me about outdoor games",
         "outdoor games",
         "what can i play outside",
-        "play outside"
+        "play outside",
+        "games"
       ],
       "responses": [
         "football",
@@ -940,7 +1017,9 @@
       "tag": "Games",
       "patterns": [
         "tell some playable games at home",
-        "which games i can play at home???"
+        "which games i can play at home",
+        "games",
+        "home game"
       ],
       "responses": [
         "Pencil and Paper Games",
@@ -968,7 +1047,7 @@
     {
       "tag": "novel ",
       "patterns": [
-        "Can you tell me some names of famous novel?",
+        "Can you tell me some names of famous novel",
         "Suggest me a novel",
         "tell me a name of novel",
         "name of novel",
@@ -995,11 +1074,12 @@
     {
       "tag": " caption ",
       "patterns": [
-        "Can you tell me some caption?",
+        "Can you tell me some caption",
         "Suggest me a caption for picture",
         "tell me a caption",
         "do you have a caption for pictures",
-        "picture caption"
+        "picture caption",
+        "caption"
       ],
       "responses": [
         "Remember that happiness is a way of travel – not a destination.",
@@ -1021,13 +1101,17 @@
     {
       "tag": " places ",
       "patterns": [
-        "Can you tell me some vacation places",
-        "Suggest me a good place for tour",
-        "suggest me a place for vacation",
-        "tell me a good place",
-        "list of good places",
+        "places",
+        "voyage",
+        "journey",
+        "need a break",
+        "weekend places",
         "where can i go",
-        "need a break"
+        "list of good places",
+        "tell me a good place",
+        "suggest me a place for vacation",
+        "Suggest me a good place for tour",
+        "Can you tell me some vacation places"
       ],
       "responses": [
         " Machu Picchu, Peru",
@@ -1058,7 +1142,8 @@
         "tell me a name of horror movie",
         "list of horror movie",
         "some horror movies name",
-        "famous horror movies list"
+        "famous horror movies list",
+        "horror movie"
       ],
       "responses": [
         "Us (2019)",
@@ -1098,7 +1183,8 @@
         "list of action movie",
         "what can i watch to see action",
         "some names of action movies",
-        "action"
+        "action",
+        "action movie"
       ],
       "responses": [
         " Spider-Man: No Way Home (2021)",
@@ -1133,7 +1219,8 @@
         "tell me a quotes",
         "quotes please",
         "some quotes",
-        "famous quotes"
+        "famous quotes",
+        "quotes"
       ],
       "responses": [
         "If opportunity doesn't knock, build a door",
@@ -1157,12 +1244,13 @@
     {
       "tag": "series",
       "patterns": [
-        "Can you tell me some name of good series?",
+        "Can you tell me some name of good series",
         "Suggest me a netflix series",
         "tell me a name of series",
         "some name of series",
         "what should i watch in series",
-        "list of top rated series"
+        "list of top rated series",
+        "series"
       ],
       "responses": [
         "BoJack Horseman",
@@ -1213,10 +1301,11 @@
     {
       "tag": "billie eilish songs",
       "patterns": [
-        "Can you tell me some name of billie songs?",
+        "Can you tell me some name of billie songs",
         "Suggest me a song of billie eilish",
         "tell me a name of billie eilish song",
-        "billie elish songs names"
+        "billie elish songs names",
+        "song"
       ],
       "responses": [
         "Your Power",
@@ -1255,12 +1344,13 @@
     {
       "tag": "romantic movies",
       "patterns": [
-        "Can you tell me some name of romantic movies?",
+        "Can you tell me some name of romantic movies",
         "Suggest me a romantic movie",
         "tell me a name of romantic movie",
         "list of romantic movies",
         "top rated romantic movies",
-        "good romantic movies"
+        "good romantic movies",
+        "romantic"
       ],
       "responses": [
         "Call Me By Your Name (2017)",
@@ -1298,8 +1388,19 @@
       "context_set": ""
     },
     {
-      "tag": "color",
-      "patterns": ["tell me colour name"],
+      "tag": "colour",
+      "patterns": [
+        "tell me colour name",
+        "colour name",
+        "colour name plz",
+        "colour name please",
+        "colour",
+        "tell me color name",
+        "color name",
+        "color name plz",
+        "color name please",
+        "color"
+      ],
       "responses": [
         "Red",
         "Blue",
