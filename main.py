@@ -5,6 +5,7 @@ BG_GRAY = "#ABB2B9"
 WHITE_TEXT_COLOR = "#FFFFFF"
 BLACK_WHITE_TEXT_COLOR = "#000000"
 BG_COLOR = "#EAECEE"
+BG_Skyblue = "#1cdbfc"
 
 FONT = "FiraCode 14"
 FONT_BOLD = "FiraCode 14 bold"
@@ -52,8 +53,8 @@ class ChatApplication:
         bottom_label.place(relwidth=1, rely=0.825)
 
         # message entry box
-        self.msg_entry = Entry(bottom_label, bg="#2C3E50",
-                               fg=WHITE_TEXT_COLOR, font=FONT)
+        self.msg_entry = Entry(bottom_label, bg="#1cdbfc",
+                               fg=BLACK_WHITE_TEXT_COLOR, font=FONT)
         self.msg_entry.place(relwidth=0.74, relheight=0.06,
                              rely=0.008, relx=0.011)
         self.msg_entry.focus()
