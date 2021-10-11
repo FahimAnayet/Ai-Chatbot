@@ -1,9 +1,10 @@
 from tkinter import Tk, Label, Text, DISABLED, NORMAL, END, Scrollbar, Entry, Button
+from tkinter.constants import WORD
 from chat import get_response, bot_name
 
 BG_GRAY = "#ABB2B9"
 WHITE_TEXT_COLOR = "#FFFFFF"
-BLACK_WHITE_TEXT_COLOR = "#000000"
+BLACK_TEXT_COLOR = "#000000"
 BG_COLOR = "#EAECEE"
 BG_Skyblue = "#1cdbfc"
 
@@ -29,7 +30,7 @@ class ChatApplication:
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
         # Head label
-        head_label = Label(self.window, bg=BG_COLOR, fg=BLACK_WHITE_TEXT_COLOR,
+        head_label = Label(self.window, bg=BG_COLOR, fg=BLACK_TEXT_COLOR,
                            text="Welcome", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
 
@@ -39,7 +40,7 @@ class ChatApplication:
 
         # text width
         self.text_widget = Text(self.window, width=20, height=2,
-                                bg=BG_COLOR, fg=BLACK_WHITE_TEXT_COLOR, font=FONT, padx=5, pady=5)
+                                bg=BG_COLOR, fg=BLACK_TEXT_COLOR, font=FONT, padx=5, pady=5, wrap=WORD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
@@ -54,7 +55,7 @@ class ChatApplication:
 
         # message entry box
         self.msg_entry = Entry(bottom_label, bg="#1cdbfc",
-                               fg=BLACK_WHITE_TEXT_COLOR, font=FONT)
+                               fg=BLACK_TEXT_COLOR, font=FONT)
         self.msg_entry.place(relwidth=0.74, relheight=0.06,
                              rely=0.008, relx=0.011)
         self.msg_entry.focus()

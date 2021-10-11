@@ -3,16 +3,21 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
         "ey",
+        "hi",
         "yo",
+        "hey",
         "Hello",
         "listen",
         "Whats up",
+        "good day",
+        "greetings",
+        "what's up?",
         "How are you",
         "please help me",
         "Is anyone there",
         "glad to see you",
+        "how is it going",
         "good to see you",
         "nice to see you",
         "glad to meet you",
@@ -42,16 +47,20 @@
       ],
       "responses": [
         "Hello!",
+        "how can i help you",
         "Good to see you again!",
+        "The pleasure is mine. ",
+        "The pleasure is mine. ",
+        "what can i do for you?",
+        "Thanks! Glad to be seen!",
         "Hi there, how can I help?",
-        "I think this is the beginning of a beautiful friendship. ",
+        "tell me how can i help you",
+        "You too. I missed your face! ",
+        "are you want to know somthing",
+        "Likewise. You're looking good as usual! ",
         "I'm looking forward to working with you. ",
         "Likewise. I look forward to getting to know you better. ",
-        "The pleasure is mine. ",
-        "Likewise. You're looking good as usual! ",
-        "You too. I missed your face! ",
-        "The pleasure is mine. ",
-        "Thanks! Glad to be seen! "
+        "I think this is the beginning of a beautiful friendship. "
       ],
       "context_set": ""
     },
@@ -59,22 +68,22 @@
       "tag": "goodbye",
       "patterns": [
         "ty",
-        "cya",
         "bye",
+        "cao",
+        "cya",
         "thx",
         "tnx",
         "thnx",
         "tysm",
         "later",
         "thanx",
+        "thnks",
         "cheers",
         "ok thx",
-        "thanks",
-        "thanks",
+        "see ya",
         "Goodbye",
         "see you",
         "too good",
-        "thank you",
         "thank you",
         "great help",
         "I thank you",
@@ -85,11 +94,10 @@
         "well thanks",
         "I am Leaving",
         "thanks a lot",
-        "thanks a lot",
         "thanks a ton",
         "thanks again",
         "thanks buddy",
-        "See you later",
+        "see you later",
         "you helped me",
         "alright thanks",
         "nice thank you",
@@ -101,6 +109,7 @@
         "I appreciate it",
         "awesome service",
         "great thank you",
+        "have a good day",
         "thank you again",
         "It's appreciated",
         "much appreciated",
@@ -135,11 +144,17 @@
       ],
       "responses": [
         "Goodbye!",
+        "Take Care",
         "No problem",
         "Cool, Ok Cya",
+        "See you later",
+        "Good seeing you",
+        "have a nice day",
+        "Catch you later!",
         "Talk to you later",
         "Always a pleasure. ",
         "Sad to see you go :(",
+        "Good talking with you",
         "Thanks for dropping by! ",
         "As usual. Let's do it again soon. ",
         "It sure was. Don't be a stranger! ",
@@ -151,12 +166,18 @@
       "tag": "name",
       "patterns": [
         "what is your name",
+        "tell me your name",
         "what should I call you",
         "whats your name",
         "name please",
         "name"
       ],
-      "responses": ["You can call me CSE410 Chatbot", "I'm Chatbot!"],
+      "responses": [
+        "You can call me CSE410 Chatbot",
+        "I'm Chatbot!",
+        "Hi I am CSE410 Chatbot",
+        "My name is CSE410 Chatbot"
+      ],
       "context_set": ""
     },
     {
@@ -231,9 +252,10 @@
         "happy birthday dear",
         "happy marriage anniversary",
         "wish you good luck",
+        "pleased",
         "best of luck"
       ],
-      "responses": ["thank you", "thanx", "many thanks"],
+      "responses": ["thank you", "Flattered", "thanx", "many thanks"],
       "context_set": ""
     },
     {
@@ -352,6 +374,22 @@
       "context_set": ""
     },
     {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
+        "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies",
+        "I can give you almost every kinds of medical related help info."
+      ],
+      "context": ""
+    },
+    {
       "tag": "indian_bangla_movie",
       "patterns": [
         "tell me some indian bangla movie name",
@@ -421,13 +459,14 @@
     {
       "tag": "emotions",
       "patterns": [
-        "xd",
         "ah",
         "ha",
+        "xd",
         "hah",
         "huh",
         "lol",
         "LMAO",
+        "ROFL",
         "ahah",
         "haha",
         "hehe",
@@ -437,30 +476,29 @@
         "hahaha",
         "hehehe",
         "haha very",
+        "I am joking",
+        "I'm kidding",
         "haha that's",
         "hahaha very",
         "laughing out",
-        "I am joking",
-        "I was just joking",
-        "I'm just being funny",
-        "I'm just playing with",
-        "I'm kidding",
-        "ROFL",
-        "say something funny",
-        "that was funny",
         "that's funny",
         "you are funny",
-        "you are hilarious",
-        "you are really funny",
+        "that was funny",
+        "you're so funny",
         "you are so funny",
-        "you are very funny",
+        "I was just joking",
+        "you are hilarious",
         "you make me laugh",
+        "you are very funny",
+        "say something funny",
+        "you're really funny",
+        "you're the funniest",
+        "I'm just being funny",
+        "you are really funny",
+        "I'm just playing with",
         "you make me laugh a lot",
         "you're a very funny bot",
         "you're incredibly funny",
-        "you're really funny",
-        "you're so funny",
-        "you're the funniest",
         "you're the funniest bot I've talked to"
       ],
       "responses": [
@@ -480,56 +518,56 @@
         "hindi movie"
       ],
       "responses": [
-        "bell bottom",
-        "chehre",
-        "radhe",
-        "mumbai saga",
-        "big bull",
-        "thalaivii",
-        "maidaan",
-        "radhe shyam",
-        "koi janne na",
-        "laal singh chaddha",
-        "gangubai kathiawadi",
-        "ganguli kathiawadi",
-        "atrangi re",
-        "roohi",
-        "bhoot police",
-        "k.g.f",
-        "k.g.f chapter 2",
-        "attack",
-        "the girl on the train",
-        "hare pheri 3",
-        "14 phere",
-        "jayeshbhai jordaar",
-        "karnan",
-        "madam chief minister",
-        "madam geeta rani",
-        "silence",
-        "liger",
-        "mera fauji calling",
-        "jersey",
-        "tribhanga",
-        "masassab",
-        "12 o clock",
-        "looop lapeta",
-        "dhamaka",
         "anek",
-        "the white tiger",
-        "marakkar: lion of the arabian",
-        "cirkus",
-        "narappa",
-        "nail polish",
-        "prithviraj",
+        "k.g.f",
+        "liger",
         "nyaay",
-        "raat baaki hai",
-        "main mulayam singh yadav",
-        "godzilla vs kong",
-        "bansuri: the flute",
+        "radhe",
+        "roohi",
+        "attack",
+        "chehre",
+        "cirkus",
+        "jersey",
+        "karnan",
+        "dhamaka",
+        "maidaan",
+        "narappa",
+        "silence",
+        "14 phere",
+        "big bull",
+        "masassab",
+        "thalaivii",
+        "tribhanga",
+        "12 o clock",
+        "atrangi re",
+        "phone bhoot",
+        "prithviraj",
+        "bell bottom",
+        "mumbai saga",
+        "nail polish",
         "no means no",
+        "radhe shyam",
         "vakeel saab",
+        "bhoot police",
+        "hare pheri 3",
+        "koi janne na",
+        "looop lapeta",
+        "raat baaki hai",
         "bunty aur babil",
-        "phone bhoot"
+        "k.g.f chapter 2",
+        "the white tiger",
+        "godzilla vs kong",
+        "madam geeta rani",
+        "bansuri: the flute",
+        "ganguli kathiawadi",
+        "jayeshbhai jordaar",
+        "laal singh chaddha",
+        "mera fauji calling",
+        "gangubai kathiawadi",
+        "madam chief minister",
+        "the girl on the train",
+        "main mulayam singh yadav",
+        "marakkar: lion of the arabian"
       ],
       "context_set": ""
     },
@@ -544,6 +582,7 @@
         "nope",
         "no thanks",
         "nah",
+        "sorry",
         "not really",
         "No",
         "um no",
@@ -584,25 +623,22 @@
     {
       "tag": "good night",
       "patterns": [
-        "sweet dreams",
-        "good night",
-        "have a good night",
-        "good night to you",
-        "thank you good night bye",
-        "good night",
-        "good night bye",
-        "bye good night",
-        "good night",
-        "good night for now",
-        "goodnight",
+        "gn",
         "night",
-        "thanks goodnight",
-        "good night see you tomorrow",
-        "alright goodnight",
+        "goodnight",
+        "good night",
         "good tonight",
-        "okay have a good night",
+        "sweet dreams",
+        "bye good night",
+        "good night bye",
+        "thanks goodnight",
+        "alright goodnight",
+        "good night to you",
         "have a good night",
-        "gn"
+        "good night for now",
+        "okay have a good night",
+        "thank you good night bye",
+        "good night see you tomorrow"
       ],
       "responses": ["Sleep tight! ", "Have a good one! ", "Talk to you soon! "],
       "context_set": ""
@@ -610,15 +646,15 @@
     {
       "tag": "hungry",
       "patterns": [
-        "do you want to eat",
+        "hungry",
         "are you hungry",
-        "would you like to eat something",
         "you are hungry",
         "you're so hungry",
+        "do you want to eat",
         "you're very hungry",
         "you might be hungry",
         "you're really hungry",
-        "hungry"
+        "would you like to eat something"
       ],
       "responses": [
         "Hungry for knowledge. ",
@@ -631,21 +667,21 @@
     {
       "tag": "hug",
       "patterns": [
-        "wanna hug",
-        "hug you",
-        "do you want a hug",
-        "may I hug you",
-        "could you give me a hug",
-        "I want a hug",
         "hug",
+        "a hug",
         "hug me",
         "hugged",
-        "you hugged",
+        "hug you",
         "hugging",
-        "hugging me",
         "hugged me",
+        "wanna hug",
+        "hugging me",
         "want a hug",
-        "a hug"
+        "you hugged",
+        "I want a hug",
+        "may I hug you",
+        "do you want a hug",
+        "could you give me a hug"
       ],
       "responses": [
         "Oh. I'm really feeling the love today. ",
@@ -975,8 +1011,7 @@
         "hot coffee recipe",
         "hot coffee recipe plz",
         "hot coffee recipe please",
-        "Hot coffee",
-        "coffee"
+        "Hot coffee"
       ],
       "responses": [
         "in a cup take 1.5 tea spoons instant coffee.also add 1.5 table spoons sugar or add as per taste.add 3 table spoons hot boiling water.¼ cup of water can also be added.  1st mix the coffee and sugar with water.1st mix the coffee and sugar with water.then begin to stir briskly and beat coffee for 3-4 min.  making cappuccino recipe with instant coffee.beat the coffee till its color lightens and you see a frothy layer on top.then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.let the milk come to a boil.now pour the milk in a glass jar or a thermos flask.do not use any plastic bottle or jar.you can use a steel bottle also.A glass jar with a handle helps while shaking as the milk is hot.now shake the jar vigorously for 1 to 2 min.  alternatively to get the froth on milk you can also use a handheld frother.milk can be blended in a blender also."
@@ -1020,7 +1055,6 @@
       "patterns": [
         "tell some playable games at home",
         "which games i can play at home",
-        "games",
         "home game"
       ],
       "responses": [
@@ -1386,51 +1420,6 @@
         "An Affair to Remember (1957)",
         "From Here to Eternity (1953)",
         "Roman Holiday (1953)"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "greetings",
-      "patterns": [
-        "hello",
-        "hey",
-        "hi",
-        "good day",
-        "greetings",
-        "what's up?",
-        "how is it going"
-      ],
-      "responses": [
-        "hello",
-        "hey!",
-        "what can i do for you?",
-        "hlw",
-        "hi",
-        "how can i help you",
-        "are you want to know somthing",
-        "tell me how can i help you"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "cya",
-        "see you later",
-        "goodbye",
-        "have a good day",
-        "bye",
-        "cao",
-        "see ya"
-      ],
-      "responses": [
-        "have a nice day",
-        "goodbye",
-        "Take Care",
-        "Good seeing you",
-        "Good talking with you",
-        "See you later",
-        "Catch you later!"
       ],
       "context_set": ""
     },
@@ -2664,6 +2653,83 @@
         "Green Life Hospital"
       ],
       "context_set": ""
+    },
+    {
+      "tag": "adverse_drug",
+      "patterns": ["How to check Adverse drug reaction"],
+      "responses": [
+        "Mild symptoms include red, itchy, flaky, or swollen skin. You may have a flat, red area on your skin that is covered with small bumps. You may also have hives.",
+        "Severe symptoms include skin that blisters or peels, vision problems, and severe swelling or itching. Severe reactions include conditions such as toxic epidermal necrolysis (TEN). Ask your healthcare provider for more information on TEN and other serious conditions.",
+        " Anaphylaxis symptoms include throat tightness, trouble breathing, tingling, dizziness, and wheezing. Anaphylaxis is a sudden, life-threatening reaction that needs immediate treatment. Anaphylaxis may occur if you exercise after exposure to another trigger, such as after you take an antibiotic."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "adverse_drug_list",
+      "patterns": [
+        "Give me a list of drugs causing adverse behavior",
+        "adverse drugs"
+      ],
+      "responses": [
+        "Alcohol",
+        "Ayahuasca",
+        "Central Nervous System Depressants",
+        "Cocaine",
+        "DMT",
+        "GHB",
+        "Hallucinogens",
+        "Heroin",
+        "Inhalants",
+        "Ketamine",
+        "Khat",
+        "Kratom",
+        "LSD",
+        "Marijuana (Cannabis)",
+        "MDMA (Ecstasy/Molly)",
+        "Mescaline (Peyote)",
+        "Methamphetamine",
+        "Over-the-Counter Medicines--Dextromethorphan (DXM)",
+        "Over-the-Counter Medicines--Loperamide",
+        "PCP",
+        "Prescription Opioids",
+        "Prescription Stimulants",
+        "Psilocybin",
+        "Rohypnol® (Flunitrazepam)",
+        "Salvia",
+        "Steroids (Anabolic)",
+        "Synthetic Cannabinoids",
+        "Synthetic Cathinones (Bath Salts)",
+        "Tobacco/Nicotine"
+      ]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "what blood pressure is best for me",
+        "do i have healthy blood pressure",
+        "blood pressure"
+      ],
+      "responses": [
+        "Age: 21-30 Male: SBP:119.5 DBP:76.5 is healthy; Female: SBP:113.5 DBP:71.5 is healthy. Age: 31-40 Male: SBP:120.5 DBP:75.5 is healthy; Female: SBP:112.5 DBP:74.5 is healthy. Age: 41-50 Male: SBP:119.5 DBP:80.5 is healthy; Female: SBP:124.5 DBP:78.5 is healthy. Age: 51-60 Male: SBP:129.5 DBP:79.5 is healthy; Female: SBP:132.5 DBP:78.5 is healthy. Age: 61+ Male: SBP:143.5 DBP:76.5 is healthy; Female: SBP:130.5 DBP:77.5 is healthy"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Help_line",
+      "patterns": [
+        "covid help lien",
+        "help line numbers",
+        "help covid",
+        "help line",
+        "covid-19",
+        "Corona virus help line",
+        "corona virus 19",
+        "covid 19"
+      ],
+      "responses": [
+        "18273 Health Window - Department of Health; 333-1 A2I Program, ICT Division; 333-1-2 General Health Services; 333-1-3, 096222 Kovid-19 Health Services; 333-1-4, 098 Maternal and Child Health Services; 096171 Community Support Team: 096116 Specialist Health Line, Bangabandhu Sheikh Mujib Medical University; 10655, +60 1944333222, +60 1936000011, +60 1936110011, +60 19261164, +60 19261165 Institute of Pathology, Disease Control and Research; +880 1401184551, +880 1401184554, +880 1401184555, +880 1401184556, +880 1401184559, +880 1401184560, +880 1401184563, +880 1401184568, +880 1927711784, +880 1927711785, +880 1937000011, +880 1937110011 International Diarrheal Disease Research Center Bangladesh (ICDDRB); 244075042 Bangladesh Institute of Tropical and Infectious Diseases (BITID), Chittagong; Mymensingh Medical College +60 1844595642, +60 181255973 Rajshahi Medical College; +60 181218244 Rangpur Medical College; +60 18132056 Cox's Bazar Medical College; 109 Ministry of Women and Children Affairs; 1833, +6 01313036548 Ovai Solutions Limited; "
+      ],
+      "context": ""
     }
   ]
 }
