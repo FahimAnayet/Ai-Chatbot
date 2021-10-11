@@ -1482,7 +1482,6 @@
     {
       "tag": "fever symptoms",
       "patterns": [
-        "Sweating",
         "Chills and shivering",
         "Headache",
         "Muscle aches",
@@ -1721,7 +1720,13 @@
     },
     {
       "tag": "headache problems",
-      "patterns": ["nausea", "vomiting", "dizziness", "inability to walk"],
+      "patterns": [
+        "nausea",
+        "vomiting",
+        "dizziness",
+        "dizzy",
+        "inability to walk"
+      ],
       "responses": [
         "you might be suffering from headache problems",
         "take some rest",
